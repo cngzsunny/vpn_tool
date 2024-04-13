@@ -4,7 +4,7 @@
 #!author = ddgksf2013@github lodepuly@gitlab 
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/RedPaper.png
-#!date = 2024-04-13 19:25
+#!date = 2024-04-13 20:47
 
 [Rule]
 AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
@@ -48,9 +48,9 @@ http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/followfeed\? s
 http-response https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/recommend\/user\/follow_recommend\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body = true, tag = 移除详情页感兴趣的人
 http-response ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed\? script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body = true, tag = 移除信息流广告
 
-# 移除图片和视频水印@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body = true, tag = 移除图片和视频水印@ddgksf2013
-http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/redtube\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body = true, tag = 移除图片和视频水印@ddgksf2013
+# 移除视频水印@ddgksf2013
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/videofeed\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body = true, tag = 移除视频水印@ddgksf2013
+http-response ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/redtube\? script-path=https://github.com/ddgksf2013/Scripts/raw/master/redbook_json.js, requires-body = true, tag = 移除视频水印@ddgksf2013
 
 # 移除图片和实况照片水印
 http-response https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/(imagefeed|live_photo\/save) script-path = https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Resource/Script/RedPaper/RedPaper_remove_ads.js, requires-body = true, tag = 移除图片和实况照片水印
