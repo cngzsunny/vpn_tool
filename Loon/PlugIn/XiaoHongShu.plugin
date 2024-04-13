@@ -4,7 +4,7 @@
 #!author = ddgksf2013@github lodepuly@gitlab 
 #!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/RedPaper.png
-#!date = 2024-04-13 19:00
+#!date = 2024-04-13 19:25
 
 [Rule]
 AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
@@ -19,15 +19,15 @@ AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
 ^https:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d+\/(ads\/resource|hey\/\w+\/hey_gallery) reject-dict
 
 # 小红书_通用广告请求@ddgksf2013
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads url reject-dict
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads reject-dict
 # 小红书_隐私屏蔽@ddgksf2013
-^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport url reject-dict
+^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport reject-dict
 # 小红书_Switches@ddgksf2013
-^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches url reject-dict
+^https?:\/\/pages\.xiaohongshu\.com\/data\/native\/matrix_switches reject-dict
 # 小红书_青少年请求@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/user\/teenager\/status reject-dict
 # 小红书_启动引导@ddgksf2013
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide reject-dict
 
 
 [Script]
