@@ -2,8 +2,8 @@
 #!desc = 去开屏、瀑布流、启动服务广告及一些隐私、广告、青少年请求，去水印及功能增强.整合墨鱼ddgksf2013和可莉的版本，避免各自的bug
 #!openUrl = 
 #!author = ddgksf2013@github lodepuly@gitlab 
-#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/RedPaper.png
-#!date = 2024-05-05 10:00
+#!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/RedPaper.png
+#!date = 2024-10-21 15:00
 
 [Rule]
 AND, ((PROTOCOL, QUIC), (DOMAIN-SUFFIX, xiaohongshu.com)), REJECT
