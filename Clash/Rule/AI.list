@@ -53,3 +53,6 @@ DOMAIN-SUFFIX,apis.google.com
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
+
+# 尝试加入geosite的大包围
+geosite,category-ai-chat-!cn
