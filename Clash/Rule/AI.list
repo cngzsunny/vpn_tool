@@ -54,5 +54,10 @@ DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
+# Add Grok
+DOMAIN-SUFFIX,intercom.io	
+DOMAIN-SUFFIX,twitter.com	
+DOMAIN-SUFFIX,x.ai	
+
 # 尝试加入geosite的大包围
 geosite,category-ai-chat-!cn
