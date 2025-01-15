@@ -30,8 +30,8 @@ jobs:
           git config user.name "cngzsunny"
           git config user.email "sunny.rong@gmail.com"
 
-          # 使用 Personal Access Token 推送更改
-          git remote set-url origin https://github-actions:${{ secrets.GH_TOKEN }}@github.com/cngzsunny/vpn_tool.git
+          # 使用 GITHUB_TOKEN 进行推送
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/cngzsunny/vpn_tool.git
 
           # 检查是否有更改
           if [ -n "$(git status --porcelain)" ]; then
@@ -41,5 +41,3 @@ jobs:
           else
             echo "No changes detected, skipping commit."
           fi
-          
-          #结束
