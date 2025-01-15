@@ -30,6 +30,9 @@ jobs:
           git config user.name "cngzsunny"
           git config user.email "sunny.rong@gmail.com"
 
+          # 使用 Personal Access Token 推送更改
+          git remote set-url origin https://github-actions:${{ secrets.GH_TOKEN }}@github.com/cngzsunny/vpn_tool.git
+
           # 检查是否有更改
           if [ -n "$(git status --porcelain)" ]; then
             git add Common/ASN.China.list
