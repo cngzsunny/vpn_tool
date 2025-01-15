@@ -15,18 +15,21 @@ jobs:
 
       - name: Fetch ASN.China.list from Source
         run: |
-          # 定义文件 URL 和存储路径
           FILE_URL="https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list"
           LOCAL_PATH="Common/ASN.China.list"
 
-          # 创建目标目录并下载文件
+          # 创建目录并尝试下载文件
           mkdir -p $(dirname $LOCAL_PATH)
-          curl -fSL $FILE_URL -o $LOCAL_PATH || (echo "File download failed!" && exit 1)
+          if ! curl -fSL $FILE_URL -o $LOCAL_PATH; then
+            echo "Error: Failed to download $FILE_URL"
+            exit 2
+          fi
 
       - name: Commit and Push Changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "cngzsunny"
+          git config user.email "sunny.rong@gmail.com"
+
           # 检查是否有更改
           if [ -n "$(git status --porcelain)" ]; then
             git add Common/ASN.China.list
@@ -34,3 +37,4 @@ jobs:
             git push
           else
             echo "No changes detected, skipping commit."
+          fi
