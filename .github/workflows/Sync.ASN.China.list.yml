@@ -17,9 +17,11 @@ jobs:
           curl -L https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list -o Common/ASN.China.list
 
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
           git config --global user.name 'cngzsunny'
           git config --global user.email 'sunny.rong@gmail.com'
           git add Common/ASN.China.list
           git commit -m "Sync ASN.China.list" || echo "No changes to commit"
-          git push origin main  # 修改为您的分支名
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git main
