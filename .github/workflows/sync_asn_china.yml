@@ -2,12 +2,12 @@ name: Sync ASN.China.list
 
 on:
   schedule:
-    - cron: '10 10 * * *'  # UTC时间为10:00，换算为北京时间18:00
-  workflow_dispatch: # 允许手动触发工作流
+    - cron: '0 10 * * *'  # 每天 UTC 10:00（北京时间18:00）
+  workflow_dispatch:       # 支持手动触发
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # 明确指定运行环境
 
     steps:
       - name: Checkout Your Repository
@@ -15,22 +15,22 @@ jobs:
 
       - name: Fetch ASN.China.list from Source
         run: |
-          # 定义目标文件的 URL 和本地路径
+          # 定义文件 URL 和存储路径
           FILE_URL="https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list"
           LOCAL_PATH="Common/ASN.China.list"
 
-          # 下载目标文件
-          curl -o $LOCAL_PATH $FILE_URL
+          # 创建目标目录并下载文件
+          mkdir -p $(dirname $LOCAL_PATH)
+          curl -fSL $FILE_URL -o $LOCAL_PATH || (echo "File download failed!" && exit 1)
 
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # 检查是否有文件更改
+          # 检查是否有更改
           if [ -n "$(git status --porcelain)" ]; then
-            git add ASN.China.list
+            git add Common/ASN.China.list
             git commit -m "Daily sync of ASN.China.list"
             git push
           else
             echo "No changes detected, skipping commit."
-          fi
