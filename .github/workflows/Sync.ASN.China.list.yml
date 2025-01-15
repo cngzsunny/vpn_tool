@@ -1,0 +1,25 @@
+name: Sync File
+
+on:
+  schedule:
+    - cron: '0 18 * * *'  # 每天下午6点触发
+  workflow_dispatch:  # 可以手工触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v3
+
+      - name: Download file
+        run: |
+          curl -L https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list -o Common/ASN.China.list
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'cngzsunny'
+          git config --global user.email 'sunny.rong@gmail.com'
+          git add Common/ASN.China.list
+          git commit -m "Sync ASN.China.list" || echo "No changes to commit"
+          git push origin main  # 修改为您的分支名
