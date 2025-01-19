@@ -27,7 +27,7 @@ jobs:
         run: |
           git config --global user.name 'cngzsunny'
           git config --global user.email 'sunny.rong@gmail.com'
-          git add Common/ASN.China.list
-          git commit -m "Sync ASN.China.list" || echo "No changes detected, skipping commit."
+          git add Common/Country.mmdb
+          git commit -m "Sync Country.mmdb" || echo "No changes detected, skipping commit."
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
