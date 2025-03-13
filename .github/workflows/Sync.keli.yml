@@ -1,0 +1,54 @@
+name: Sync keli Rule and PlugIn Files
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 每天北京时间下午6点触发
+  workflow_dispatch:  # 可以手工触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+
+      - name: Download file
+        run: |
+          echo "Start downloading keli Rule and PlugIn Files"
+          
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Rule/AI.list \
+            -o Loon/Rule/keli/AI.list
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://rule.kelee.one/Loon/GoogleVoice.list \
+            -o Loon/Rule/keli/GoogleVoice.list
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://rule.kelee.one/Loon/Global.list \
+            -o Loon/Rule/keli/Global.list
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Rule/LAN_SPLITTER \
+            -o Loon/Rule/keli/LAN_SPLITTER
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Rule/REGION_SPLITTER \
+            -o Loon/Rule/keli/REGION_SPLITTER           
+            
+          echo "Files download completed."
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'cngzsunny'
+          git config --global user.email 'sunny.rong@gmail.com'
+
+          git add Loon/Rule/keli/AI.list
+          git add Loon/Rule/keli/GoogleVoice.list
+          git add Loon/Rule/keli/Global.list
+          git add Loon/Rule/keli/LAN_SPLITTER
+          git add Loon/Rule/keli/REGION_SPLITTER
+
+
+          git commit -m "Sync keli Rule and PlugIn Files" || echo "No changes detected, skipping commit."
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
