@@ -205,7 +205,7 @@ jobs:
       - name: Modify downloaded files
         run: |
           echo "Replacing URLs in downloaded files..."
-          find Loon/Script/keli/ -type f -exec sed -i 's|https://kelee.one/Resource/Script/|https://raw.githubusercontent.com/cngzsunny/vpn_tool/refs/heads/main/Loon/Script/keli/|g' {} +
+          find Loon/PlugIn/keli/ -type f -exec sed -i 's|https://kelee.one/Resource/Script/|https://raw.githubusercontent.com/cngzsunny/vpn_tool/refs/heads/main/Loon/Script/keli/|g' {} +
           echo "Replacement completed."          
 
       - name: Commit and push changes
