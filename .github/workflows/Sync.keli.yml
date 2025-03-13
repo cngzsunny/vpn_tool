@@ -32,7 +32,108 @@ jobs:
           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://kelee.one/Tool/Loon/Rule/REGION_SPLITTER \
             -o Loon/Rule/keli/REGION_SPLITTER           
-            
+
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Block_HTTPDNS.plugin \
+            -o Loon/PlugIn/keli/Block_HTTPDNS.plugin   
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/BlockAdvertisers.plugin \
+            -o Loon/PlugIn/keli/BlockAdvertisers.plugin   
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Remove_ads_by_keli.plugin \
+            -o Loon/PlugIn/keli/Remove_ads_by_keli.plugin   
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/RedPaper_remove_ads.plugin \
+            -o Loon/PlugIn/keli/RedPaper_remove_ads.plugin   
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/XiaChuFang_remove_ads.plugin \
+            -o Loon/PlugIn/keli/XiaChuFang_remove_ads.plugin   
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/BiliComic_remove_ads.plugin \
+            -o Loon/PlugIn/keli/BiliComic_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/NeteaseCloudMusic_remove_ads.plugin \
+            -o Loon/PlugIn/keli/NeteaseCloudMusic_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Cainiao_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Cainiao_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/ColorfulClouds_remove_ads.plugin \
+            -o Loon/PlugIn/keli/ColorfulClouds_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/DiDi_remove_ads.plugin \
+            -o Loon/PlugIn/keli/DiDi_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Keep_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Keep_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/PinDuoDuo_remove_ads.plugin \
+            -o Loon/PlugIn/keli/PinDuoDuo_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Taobao_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Taobao_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/FleaMarket_remove_ads.plugin \
+            -o Loon/PlugIn/keli/FleaMarket_remove_ads.plugin  
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Weibo_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Weibo_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Weibo_intl_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Weibo_intl_remove_ads.plugin
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/12306_remove_ads.plugin \
+            -o Loon/PlugIn/keli/12306_remove_ads.plugin 
+           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Amap_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Amap_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Himalaya_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Himalaya_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Zhihu_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Zhihu_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/QiDian_remove_ads.plugin \
+            -o Loon/PlugIn/keli/QiDian_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/SF-Express_remove_ads.plugin \
+            -o Loon/PlugIn/keli/SF-Express_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin \
+            -o Loon/PlugIn/keli/Weixin_Official_Accounts_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin \
+            -o Loon/PlugIn/keli/WexinMiniPrograms_Remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin \
+            -o Loon/PlugIn/keli/Weixin_external_links_unlock.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/YoudaoTrans_remove_ads.plugin \
+            -o Loon/PlugIn/keli/YoudaoTrans_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/YouTube_remove_ads.plugin \
+            -o Loon/PlugIn/keli/YouTube_remove_ads.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/YouTubeSubtitlesTranslation.plugin \
+            -o Loon/PlugIn/keli/YouTubeSubtitlesTranslation.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Google.plugin \
+            -o Loon/PlugIn/keli/Google.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Node_detection_tool.plugin \
+            -o Loon/PlugIn/keli/Node_detection_tool.plugin 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/TestFlightRegionUnlock.plugin \
+            -o Loon/PlugIn/keli/TestFlightRegionUnlock.plugin            
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Sub-Store.plugin \
+            -o Loon/PlugIn/keli/Sub-Store.plugin            
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Tool/Loon/Plugin/Script-Hub.plugin \
+            -o Loon/PlugIn/keli/Script-Hub.plugin            
+          
+
           echo "Files download completed."
 
       - name: Commit and push changes
@@ -48,6 +149,39 @@ jobs:
           git add Loon/Rule/keli/LAN_SPLITTER
           git add Loon/Rule/keli/REGION_SPLITTER
 
+          git add Loon/PlugIn/keli/Block_HTTPDNS.plugin
+          git add Loon/PlugIn/keli/BlockAdvertisers.plugin
+          git add Loon/PlugIn/keli/Remove_ads_by_keli.plugin
+          git add Loon/PlugIn/keli/RedPaper_remove_ads.plugin
+          git add Loon/PlugIn/keli/XiaChuFang_remove_ads.plugin
+          git add Loon/PlugIn/keli/BiliComic_remove_ads.plugin
+          git add Loon/PlugIn/keli/NeteaseCloudMusic_remove_ads.plugin
+          git add Loon/PlugIn/keli/Cainiao_remove_ads.plugin
+          git add Loon/PlugIn/keli/ColorfulClouds_remove_ads.plugin
+          git add Loon/PlugIn/keli/DiDi_remove_ads.plugin
+          git add Loon/PlugIn/keli/Keep_remove_ads.plugin
+          git add Loon/PlugIn/keli/PinDuoDuo_remove_ads.plugin
+          git add Loon/PlugIn/keli/Taobao_remove_ads.plugin
+          git add Loon/PlugIn/keli/FleaMarket_remove_ads.plugin
+          git add Loon/PlugIn/keli/Weibo_remove_ads.plugin
+          git add Loon/PlugIn/keli/Weibo_intl_remove_ads.plugin
+          git add Loon/PlugIn/keli/12306_remove_ads.plugin
+          git add Loon/PlugIn/keli/Amap_remove_ads.plugin
+          git add Loon/PlugIn/keli/Himalaya_remove_ads.plugin
+          git add Loon/PlugIn/keli/Zhihu_remove_ads.plugin
+          git add Loon/PlugIn/keli/QiDian_remove_ads.plugin
+          git add Loon/PlugIn/keli/SF-Express_remove_ads.plugin
+          git add Loon/PlugIn/keli/Weixin_Official_Accounts_remove_ads.plugin
+          git add Loon/PlugIn/keli/WexinMiniPrograms_Remove_ads.plugin
+          git add Loon/PlugIn/keli/Weixin_external_links_unlock.plugin
+          git add Loon/PlugIn/keli/YoudaoTrans_remove_ads.plugin
+          git add Loon/PlugIn/keli/YouTube_remove_ads.plugin
+          git add Loon/PlugIn/keli/YouTubeSubtitlesTranslation.plugin
+          git add Loon/PlugIn/keli/Google.plugin
+          git add Loon/PlugIn/keli/Node_detection_tool.plugin
+          git add Loon/PlugIn/keli/TestFlightRegionUnlock.plugin
+          git add Loon/PlugIn/keli/Sub-Store.plugin
+          git add Loon/PlugIn/keli/Script-Hub.plugin
 
           git commit -m "Sync keli Rule and PlugIn Files" || echo "No changes detected, skipping commit."
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
