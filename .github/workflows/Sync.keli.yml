@@ -103,9 +103,6 @@ jobs:
             https://kelee.one/Tool/Loon/Plugin/Weixin_Official_Accounts_remove_ads.plugin \
             -o Loon/PlugIn/keli/Weixin_Official_Accounts_remove_ads.plugin 
           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://kelee.one/Tool/Loon/Plugin/WexinMiniPrograms_Remove_ads.plugin \
-            -o Loon/PlugIn/keli/WexinMiniPrograms_Remove_ads.plugin 
-          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://kelee.one/Tool/Loon/Plugin/Weixin_external_links_unlock.plugin \
             -o Loon/PlugIn/keli/Weixin_external_links_unlock.plugin 
           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
@@ -160,6 +157,9 @@ jobs:
           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js \
             -o Loon/Script/keli/Weibo/Weibo_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/12306/12306_remove_splashscreen_ads.js \
+            -o Loon/Script/keli/12306/12306_remove_splashscreen_ads.js
           curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://kelee.one/Resource/Script/12306/12306_remove_ads.js \
             -o Loon/Script/keli/12306/12306_remove_ads.js
@@ -244,7 +244,6 @@ jobs:
           git add Loon/PlugIn/keli/QiDian_remove_ads.plugin
           git add Loon/PlugIn/keli/SF-Express_remove_ads.plugin
           git add Loon/PlugIn/keli/Weixin_Official_Accounts_remove_ads.plugin
-          git add Loon/PlugIn/keli/WexinMiniPrograms_Remove_ads.plugin
           git add Loon/PlugIn/keli/Weixin_external_links_unlock.plugin
           git add Loon/PlugIn/keli/YoudaoTrans_remove_ads.plugin
           git add Loon/PlugIn/keli/YouTube_remove_ads.plugin
@@ -265,6 +264,7 @@ jobs:
           git add Loon/Script/keli/FleaMarket/FleaMarket_remove_ads.js
           git add Loon/Script/keli/Weibo/Weibo_remove_ads.js
           git add Loon/Script/keli/12306/12306_remove_ads.js
+          git add Loon/Script/keli/12306/12306_remove_splashscreen_ads
           git add Loon/Script/keli/Amap/Amap_remove_ads.js
           git add Loon/Script/keli/Zhihu/Zhihu_remove_ads.js
           git add Loon/Script/keli/QiDian/QiDian_remove_ads.js
