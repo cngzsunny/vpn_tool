@@ -202,6 +202,12 @@ jobs:
 
           echo "Files download completed."
 
+      - name: Modify downloaded files
+        run: |
+          echo "Replacing URLs in downloaded files..."
+          find Loon/Script/keli/ -type f -exec sed -i 's|https://kelee.one/Resource/Script/|https://raw.githubusercontent.com/cngzsunny/vpn_tool/refs/heads/main/Loon/Script/keli/|g' {} +
+          echo "Replacement completed."          
+
       - name: Commit and push changes
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -271,7 +277,7 @@ jobs:
           git add Loon/Script/keli/Node_detection_tool/NodeUnlockDetection.js
           git add Loon/Script/keli/Node_detection_tool/LocationDetection.js
           git add Loon/Script/keli/Node_detection_tool/NetworkEntryAndExitQueries.js
-          
+
 
           git commit -m "Sync keli Rule and PlugIn Files" || echo "No changes detected, skipping commit."
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
