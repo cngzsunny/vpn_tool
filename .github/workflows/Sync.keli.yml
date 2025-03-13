@@ -133,6 +133,72 @@ jobs:
             https://kelee.one/Tool/Loon/Plugin/Script-Hub.plugin \
             -o Loon/PlugIn/keli/Script-Hub.plugin            
           
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js \
+            -o Loon/Script/keli/RedPaper/RedPaper_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js \
+            -o Loon/Script/keli/BiliComic/BiliComic_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js \
+            -o Loon/Script/keli/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js \
+            -o Loon/Script/keli/Cainiao/Cainiao_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/ColorfulClouds/ColorfulClouds_remove_ads.js \
+            -o Loon/Script/keli/ColorfulClouds/ColorfulClouds_remove_ads.js            
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/PinDuoDuo/PinDuoDuo_remove_ads.js \
+            -o Loon/Script/keli/PinDuoDuo/PinDuoDuo_remove_ads.js                
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js \
+            -o Loon/Script/keli/Taobao/Taobao_remove_ads.js 
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js \
+            -o Loon/Script/keli/FleaMarket/FleaMarket_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js \
+            -o Loon/Script/keli/Weibo/Weibo_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/12306/12306_remove_ads.js \
+            -o Loon/Script/keli/12306/12306_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js \
+            -o Loon/Script/keli/Amap/Amap_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js \
+            -o Loon/Script/keli/Zhihu/Zhihu_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/QiDian/QiDian_remove_ads.js \
+            -o Loon/Script/keli/QiDian/QiDian_remove_ads.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Weixin/Weixin_external_links_unlock.js \
+            -o Loon/Script/keli/Weixin/Weixin_external_links_unlock.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js \
+            -o Loon/Script/keli/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js \
+            -o Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js \
+            -o Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js \
+            -o Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js \
+            -o Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Node_detection_tool/NodeUnlockDetection.js \
+            -o Loon/Script/keli/Node_detection_tool/NodeUnlockDetection.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Node_detection_tool/LocationDetection.js \
+            -o Loon/Script/keli/Node_detection_tool/LocationDetection.js
+          curl  -A "Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0" -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://kelee.one/Resource/Script/Node_detection_tool/NetworkEntryAndExitQueries.js \
+            -o Loon/Script/keli/Node_detection_tool/NetworkEntryAndExitQueries.js
 
           echo "Files download completed."
 
@@ -182,6 +248,30 @@ jobs:
           git add Loon/PlugIn/keli/TestFlightRegionUnlock.plugin
           git add Loon/PlugIn/keli/Sub-Store.plugin
           git add Loon/PlugIn/keli/Script-Hub.plugin
+
+          git add Loon/Script/keli/RedPaper/RedPaper_remove_ads.js
+          git add Loon/Script/keli/BiliComic/BiliComic_remove_ads.js
+          git add Loon/Script/keli/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js
+          git add Loon/Script/keli/Cainiao/Cainiao_remove_ads.js
+          git add Loon/Script/keli/ColorfulClouds/ColorfulClouds_remove_ads.js
+          git add Loon/Script/keli/PinDuoDuo/PinDuoDuo_remove_ads.js
+          git add Loon/Script/keli/Taobao/Taobao_remove_ads.js 
+          git add Loon/Script/keli/FleaMarket/FleaMarket_remove_ads.js
+          git add Loon/Script/keli/Weibo/Weibo_remove_ads.js
+          git add Loon/Script/keli/12306/12306_remove_ads.js
+          git add Loon/Script/keli/Amap/Amap_remove_ads.js
+          git add Loon/Script/keli/Zhihu/Zhihu_remove_ads.js
+          git add Loon/Script/keli/QiDian/QiDian_remove_ads.js
+          git add Loon/Script/keli/Weixin/Weixin_external_links_unlock.js
+          git add Loon/Script/keli/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js
+          git add Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js
+          git add Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js
+          git add Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js
+          git add Loon/Script/keli/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js
+          git add Loon/Script/keli/Node_detection_tool/NodeUnlockDetection.js
+          git add Loon/Script/keli/Node_detection_tool/LocationDetection.js
+          git add Loon/Script/keli/Node_detection_tool/NetworkEntryAndExitQueries.js
+          
 
           git commit -m "Sync keli Rule and PlugIn Files" || echo "No changes detected, skipping commit."
           BRANCH=$(git rev-parse --abbrev-ref HEAD)
