@@ -264,7 +264,7 @@ jobs:
           git add Loon/Script/keli/FleaMarket/FleaMarket_remove_ads.js
           git add Loon/Script/keli/Weibo/Weibo_remove_ads.js
           git add Loon/Script/keli/12306/12306_remove_ads.js
-          git add Loon/Script/keli/12306/12306_remove_splashscreen_ads
+          git add Loon/Script/keli/12306/12306_remove_splashscreen_ads.js
           git add Loon/Script/keli/Amap/Amap_remove_ads.js
           git add Loon/Script/keli/Zhihu/Zhihu_remove_ads.js
           git add Loon/Script/keli/QiDian/QiDian_remove_ads.js
