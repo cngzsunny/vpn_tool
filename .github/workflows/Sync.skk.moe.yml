@@ -1,0 +1,77 @@
+name: Sync skk.moe Rule Files
+
+on:
+  schedule:
+    - cron: '0 10 * * *'  # 每天北京时间下午6点触发
+  workflow_dispatch:  # 可以手工触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout your repository
+        uses: actions/checkout@v4
+
+      - name: Download file
+        run: |
+          echo "Start downloading skk.moe Rule Files"
+          
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/ai.conf \
+            -o Loon/Rule/skk/non_ip/ai.conf
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/telegram.conf \
+            -o Loon/Rule/skk/non_ip/telegram.conf  
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/apple_cdn.conf \
+            -o Loon/Rule/skk/non_ip/apple_cdn.conf            
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf \
+            -o Loon/Rule/skk/non_ip/microsoft_cdn.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/apple_cn.conf \
+            -o Loon/Rule/skk/non_ip/apple_cn.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/apple_services.conf \
+            -o Loon/Rule/skk/non_ip/apple_services.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/microsoft.conf \
+            -o Loon/Rule/skk/non_ip/microsoft.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/non_ip/domestic.conf \
+            -o Loon/Rule/skk/non_ip/domestic.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/ip/telegram.conf \
+            -o Loon/Rule/skk/ip/telegram.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/ip/domestic.conf \
+            -o Loon/Rule/skk/ip/domestic.conf 
+          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
+            https://ruleset.skk.moe/List/ip/china_ip.conf \
+            -o Loon/Rule/skk/ip/china_ip.conf 
+
+          echo "Files download completed."
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'cngzsunny'
+          git config --global user.email 'sunny.rong@gmail.com'
+
+          git add Loon/Rule/skk/non_ip/ai.conf
+          git add Loon/Rule/skk/non_ip/telegram.conf
+          git add Loon/Rule/skk/non_ip/apple_cdn.conf
+          git add Loon/Rule/skk/non_ip/microsoft_cdn.conf
+          git add Loon/Rule/skk/non_ip/apple_cn.conf
+          git add Loon/Rule/skk/non_ip/apple_services.conf
+          git add Loon/Rule/skk/non_ip/microsoft.conf
+          git add Loon/Rule/skk/non_ip/domestic.conf
+          git add Loon/Rule/skk/ip/telegram.conf
+          git add Loon/Rule/skk/ip/domestic.conf
+          git add Loon/Rule/skk/ip/china_ip.conf
+
+          git commit -m "Sync skk.moe Rule Files" || echo "No changes detected, skipping commit."
+          BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
