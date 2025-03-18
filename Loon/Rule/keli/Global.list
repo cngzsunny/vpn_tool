@@ -1,5 +1,5 @@
-# UpdateTime：2025-03-17 03:06:30
-# RuleCount：31954
+# UpdateTime：2025-03-18 03:06:31
+# RuleCount：31955
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -22730,6 +22730,7 @@ DOMAIN-SUFFIX, postgresql.org
 DOMAIN-SUFFIX, postimages.org
 DOMAIN-SUFFIX, postimg.org
 DOMAIN-SUFFIX, powerphoto.org
+DOMAIN-SUFFIX, prcleader.org
 DOMAIN-SUFFIX, priceless.org
 DOMAIN-SUFFIX, primevideo.org
 DOMAIN-SUFFIX, prism-break.org
