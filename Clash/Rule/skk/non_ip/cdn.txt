@@ -1,0 +1,73 @@
+#########################################
+# Sukka's Ruleset - CDN Domains
+# Last Updated: 2025-03-19T12:22:08.574Z
+# Size: 62
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains object storage and static assets CDN domains.
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN,cdn-msp.18comic.vip
+DOMAIN,cdn-msp.18comic.org
+DOMAIN,cdn-msp.jmcomic-zzz.one
+DOMAIN,cdn-msp.jmcomic.me
+DOMAIN-KEYWORD,-files.gitbook.io
+DOMAIN-KEYWORD,vod-adaptive.akamaized.net
+DOMAIN-KEYWORD,web-assets.zendesk
+DOMAIN-KEYWORD,-res.cloudinary.com
+DOMAIN-KEYWORD,dsn.algolia.net
+DOMAIN-KEYWORD,-thumbs.pornhost.com
+DOMAIN-KEYWORD,-cdn.eporner.com
+DOMAIN-KEYWORD,cdn.adultempire.com
+DOMAIN-KEYWORD,-assets.worldsex.com
+DOMAIN-KEYWORD,-thumbs.worldsex.com
+DOMAIN-KEYWORD,99avcdn
+DOMAIN-KEYWORD,-images.disco-api.com
+DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
+DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
+DOMAIN-REGEX,^static[\w.-]\.tgstat\.ru$
+DOMAIN-REGEX,^static[\w.-][\w.-]\.tgstat\.ru$
+DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
+DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
+DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
+DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
+DOMAIN-REGEX,^t[\w.-]\.nhentai\.net$
+DOMAIN-REGEX,^cdn[\w.-]-dl\.pornhost\.com$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.vip$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic\.me$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic-zzz\.one$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.org$
+DOMAIN-REGEX,^file[\w.-]\.mikuclub\.fun$
+DOMAIN-REGEX,^cdn[\w.-]\.mikuclub\.fun$
+DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
+DOMAIN-REGEX,^cdns\.[\w.-]*?\.gigya\.com$
+DOMAIN-REGEX,^sdk\.[\w.-]*?\.braze\.eu$
+DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
+DOMAIN-REGEX,^img[\w.-][\w.-]\.porngo\.com$
+DOMAIN-REGEX,^th-[\w.-]*?\.pornone\.com$
+DOMAIN-REGEX,^s[\w.-][\w.-][\w.-]\.pornone\.com$
+DOMAIN-REGEX,^browser-intake-[\w.-]*?-datadoghq\.com$
+DOMAIN-REGEX,^video-thumbnail2\.fc2\.com$
+DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.fc2\.com$
+DOMAIN-REGEX,^video-thumbnail[\w.-]\.liaoningmovie\.net$
+DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.liaoningmovie\.net$
+DOMAIN-REGEX,^vip-videoprem[\w.-]*?-thumbnail[\w.-]\.fc2\.com$
+DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
+DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.fc2\.com$
+DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
+DOMAIN-REGEX,^s3-[\w.-]*?\.figma\.com$
+DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
+DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
+DOMAIN-REGEX,^image[\w.-]*?\.cloudokyo\.cloud$
+DOMAIN-REGEX,^video[\w.-]*?\.cloudokyo\.cloud$
+DOMAIN-REGEX,^v\.rn[\w.-][\w.-][\w.-]\.xyz$
+DOMAIN-REGEX,^s[\w.-]\.maxstream\.org$
+DOMAIN-REGEX,^s[\w.-][\w.-]\.maxstream\.org$
+DOMAIN-REGEX,^media[\w.-]\.kissjav\.com$
+DOMAIN-REGEX,^media[\w.-][\w.-]\.kissjav\.com$
+DOMAIN-REGEX,^chunk-[\w.-]*?\.mux\.com$
+DOMAIN-REGEX,^[\w.-]*?\.img\.[\w.-]*?\.sendibm[\w.-]\.com$
+DOMAIN-REGEX,^cdn[\w.-]\.18girlssex\.com$
+################## EOF ##################

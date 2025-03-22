@@ -1,0 +1,14 @@
+#########################################
+# Sukka's Ruleset - Mainland China Supplement CIDR
+# Last Updated: 2024-09-22T19:24:43.888Z
+# Size: 3
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains IPs broadcast inside Mainland China.
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+IP-CIDR,140.205.1.0/24,no-resolve
+IP-CIDR,162.14.0.0/18,no-resolve
+################## EOF ##################

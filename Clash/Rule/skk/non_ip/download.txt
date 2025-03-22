@@ -1,0 +1,15 @@
+#########################################
+# Sukka's Ruleset - Large Files Hosting IPs
+# Last Updated: 2024-11-10T11:17:12.449Z
+# Size: 4
+# License: AGPL 3.0
+# Homepage: https://ruleset.skk.moe
+# GitHub: https://github.com/SukkaW/Surge
+#
+# This file contains ruleset for software updating & large file hosting.
+#########################################
+DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
+DOMAIN-REGEX,^download[\w.-]*?\.mediafire\.com$
+DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.debian\.org$
+DOMAIN-REGEX,^[\w.-]*?\.s3\.[\w.-]*?\.backblazeb2\.com$
+################## EOF ##################
