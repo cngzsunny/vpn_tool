@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-21T13:43:55.751Z
-# Size: 3284
+# Last Updated: 2025-03-23T05:09:56.976Z
+# Size: 3294
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -54,6 +54,7 @@ cdn.deta.space
 +.ipfs.kavin.rocks
 files.mastodon.ktachibana.party
 +.ipfs.telos.miami
+cms.therecord.media
 files.smashing.media
 jssdk.opin.media
 +.icon.horse
@@ -135,6 +136,7 @@ cdn.joincommunity.xyz
 storage.withfabric.xyz
 int.qiniuyun15.xyz
 cdn.yinghuazy.xyz
++.skyearth8.xyz
 +.imgmrplay.xyz
 rules2.clearurls.xyz
 rules1.clearurls.xyz
@@ -306,6 +308,7 @@ registry.npmjs.org
 repo1.maven.org
 +.lencr.org
 repository.jboss.org
++.cdn.icann.org
 godoc.org
 static.gnome.org
 +.eggjs.org
@@ -379,6 +382,7 @@ images.wsjcommerce.net
 static.underhentai.net
 +.tapecontent.net
 +.staticworld.net
+sourcemaps.squarespace.net
 static-resource.np.community.playstation.net
 +.f.hubspotfree.net
 +.hsappstatic.net
@@ -808,6 +812,7 @@ media.telanganatoday.com
 image.telanganatoday.com
 +.teamtailor-cdn.com
 micro.rubiconproject.com
+cms.recordedfuture.com
 +.quip-marketing.com
 api.pwnedpasswords.com
 web-assets.otogi-frontier.com
@@ -964,6 +969,7 @@ cdn1.identitymind.com
 +.hubspotlinks.com
 cdn.hongkongcard.com
 rest.happierleads.com
+cdn.googlesource.com
 +.githubassets.com
 m3u8.girigirilove.com
 +.framerstatic.com
@@ -1040,6 +1046,7 @@ avatar.stefanjudis.com
 +.staticimgly.com
 +.staticblitz.com
 static.staff-start.com
+akamai-assets.squarespace.com
 static3.squarespace.com
 static1.squarespace.com
 s3media.squarespace.com
@@ -1316,6 +1323,7 @@ cdn.fourthwall.com
 +.externulls.com
 images.everyplate.com
 cdntranscend.eventbrite.com
++.etsystatic.com
 web-assets.esetstatic.com
 images.emojiterra.com
 cdn2.editmysite.com
@@ -2389,6 +2397,7 @@ cdn.stash.com
 cdn.sprig.com
 files.slack.com
 +.sb-cd.com
++.rlcdn.com
 s2.qwant.com
 s1.qwant.com
 js.puter.com
@@ -2865,6 +2874,7 @@ static-cache.fboom.me
 static.fboom.me
 emoji-css.afeld.me
 pic.7mmtv.me
+cdn.123av.me
 rsms.me
 static.fbot.me
 media.e4le.me
