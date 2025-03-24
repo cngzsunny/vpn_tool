@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-23T05:09:56.976Z
-# Size: 3294
+# Last Updated: 2025-03-23T14:16:38.315Z
+# Size: 3296
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -54,6 +54,7 @@ cdn.deta.space
 +.ipfs.kavin.rocks
 files.mastodon.ktachibana.party
 +.ipfs.telos.miami
+townsquare.media
 cms.therecord.media
 files.smashing.media
 jssdk.opin.media
@@ -1461,6 +1462,7 @@ jfe-cdn.qualtrics.com
 js.qualified.com
 vpncdn.protonweb.com
 cdnstatic.porno-cum.com
+static.polldaddy.com
 +.assets.pinterest.com
 storage-b.picacomic.com
 img.picacomic.com
