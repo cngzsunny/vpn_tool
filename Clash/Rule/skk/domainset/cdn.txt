@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-23T14:16:38.315Z
-# Size: 3296
+# Last Updated: 2025-03-25T04:38:48.777Z
+# Size: 3303
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1299,6 +1299,7 @@ hips.hearstapps.com
 cdn.hackernoon.com
 assets.grooveapps.com
 +.content-storage-upload.googleapis.com
+firebaseinstallations.googleapis.com
 +.crashlyticsreports-pa.googleapis.com
 optimizationguide-pa.googleapis.com
 firebaselogging-pa.googleapis.com
@@ -1346,6 +1347,8 @@ cdn.eu.contentful.com
 frames-commandbar-prod.commandbar.com
 cdn.commandbar.com
 static-assets.codecademy.com
+assets.cmcmarkets.com
+cdn.cmcmarkets.com
 +.ipfs0.sjc.cloudsigma.com
 cloudinary-res.cloudinary.com
 fiverr-res.cloudinary.com
@@ -2587,6 +2590,9 @@ info.knak.com
 assets.kagi.com
 cdn.hk01.com
 assets.habr.com
+cms-cdn.goat.com
+assets.goat.com
+image.goat.com
 +.fsdn.com
 images.dmca.com
 sf-coze-web-cdn.coze.com
@@ -3197,6 +3203,7 @@ cdn.ionos.de
 +.ipfs.slang.cx
 +.cdn-lfs-us-1.huggingface.co
 +.cdn-uploads.huggingface.co
+cdn-avatars.huggingface.co
 +.cdn-lfs.huggingface.co
 waitlisted.co
 widgets.listenlive.co
