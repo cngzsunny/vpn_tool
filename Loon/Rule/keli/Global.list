@@ -1,5 +1,5 @@
-# UpdateTime：2025-03-24 03:06:50
-# RuleCount：31940
+# UpdateTime：2025-03-25 03:06:54
+# RuleCount：31941
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -5272,6 +5272,7 @@ DOMAIN-SUFFIX, codivorexxx.com
 DOMAIN-SUFFIX, coedcherry.com
 DOMAIN-SUFFIX, coinbase.com
 DOMAIN-SUFFIX, coinbene.com
+DOMAIN-SUFFIX, coincarp.com
 DOMAIN-SUFFIX, coincheck.com
 DOMAIN-SUFFIX, coindesk.com
 DOMAIN-SUFFIX, coinegg.com
