@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-25T04:38:48.777Z
-# Size: 3303
+# Last Updated: 2025-03-26T06:00:26.157Z
+# Size: 3305
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -135,7 +135,6 @@ cdn.joincommunity.xyz
 +.mirror-media.xyz
 +.packd.liuxingbaoyu.xyz
 storage.withfabric.xyz
-int.qiniuyun15.xyz
 cdn.yinghuazy.xyz
 +.skyearth8.xyz
 +.imgmrplay.xyz
@@ -345,6 +344,7 @@ ooo.0o0.ooo
 storageapi.fleek.one
 static.xns.one
 +.ipfs.jbb.one
++.gold-usergeneratedcontent.net
 +.hubspotusercontent-na1.net
 +.hubspotusercontent-eu1.net
 +.hubspotusercontent40.net
@@ -514,7 +514,6 @@ cdn.myfonts.net
 +.itsre-sumo.mozilla.net
 interactive-examples.mdn.mozilla.net
 +.cdn.mozilla.net
-opt.moovweb.net
 minotar.net
 +.jscloud.net
 pg2dhpc3p5ec22g3.jkforum.net
@@ -567,6 +566,7 @@ az700632.vo.msecnd.net
 +.mercdn.net
 images.mattel.net
 fiddle.jshell.net
+ik.imgkit.net
 +.imgair.net
 images.idgesg.net
 alt.idgesg.net
@@ -798,6 +798,7 @@ irp-cdn.multiscreensite.com
 +.howtogeekimages.com
 cache.hackedfreegames.com
 images.financemagnates.com
++.customerioforms.com
 imgssl.constantcontact.com
 +.cloudflare-ipfs.com
 shopify.cleverecommerce.com
@@ -889,6 +890,7 @@ rts-static-prod.freshworksapi.com
 cdn.freebiesupply.com
 images.flightradar24.com
 +.envato-static.com
+cdn.earthroulette.com
 +.dropboxstatic.com
 +.discourse-cdn.com
 chat.digitalgenius.com
@@ -1270,7 +1272,6 @@ content.jwplatform.com
 ww2-secure.justanswer.com
 components.justanswer.com
 ww2.justanswer.com
-static.javatpoint.com
 media.inhumanity.com
 +.storage.infomaniak.com
 +.cloud2.influxdata.com
@@ -1994,6 +1995,7 @@ pool.jortage.com
 assets.ipstack.com
 i.insider.com
 static.iris.informa.com
+go.imperva.com
 +.imgyzzy.com
 +.imgikzy.com
 s.imgflip.com
@@ -2014,6 +2016,7 @@ cf.hamreus.com
 i.hamreus.com
 public-files.gumroad.com
 assets.gumroad.com
+gstatic.com
 connectivitycheck.gstatic.com
 encrypted-vtbn3.gstatic.com
 encrypted-vtbn2.gstatic.com
@@ -2199,7 +2202,6 @@ cdn.seondf.com
 vice-prod.sdiapi.com
 newfold.scene7.com
 ec-prod.scene7.com
-stbff.scene7.com
 s7d1.scene7.com
 +.sc-cdn.com
 embed.runkit.com
@@ -2391,6 +2393,7 @@ cdnstatic.w4nkr.com
 assets.volvo.com
 assets.vogue.com
 player.vimeo.com
+static.vanta.com
 +.uvcdn.com
 +.unpkg.com
 +.twimg.com
@@ -2795,6 +2798,7 @@ img.coomer.su
 0x0.st
 udata.namespace.so
 image-forwarder.notaku.so
+bucket1.notaku.so
 static.cohere.so
 cdn.circle.so
 cdn.birdie.so
@@ -2898,9 +2902,6 @@ cdn.plot.ly
 cdn.img.ly
 i.mt.lv
 media.webtoo.ls
-ltn.hitomi.la
-btn.hitomi.la
-atn.hitomi.la
 pomf2.lain.la
 +.ipfs.lain.la
 static.pfrt.yna.co.kr
@@ -2949,6 +2950,7 @@ pics.dmm.co.jp
 cdn.dap.dmm.co.jp
 osint.digitalside.it
 +.place-hold.it
+cdn.scaleflex.it
 +.unsplash.it
 cdn.download.it
 +.redd.it

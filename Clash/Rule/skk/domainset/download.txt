@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2025-03-21T06:29:49.695Z
-# Size: 669
+# Last Updated: 2025-03-25T15:43:47.123Z
+# Size: 671
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -48,6 +48,7 @@ download.opensuse.org
 cdn.opensuse.org
 ciscobinary.openh264.org
 repo.debiancn.org
+s3.teckids.org
 +.iso.reactos.org
 downloads.openwrt.org
 aus2-community.mozilla.org
@@ -454,6 +455,7 @@ downloadr2.apkmirror.com
 +.s3-website.dualstack.sa-east-1.amazonaws.com
 +.s3.dualstack.sa-east-1.amazonaws.com
 +.s3.sa-east-1.amazonaws.com
++.s3-global.amazonaws.com
 +.s3-object-lambda.eu-west-3.amazonaws.com
 +.s3-accesspoint.eu-west-3.amazonaws.com
 +.s3-website.eu-west-3.amazonaws.com
