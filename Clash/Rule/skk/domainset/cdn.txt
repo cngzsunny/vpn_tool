@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-26T06:00:26.157Z
-# Size: 3305
+# Last Updated: 2025-03-27T01:25:13.111Z
+# Size: 3313
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -361,6 +361,7 @@ assets.visioncritical.net
 vscode-sync-insiders.trafficmanager.net
 vscode-sync.trafficmanager.net
 +.msftauthimages.net
+media.minecraftforum.net
 +.licensebuttons.net
 headway-widget.net
 cdn.consentmanager.net
@@ -879,6 +880,7 @@ assets.nationbuilder.com
 +.mvnrepository.com
 +.mcusercontent.com
 asset.mansionglobal.com
++.mangguo-youku.com
 +.highwinds-cdn.com
 sig.grumpybumpers.com
 app.groovefunnels.com
@@ -2452,6 +2454,7 @@ cdn.ko-fi.com
 js.klarn.com
 static.jsbin.com
 null.jsbin.com
+cdn.javmg.com
 creator-image.javhd.com
 static.javhd.com
 i.ioiox.com
@@ -2590,6 +2593,9 @@ cdn.loom.com
 static.kobo.com
 cdn.kobo.com
 info.knak.com
+images.kick.com
+files.kick.com
+clips.kick.com
 assets.kagi.com
 cdn.hk01.com
 assets.habr.com
@@ -3051,6 +3057,7 @@ media.lantern.io
 cdn.icomoon.io
 assets.holopin.io
 +.files.gitbook.io
+geojson.io
 +.ipfs.eternum.io
 static.cracked.io
 cdn.concert.io
@@ -3086,6 +3093,7 @@ website-cdn.ipinfo.io
 +.cdn.ipinfo.io
 +.ipfs.infura.io
 packages.httpie.io
+gohugo.io
 +.gitlab.io
 +.github.io
 cdn-web.fydeos.io
