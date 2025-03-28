@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-27T01:25:13.111Z
-# Size: 3313
+# Last Updated: 2025-03-27T14:01:46.681Z
+# Size: 3314
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2983,6 +2983,7 @@ cdn.thenewstack.io
 +.readthedocs.io
 static.mytonwallet.io
 cdn.ip2location.io
++.intercomcdn.io
 +.infura-ipfs.io
 cdn.imageengine.io
 badges.greenkeeper.io
