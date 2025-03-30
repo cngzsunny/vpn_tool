@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-27T14:01:46.681Z
-# Size: 3314
+# Last Updated: 2025-03-30T05:51:47.973Z
+# Size: 3318
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -200,6 +200,7 @@ i.creativecommons.org
 playgroundcdn.typescriptlang.org
 www.typescriptlang.org
 +.rescript-lang.org
+meta.prismlauncher.org
 +.tile.openstreetmap.org
 assets.geeksforgeeks.org
 media.geeksforgeeks.org
@@ -2072,6 +2073,7 @@ cdn.embedly.com
 +.els-cdn.com
 +.ebayimg.com
 static.doujins.com
+cdn.docsbot.com
 global.divhunt.com
 s1.divhunt.com
 +.denopkg.com
@@ -2115,6 +2117,7 @@ cdn6.aptoide.com
 images.en.aptoide.com
 img.apponic.com
 cdn.apponic.com
+fast.appcues.com
 app-spm.com
 static.apkpure.com
 cdn.apkmonk.com
@@ -2833,6 +2836,7 @@ static.zaobao.com.sg
 static.mysph.sph.com.sg
 cdp.sph.com.sg
 +.ipfs.best-practice.se
+widget.datablocks.se
 +.webp.se
 curl.se
 avatars.dzeninfra.ru
