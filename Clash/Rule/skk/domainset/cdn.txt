@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-30T05:51:47.973Z
-# Size: 3318
+# Last Updated: 2025-03-31T09:50:43.923Z
+# Size: 3322
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -804,6 +804,8 @@ images.financemagnates.com
 imgssl.constantcontact.com
 +.cloudflare-ipfs.com
 shopify.cleverecommerce.com
+thumbnails.applegamingwiki.com
+images.applegamingwiki.com
 +.yourimageshare.com
 +.xm-apps-static.com
 talk.washingtonpost.com
@@ -1614,6 +1616,7 @@ assets.wikiwand.com
 cdn.wikiwand.com
 cdn.wccftech.com
 +.vimeocdn.com
+icons.veryicon.com
 crl.verisign.com
 +.vcmdiawe.com
 widget.usersnap.com
@@ -2490,6 +2493,7 @@ media.gettr.com
 cdn.gettr.com
 i.gawby.com
 a.gawby.com
+cdn.app.fossa.com
 +.fonts.com
 s3-figma-force-client-reloads-production.figma.com
 s3-figma-plugin-images-production-sig.figma.com
