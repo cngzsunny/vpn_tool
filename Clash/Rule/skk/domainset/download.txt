@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2025-03-26T15:20:20.328Z
-# Size: 1153
+# Last Updated: 2025-04-01T09:14:48.885Z
+# Size: 1154
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -693,6 +693,7 @@ download.snipaste.com
 updater.snipaste.com
 stats.snipaste.com
 dl.snipaste.com
+download.proxyman.com
 repo.powerdns.com
 +.cos.na-siliconvalley.myqcloud.com
 +.cos.eu-frankfurt.myqcloud.com

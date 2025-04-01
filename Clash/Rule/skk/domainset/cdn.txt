@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-03-31T09:50:43.923Z
-# Size: 3322
+# Last Updated: 2025-04-01T09:14:48.885Z
+# Size: 3328
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -615,6 +615,7 @@ vz-c0fe498e-5ab.b-cdn.net
 vz-2222604c-50b.b-cdn.net
 hentaiworldtv.b-cdn.net
 divhunt-site.b-cdn.net
+mintlify.b-cdn.net
 linuxiac.b-cdn.net
 jsdelivr.b-cdn.net
 todoist.b-cdn.net
@@ -1083,6 +1084,7 @@ gmedia.playstation.com
 +.photobucket.com
 cdn-app.pathfactory.com
 cdn.pathfactory.com
+cdn.paritydeals.com
 +.parastorage.com
 images.newrepublic.com
 assets.newrepublic.com
@@ -1283,6 +1285,7 @@ media.inhumanity.com
 +.cloud1.influxdata.com
 +.cloud.influxdata.com
 w2.influxdata.com
+jssocdn.indiatimes.com
 +.imgikuncdn.com
 imagizer.imageshack.com
 cdn5.iconfinder.com
@@ -1639,6 +1642,7 @@ flows.trysavvy.com
 +.tpdfiles.com
 cdn.tinypass.com
 +.tildacdn.com
+platform.theverge.com
 ci.testling.com
 cdn0-i.techbang.com
 cdn2.techbang.com
@@ -2175,6 +2179,8 @@ static.tumblr.com
 cdn2.ttloli.com
 cdn.ttloli.com
 cdn.tracxn.com
+static.toiimg.com
+assets.toiimg.com
 +.tmsimg.com
 +.tkcdns.com
 +.tiqcdn.com
