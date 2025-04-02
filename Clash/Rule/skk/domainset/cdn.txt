@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-01T09:14:48.885Z
-# Size: 3328
+# Last Updated: 2025-04-02T02:06:46.072Z
+# Size: 3333
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -353,6 +353,7 @@ static.xns.one
 +.hubspotusercontent20.net
 +.hubspotusercontent10.net
 +.hubspotusercontent00.net
+cdn.gatherings.franchise.minecraft-services.net
 +.hscollectedforms.net
 +.reasoningtheory.net
 static-r.kamihimeproject.net
@@ -433,6 +434,7 @@ static.eroterest.net
 +.doppiocdn.net
 +.ctfassets.net
 searchg2-assets.crownpeak.net
+edge-cloud-resource-static.azureedge.net
 edge-consumer-static.azureedge.net
 edge-mobile-static.azureedge.net
 edgeassetservice.azureedge.net
@@ -844,9 +846,7 @@ code.ionicframework.com
 static-gcp.freepikcompany.com
 cdn-live.foreignaffairs.com
 +.datocms-assets.com
-userimg-assets.customeriomail.com
-userimg-bee.customeriomail.com
-userimg.customeriomail.com
++.customeriomail.com
 +.b2c-contenthub.com
 cdn.answeroverflow.com
 +.alonestreaming.com
@@ -1255,6 +1255,7 @@ images4.cmp.optimizely.com
 images3.cmp.optimizely.com
 images2.cmp.optimizely.com
 images1.cmp.optimizely.com
++.cdn.optimizely.com
 static-www.onlyoffice.com
 +.nincontent.com
 +.netdna-ssl.com
@@ -1614,6 +1615,7 @@ static.xxxshake.com
 i.xxxshake.com
 +.xnxx-cdn.com
 images-eds-ssl.xboxlive.com
+dlassets-ssl.xboxlive.com
 bundler.wix-code.com
 assets.wikiwand.com
 cdn.wikiwand.com
@@ -2378,6 +2380,7 @@ img.bttimg.com
 +.biccam.com
 +.content001.bet365.com
 +.media.beeper.com
+static.beebom.com
 www.bbthat.com
 +.bblcdn.com
 +.avximg.com
@@ -2579,6 +2582,7 @@ imgs.xkcd.com
 profile-images.xing.com
 compass-ssl.xbox.com
 assets-www.xbox.com
+assets.play.xbox.com
 livemap-tiles1.waze.com
 web-assets.waze.com
 cdnstatic.w1mp.com
@@ -3156,6 +3160,7 @@ static.snyk.io
 +.quay.io
 +.pnpm.io
 cdn.plyr.io
+cdn.pgvt.io
 dl2.nwjs.io
 dl.nwjs.io
 cdn.nolt.io

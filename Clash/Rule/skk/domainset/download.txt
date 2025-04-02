@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2025-04-01T09:14:48.885Z
-# Size: 1154
+# Last Updated: 2025-04-02T02:06:46.072Z
+# Size: 1155
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -370,6 +370,7 @@ amupdatedl.microsoft.com
 packages.microsoft.com
 cdn.winget.microsoft.com
 +.download.prss.microsoft.com
+msdl.microsoft.com
 +.delivery.mp.microsoft.com
 packages.linuxmint.com
 download-cdn.jetbrains.com
