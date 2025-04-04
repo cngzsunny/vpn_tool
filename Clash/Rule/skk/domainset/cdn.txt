@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-02T02:06:46.072Z
-# Size: 3333
+# Last Updated: 2025-04-04T09:10:50.114Z
+# Size: 3334
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2387,6 +2387,7 @@ www.bbthat.com
 assets.apnews.com
 dims.apnews.com
 +.aolcdn.com
+d2c.aws.amazon.com
 static.ahrefs.com
 +.assets.adidas.com
 +.glass.adidas.com
