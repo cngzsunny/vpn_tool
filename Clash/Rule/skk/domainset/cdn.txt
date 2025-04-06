@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-04T09:10:50.114Z
-# Size: 3334
+# Last Updated: 2025-04-06T09:30:18.366Z
+# Size: 3339
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -285,6 +285,7 @@ pcz.javidol.org
 web-static.archive.org
 image.ap-mail.org
 +.99avcdn.org
+resources.whatwg.org
 updates2.signal.org
 updates.signal.org
 assets.repair.org
@@ -2355,6 +2356,7 @@ s1.feedly.com
 assets.fastly.com
 +.ezocdn.com
 s3.envato.com
+creative.eizzih.com
 videos2.edclub.com
 +.cloudflare.docker.com
 +.fastly.docker.com
@@ -2723,6 +2725,7 @@ weather.istatmenus.app
 cdn.langshop.app
 +.netlify.app
 videos.elephas.app
++.edgeone.app
 bundle.dyn-rev.app
 +.vercel.app
 pic.macked.app
@@ -2913,6 +2916,7 @@ emoji-css.afeld.me
 pic.7mmtv.me
 cdn.123av.me
 rsms.me
+s4.itho.me
 static.fbot.me
 media.e4le.me
 img.xjh.me
@@ -3128,6 +3132,7 @@ events.split.io
 auth.split.io
 sdk.split.io
 cdn.split.io
+apps.sophi.io
 js.smile.io
 js.short.io
 +.senja.io
