@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-06T09:30:18.366Z
-# Size: 3339
+# Last Updated: 2025-04-07T01:50:49.848Z
+# Size: 3342
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -911,6 +911,7 @@ s3.coinmarketcap.com
 s2.coinmarketcap.com
 +.codepenassets.com
 cdn.codeblackbelt.com
+staticintl.cloudcachetci.com
 static.cloudcachetci.com
 +.chesscomfiles.com
 +.cdn-cookieyes.com
@@ -1437,6 +1438,7 @@ hawk.tomsguide.com
 thumbsnap.com
 +.thisiscdn.com
 static.test-beta.com
+cdnstatic.tencentcs.com
 events.tableplus.com
 cdn-service.jp.sumologic.com
 +.stripecdn.com
@@ -1477,6 +1479,7 @@ js.qualified.com
 vpncdn.protonweb.com
 cdnstatic.porno-cum.com
 static.polldaddy.com
+assets.polarbyte.com
 +.assets.pinterest.com
 storage-b.picacomic.com
 img.picacomic.com
