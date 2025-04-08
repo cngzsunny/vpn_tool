@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-07T01:50:49.848Z
-# Size: 3342
+# Last Updated: 2025-04-08T08:09:17.748Z
+# Size: 3365
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -134,6 +134,7 @@ phishing.army
 cdn.joincommunity.xyz
 +.mirror-media.xyz
 +.packd.liuxingbaoyu.xyz
+eslint-react.xyz
 storage.withfabric.xyz
 cdn.yinghuazy.xyz
 +.skyearth8.xyz
@@ -264,6 +265,7 @@ static.tronscan.org
 open-vsx.org
 demotiles.maplibre.org
 image.lichess1.org
+api.indexnow.org
 assets.exercism.org
 david-dm.org
 fonts.codeberg.org
@@ -332,6 +334,7 @@ static.ietf.org
 jaws.pbs.org
 +.cdn.pbs.org
 +.tile.osm.org
++.pool.ntp.org
 static-assets.npr.org
 bundles.npr.org
 media.npr.org
@@ -399,7 +402,9 @@ cdn.devolutions.net
 cdn.arstechnica.net
 +.vscode-cdn.net
 +.ungrounded.net
+businessunitprofile-cdn.trustpilot.net
 consumersite-assets.trustpilot.net
+consumersiteimages.trustpilot.net
 cdn.trustpilot.net
 +.nelreports.net
 cdn.macstories.net
@@ -718,6 +723,7 @@ cdn.builderprofile.aws.dev
 +.cdn.chrome.marketplace.aws.dev
 +.assets.shortbread.aws.dev
 +.marketing.aws.dev
+cdn.us-east-1.prod.moon.dubai.aws.dev
 +.ipfs.1-2.dev
 runkit-packages-static-executables.com
 +.cloudflare-terms-of-service-abuse.com
@@ -810,6 +816,7 @@ imgssl.constantcontact.com
 shopify.cleverecommerce.com
 thumbnails.applegamingwiki.com
 images.applegamingwiki.com
+amazon-omni-cdn.com
 +.yourimageshare.com
 +.xm-apps-static.com
 talk.washingtonpost.com
@@ -1039,6 +1046,7 @@ tag.unifyintent.com
 fastly-cloud.typenetwork.com
 cloud.typenetwork.com
 cms.typenetwork.com
+static-assets-1.truthsocial.com
 cdn.trustedsite.com
 widgets.tree-nation.com
 s3-symbol-logo.tradingview.com
@@ -1207,6 +1215,7 @@ cdn2.abiresearch.com
 +.zippyshare.com
 +.ziffstatic.com
 +.zi-scripts.com
+wctour-images.worldchess.com
 +.csp.withgoogle.com
 cdn.verifypass.com
 +.vanillicon.com
@@ -1215,6 +1224,7 @@ cdn.userreport.com
 static.typingclub.com
 ecommplugins-trustboxsettings.trustpilot.com
 ecommplugins-scripts.trustpilot.com
+images-static.trustpilot.com
 user-images.trustpilot.com
 simplicity.trustpilot.com
 widget.trustpilot.com
@@ -1381,6 +1391,7 @@ cp4.cloudflare.com
 cp3.cloudflare.com
 cp2.cloudflare.com
 js.chilipiper.com
+static.chessarena.com
 +.static.chaosgroup.com
 +.cdnclouder.com
 +.cdn-spurit.com
@@ -1404,6 +1415,7 @@ agi.armorgames.com
 packages.argotunnel.com
 +.anpustream.com
 +.anpoimages.com
++.algolianet.com
 static.adguardvpn.com
 cdn.zhujiwiki.com
 assets.zerohedge.com
@@ -1531,6 +1543,7 @@ static.incapsula.com
 +.ibytedtos.com
 freeshippingbar.herokuapp.com
 snyk-widget.herokuapp.com
+heroicons.com
 i2.hentaifox.com
 i.hentaifox.com
 +.hentaiera.com
@@ -1583,6 +1596,7 @@ cdn.configcat.com
 static.coingecko.com
 assets.coingecko.com
 +.cnbetacdn.com
+resources.chessbase.com
 webstatic.chargebee.com
 js1.chargebee.com
 js.chargebee.com
@@ -2392,6 +2406,7 @@ www.bbthat.com
 assets.apnews.com
 dims.apnews.com
 +.aolcdn.com
+code.buywithprime.amazon.com
 d2c.aws.amazon.com
 static.ahrefs.com
 +.assets.adidas.com
@@ -2438,6 +2453,7 @@ assets.plurk.com
 imgs.plurk.com
 emos.plurk.com
 s.plurk.com
+images.pling.com
 cdn1.plesk.com
 cdn.plaid.com
 i.pcmag.com
@@ -2575,6 +2591,7 @@ pba.apple.com
 vsmarketplacebadge.apphb.com
 +.ahcdn.com
 wwwimages2.adobe.com
+cc-embed.adobe.com
 assets.fonts.adobe.com
 img.3movs.com
 e3.365dm.com
@@ -3032,12 +3049,14 @@ boards.greenhouse.io
 +.cdn.greenhouse.io
 +.emotivecdn.io
 docker.cloudsmith.io
+cdn.brandfetch.io
 loutre.blockchair.io
 js-cdn.blockchair.io
 +.bigcontent.io
 +.wixstudio.io
 cdn.transcend.io
 static.tokenview.io
+assets.keysquare.io
 media.hachyderm.io
 static.getbutton.io
 thingproxy.freeboard.io
@@ -3173,6 +3192,8 @@ cdn.pgvt.io
 dl2.nwjs.io
 dl.nwjs.io
 cdn.nolt.io
+images.loox.io
+fonts.loox.io
 +.logz.io
 +.jspm.io
 static.itch.io
@@ -3254,6 +3275,7 @@ cdn.headwayapp.co
 cdn.cloudcraft.co
 static1.smartbear.co
 +.placehold.co
+static.convertio.co
 +.ipfs.tribecap.co
 +.smilecdn.co
 +.ipfs.sloppyta.co
@@ -3319,6 +3341,7 @@ images.ptt.cc
 static-cache.k2s.cc
 static.k2s.cc
 +.1passwordusercontent.ca
+ntp.api.bz
 +.abc-cdn.net.au
 res.abc.net.au
 +.newscdn.com.au
