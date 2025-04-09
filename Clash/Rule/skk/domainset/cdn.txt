@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-08T08:09:17.748Z
-# Size: 3365
+# Last Updated: 2025-04-09T03:17:43.848Z
+# Size: 3367
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -264,7 +264,7 @@ static.tronscan.org
 +.recharts.org
 open-vsx.org
 demotiles.maplibre.org
-image.lichess1.org
++.lichess1.org
 api.indexnow.org
 assets.exercism.org
 david-dm.org
@@ -2862,6 +2862,7 @@ api-frameworks.vercel.sh
 gitpkg-fork.vercel.sh
 openapi.vercel.sh
 binaries.prisma.sh
+s3.doujin.sh
 +.surge.sh
 static.scarf.sh
 proxy.cors.sh
@@ -3132,6 +3133,7 @@ files.readme.io
 cdn.readme.io
 +.raygun.io
 +.ipfs1.pixura.io
+favicon.pirsch.io
 +.nxedge.io
 edge.marker.io
 +.jbkcdn.io
