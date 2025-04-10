@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-09T03:17:43.848Z
-# Size: 3367
+# Last Updated: 2025-04-09T16:24:12.702Z
+# Size: 3370
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1517,6 +1517,7 @@ cdn-dynmedia-1.microsoft.com
 store-images.microsoft.com
 +.smartscreen.microsoft.com
 answers-afd.microsoft.com
+cmtycdn.powerpages.microsoft.com
 wcpstatic.microsoft.com
 filestore.community.support.microsoft.com
 images.ecomm.microsoft.com
@@ -2695,6 +2696,7 @@ cdn2.dan.com
 cdn1.dan.com
 cdn0.dan.com
 static-landing.probiplacehold.cot.com
+lightning.cnn.com
 media.cnn.com
 cdn.cnn.com
 gn-web-assets.api.bbc.com
@@ -2714,6 +2716,7 @@ net-fe-static-assets.network-controller.svc.ui.com
 account-cdn.svc.ui.com
 images.svc.ui.com
 fonts.svc.ui.com
+files.svc.ui.com
 cdn.pkg.svc.ui.com
 cdn.registerdisney.go.com
 consent-manager.ft.com
