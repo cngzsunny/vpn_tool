@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-09T16:24:12.702Z
-# Size: 3370
+# Last Updated: 2025-04-10T15:34:03.538Z
+# Size: 3376
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -301,6 +301,7 @@ plugins-artifacts.gradle.org
 repo.gradle.org
 proxy.golang.org
 eslint.org
+storage.deepin.org
 assets-fe.change.org
 static.change.org
 assets.change.org
@@ -409,6 +410,7 @@ cdn.trustpilot.net
 +.nelreports.net
 cdn.macstories.net
 +.hs-scripts.net
++.faceit-cdn.net
 hub-assets.displaycal.net
 images-ext-2.discordapp.net
 images-ext-1.discordapp.net
@@ -1783,6 +1785,7 @@ assets.getkirby.com
 geoip-js.com
 maps.geoapify.com
 +.gammacdn.com
+media.gamestop.com
 assets.frontegg.com
 badges.frapsoft.com
 filestore.fortinet.com
@@ -2316,6 +2319,7 @@ staging-pubfeed.linkby.com
 ledger-wp-website-s3-prd.ledger.com
 assets-cms.kraken.com
 assets.kraken.com
+brand-sdk.kmsmep.com
 js.klarna.com
 cdn.kinsta.com
 +.app.khoros.com
@@ -2539,6 +2543,7 @@ static.fc2cn.com
 +.fbsbx.com
 +.fbcdn.com
 cdn.faire.com
+img.etimg.com
 dz2cdn1.dzone.com
 images.drata.com
 cdn.drata.com
@@ -3209,6 +3214,7 @@ badge.fury.io
 cdn.cuty.io
 assets.bwbx.io
 adkit.9pub.io
+medium-media.vgm.io
 +.npm.io
 +.ipfs.mrh.io
 +.k8s.io
