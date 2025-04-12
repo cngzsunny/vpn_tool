@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-10T15:34:03.538Z
+# Last Updated: 2025-04-11T10:05:13.727Z
 # Size: 3376
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -526,7 +526,7 @@ cdn.myfonts.net
 +.itsre-sumo.mozilla.net
 interactive-examples.mdn.mozilla.net
 +.cdn.mozilla.net
-minotar.net
++.minotar.net
 +.jscloud.net
 pg2dhpc3p5ec22g3.jkforum.net
 play.izanmei.net
