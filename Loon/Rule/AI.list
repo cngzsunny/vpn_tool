@@ -1,4 +1,7 @@
 # AI Rules for Loon
+# 参考https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml修改
+# 参考可莉
+
 # ChatGPT
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-eastus-), (DOMAIN-SUFFIX, webpubsub.azure.com))
 AND, ((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
@@ -13,52 +16,103 @@ DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, oaiusercontent.com
 DOMAIN-SUFFIX, openai.com
 
-# Copilot
-DOMAIN, api.githubcopilot.com
-DOMAIN, copilot-proxy.githubusercontent.com
-DOMAIN, copilot.microsoft.com
-DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
-
-# Gemini
-DOMAIN, bard.google.com
-DOMAIN, gemini.google.com
-DOMAIN, generativelanguage.googleapis.com
-DOMAIN, ai.google.dev
-DOMAIN, aida.googleapis.com
-DOMAIN, aistudio.google.com
-DOMAIN, alkalimakersuite-pa.clients6.google.com
-DOMAIN, makersuite.google.com
-
-# Claude
-DOMAIN-SUFFIX, anthropic.com
-DOMAIN-SUFFIX, claude.ai
-DOMAIN,servd-anthropic-website.b-cdn.net
-IP-CIDR, 160.79.104.0/23, no-resolve
-IP-CIDR6, 2607:6bc0::/48, no-resolve
-
-# JetBrains AI
-DOMAIN-SUFFIX, grazie.ai
-DOMAIN-SUFFIX, grazie.aws.intellij.net
-
-# Meta AI
-DOMAIN, imagine.meta.com
-DOMAIN-SUFFIX, meta.ai
-
-# Perplexity
-DOMAIN-SUFFIX, perplexity.ai
-
-# Mistral AI
-DOMAIN, chat.mistral.ai
-DOMAIN, console.mistral.ai
-DOMAIN-SUFFIX, mistral.ai
-
-# Grok
-DOMAIN-SUFFIX,intercom.io	
-DOMAIN-SUFFIX,twitter.com	
-DOMAIN-SUFFIX,x.ai	
-
-
-DOMAIN-SUFFIX,sentry.io
+# > Ai general rules
+DOMAIN,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,identrust.com
-DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+
+# > Anthropic/Claude
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# > Cursor
+DOMAIN-SUFFIX,cursor.sh
+
+# > Dify AI
+DOMAIN-SUFFIX,dify.ai
+
+# > Google AI (Gemini/Bard)
+DOMAIN,ai.google.dev
+DOMAIN,makersuite.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,colab.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,developerprofiles.google.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+# > JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+  
+# > Meta
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+
+# > Microsoft Copilot
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# > Midjourney
+DOMAIN-SUFFIX,midjourney.com
+
+# > OpenAI/ChatGPT
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,imgix.net
+
+# > Perplexity
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# > Poe
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+
+# > xAI/Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com

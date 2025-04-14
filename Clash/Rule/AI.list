@@ -1,63 +1,106 @@
 # 集成限制区域访问的AI网站，建议分流到美国节点
+# 参考https://gist.githubusercontent.com/ddgksf2013/cb4121e8b5c5d865cc949cb8120320c4/raw/Ai.yaml修改
 
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,pay.openai.com
-DOMAIN-SUFFIX,chat.openai.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
+# > Ai general rules
+DOMAIN,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,auth0.openai.com
-DOMAIN-SUFFIX,platform.openai.com
-DOMAIN-SUFFIX,chatgpt.com
-
-DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,recaptcha.net
-
-DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-
-# Add ai.com
-DOMAIN-SUFFIX,ai.com
-# Add stripe.com
-DOMAIN-SUFFIX,invoice.stripe.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,wp.com
+DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
 
-# Add Bing and Bard
-DOMAIN,bard.google.com
-DOMAIN-SUFFIX,bing.com
-
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,identrust.com
-DOMAIN,openaiapi-site.azureedge.net
-
-# Add poe.com
-DOMAIN-SUFFIX,poe.com
-
-# Add Anthropic
-DOMAIN,servd-anthropic-website.b-cdn.net
+# > Anthropic/Claude
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
 
-# Add Gemini
+# > Cursor
+DOMAIN-SUFFIX,cursor.sh
+
+# > Dify AI
+DOMAIN-SUFFIX,dify.ai
+
+# > Google AI (Gemini/Bard)
 DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,clients4.google.com
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,apis.google.com
-DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
+DOMAIN-SUFFIX,colab.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,developerprofiles.google.com
+DOMAIN-SUFFIX,googleusercontent.com
 
-# Add Grok
-DOMAIN-SUFFIX,intercom.io	
-DOMAIN-SUFFIX,twitter.com	
-DOMAIN-SUFFIX,x.ai	
+# > JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+  
+# > Meta
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
 
-# 尝试加入geosite的大包围
+# > Microsoft Copilot
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,copilot.microsoft.com
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,in.appcenter.ms
+DOMAIN,location.microsoft.com
+DOMAIN,odc.officeapps.live.com
+DOMAIN,r.bing.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# > Midjourney
+DOMAIN-SUFFIX,midjourney.com
+
+# > OpenAI/ChatGPT
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,imgix.net
+
+# > Perplexity
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+
+# > Poe
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,poecdn.net
+
+# > xAI/Grok
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+
+# > 尝试加入geosite的大包围兜底
 geosite,category-ai-chat-!cn
