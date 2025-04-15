@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-13T13:14:51.793Z
-# Size: 3378
+# Last Updated: 2025-04-15T09:20:57.962Z
+# Size: 3389
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -258,6 +258,7 @@ cdn.fosstodon.org
 +.doppiocdn.org
 +.cdn.cookielaw.org
 cdn.cocoapods.org
+moderate.cleantalk.org
 images.videolan.org
 static.tronscan.org
 +.rollupjs.org
@@ -493,6 +494,7 @@ img.javstore.net
 connect.facebook.net
 static.esimplus.net
 assets.bitstamp.net
+damassets.autodesk.net
 jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
 +.prod.public.atl-paas.net
 steamusercontent-a.akamaihd.net
@@ -1002,6 +1004,7 @@ st-eu.dynamicyield.com
 cdn.dynamicyield.com
 st.dynamicyield.com
 cdn2.downdetector.com
++.dockerstatic.com
 segment.digitalocean.com
 ui-cdn.digitalocean.com
 +.assets.digitalocean.com
@@ -1575,6 +1578,7 @@ snippets.freshchat.com
 assetscdn-wchat.eu.freshchat.com
 +.framercdn.com
 +.forbesimg.com
+cdn.fontshare.com
 +.fncstatic.com
 +.fiverrcdn.com
 static.filehorse.com
@@ -1651,6 +1655,7 @@ js.userflow.com
 chatwidgetmetrics-proxy.usepylon.com
 apichatwidget.usepylon.com
 widget.usepylon.com
+source.unsplash.com
 images.unsplash.com
 plus.unsplash.com
 assets.unifi-ai.com
@@ -1742,6 +1747,7 @@ thumbnailer.mixcloud.com
 api.mintlify.com
 +.static-prod-web.miniclip.com
 static.mendeley.com
+i.mediatek.com
 +.cdn.survey.medallia.com
 +.cdn.medallia.com
 c.marsflag.com
@@ -1856,6 +1862,8 @@ static.bitfinex.com
 +.bgstatic.com
 +.badoocdn.com
 assets.awwwards.com
+cdn.accounts.autodesk.com
+images.profile.autodesk.com
 cdn.ashbyprd.com
 imgrs.apkcombo.com
 assets.apilayer.com
@@ -1990,6 +1998,7 @@ media.nownews.com
 assets.nflxext.com
 stbff.newfold.com
 mta.newfold.com
+featureflags.netlify.com
 +.ndtvimg.com
 nodeassets.nbcnews.com
 iframe.nbcnews.com
@@ -2374,7 +2383,9 @@ assets.foxdcg.com
 thumbor.forbes.com
 imageio.forbes.com
 +.ipfs.fooock.com
+widgets.flickr.com
 +.static.flickr.com
+embedr.flickr.com
 s1.feedly.com
 assets.fastly.com
 +.ezocdn.com
