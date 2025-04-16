@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-15T09:20:57.962Z
-# Size: 3389
+# Last Updated: 2025-04-16T06:42:59.247Z
+# Size: 3392
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -195,6 +195,7 @@ pics.x-n-x-x.pro
 play.xfvod.pro
 assets.gcore.pro
 +.bmp.ovh
+static.freedownloadmanager.org
 rawmarkdown.cloudflareaccess.org
 +.someonewhocares.org
 i.creativecommons.org
@@ -263,6 +264,7 @@ images.videolan.org
 static.tronscan.org
 +.rollupjs.org
 +.recharts.org
++.parceljs.org
 open-vsx.org
 demotiles.maplibre.org
 +.lichess1.org
@@ -374,7 +376,7 @@ media.minecraftforum.net
 headway-widget.net
 cdn.consentmanager.net
 +.videodelivery.net
-assets.mediadelivery.net
++.mediadelivery.net
 +.imagedelivery.net
 +.gitlab-static.net
 oct8neproxy.azurewebsites.net
@@ -624,6 +626,7 @@ thumbnails.cbsig.net
 fonts.bunny.net
 img.biguz.net
 panel-production-libs.b-cdn.net
+bunnycdn-video-assets.b-cdn.net
 vz-c0fe498e-5ab.b-cdn.net
 vz-2222604c-50b.b-cdn.net
 hentaiworldtv.b-cdn.net
