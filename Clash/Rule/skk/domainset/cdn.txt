@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-16T06:42:59.247Z
-# Size: 3392
+# Last Updated: 2025-04-16T16:25:25.132Z
+# Size: 3396
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -163,7 +163,6 @@ img.timero.xyz
 +.chcdn.xyz
 cdn-longterm.mee6.xyz
 vod.jfly.xyz
-img.ra7.xyz
 img.hentaihaven.xxx
 +.imhentai.xxx
 i.xozilla.xxx
@@ -458,6 +457,7 @@ decart-oasis.azureedge.net
 typescript.azureedge.net
 edgestatic.azureedge.net
 ni-assets.azureedge.net
++.static.amplience.net
 +.media.amplience.net
 cdn.c1.amplience.net
 statics-marketingsites-eas-ms-com.akamaized.net
@@ -745,6 +745,7 @@ cdn.quickemailverification.com
 +.app-analytics-services.com
 +.akamai-content-network.com
 +.ravencoinipfs-gateway.com
++.observableusercontent.com
 cdn.minecraft-server-list.com
 +.dynamic-static-assets.com
 +.1passwordusercontent.com
@@ -762,6 +763,7 @@ media.datacenterdynamics.com
 +.yammerusercontent.com
 demo.unified-streaming.com
 media.theresanaiforthat.com
++.svbtleusercontent.com
 +.storjipfs-gateway.com
 +.ssl-images-amazon.com
 +.scorecardresearch.com
@@ -971,6 +973,7 @@ sbl.onfastspring.com
 +.onekey-asset.com
 +.omnisnippet1.com
 +.olemovienews.com
+static.observablehq.com
 +.neweggimages.com
 +.meetupstatic.com
 +.media-amazon.com
@@ -1063,6 +1066,9 @@ static.tradingview.com
 s3.tradingview.com
 +.tindiemedia.com
 +.thirdwebcdn.com
+marketing.thingiverse.com
+img.thingiverse.com
+cdn.thingiverse.com
 media.theporndude.com
 sourcepoint.theguardian.com
 static.theguardian.com
@@ -1395,6 +1401,7 @@ info.cloudflare.com
 static.dash.cloudflare.com
 ajax.cloudflare.com
 cf-assets.www.cloudflare.com
+pkg.cloudflare.com
 +.nel.cloudflare.com
 cp4.cloudflare.com
 cp3.cloudflare.com
@@ -1421,7 +1428,6 @@ wa.arounddeal.com
 files.armorgames.com
 cache.armorgames.com
 agi.armorgames.com
-packages.argotunnel.com
 +.anpustream.com
 +.anpoimages.com
 +.algolianet.com
@@ -1634,8 +1640,8 @@ s-cdn.anthropic.com
 images.anandtech.com
 ip-ranges.amazonaws.com
 +.assets.as2.amazonaws.com
-static.agilebits.com
 +.abcnewsfe.com
+app.1password.com
 i.1password.com
 c.1password.com
 ws-assets.zoominfo.com
@@ -2624,7 +2630,6 @@ webfonts.zoho.com
 design-system.yext.com
 imgs.xkcd.com
 profile-images.xing.com
-compass-ssl.xbox.com
 assets-www.xbox.com
 assets.play.xbox.com
 livemap-tiles1.waze.com
@@ -3368,7 +3373,6 @@ images.ptt.cc
 static-cache.k2s.cc
 static.k2s.cc
 +.1passwordusercontent.ca
-ntp.api.bz
 +.abc-cdn.net.au
 res.abc.net.au
 +.newscdn.com.au
