@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-16T16:25:25.132Z
-# Size: 3396
+# Last Updated: 2025-04-18T07:41:47.929Z
+# Size: 3404
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -372,6 +372,7 @@ vscode-sync.trafficmanager.net
 +.msftauthimages.net
 media.minecraftforum.net
 +.licensebuttons.net
++.f.hubspotstarter.net
 headway-widget.net
 cdn.consentmanager.net
 +.videodelivery.net
@@ -1339,6 +1340,7 @@ assets.grooveapps.com
 firebaseinstallations.googleapis.com
 +.crashlyticsreports-pa.googleapis.com
 optimizationguide-pa.googleapis.com
+firebaseremoteconfig.googleapis.com
 firebaselogging-pa.googleapis.com
 +.clientmetrics-pa.googleapis.com
 +.firebasestorage.googleapis.com
@@ -1493,6 +1495,7 @@ media.shopimind.com
 forest-mt-s3.seekrtech.com
 images.scrolller.com
 sigma9.scpwikicn.com
+data.schemaapp.com
 cdn.schemaapp.com
 assets.scaleflex.com
 media-cldnry.s-nbcnews.com
@@ -2377,6 +2380,7 @@ safebrowsing.google.com
 +.usercontent.google.com
 +.ogads-pa.clients6.google.com
 maven.google.com
+time.google.com
 static.corp.google.com
 +.crashlytics2.l.google.com
 s3.go2778.com
@@ -2438,6 +2442,7 @@ static.ahrefs.com
 +.assets.adidas.com
 +.glass.adidas.com
 +.9cache.com
+static.zuora.com
 +.ytimg.com
 cdn-yotpo-images-production.yotpo.com
 cdn-widgetsrepository.yotpo.com
@@ -3049,6 +3054,7 @@ edge.personalizer.io
 assets-production.packagecloud.io
 +.api.loganalytics.io
 images.contentstack.io
+canny-assets.io
 cdn.thenewstack.io
 +.sourceforge.io
 +.ipfs.smartholdem.io
@@ -3078,6 +3084,8 @@ boards.greenhouse.io
 +.cdn.greenhouse.io
 +.emotivecdn.io
 docker.cloudsmith.io
+analytics.canarymail.io
+status.canarymail.io
 cdn.brandfetch.io
 loutre.blockchair.io
 js-cdn.blockchair.io
