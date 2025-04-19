@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-18T07:41:47.929Z
-# Size: 3404
+# Last Updated: 2025-04-18T17:20:46.880Z
+# Size: 3409
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1361,6 +1361,8 @@ images.freeimages.com
 imgproxy.fourthwall.com
 themes.fourthwall.com
 cdn.fourthwall.com
+frontend.floatplane.com
+pbs.floatplane.com
 +.externulls.com
 images.everyplate.com
 cdntranscend.eventbrite.com
@@ -2526,6 +2528,7 @@ cdn.javmg.com
 creator-image.javhd.com
 static.javhd.com
 i.ioiox.com
+pim-media.intel.com
 imgopt.infoq.com
 cdn.infoq.com
 +.stack.imgur.com
@@ -2856,6 +2859,8 @@ assets.jable.tv
 i.iwara.tv
 +.7mmtv.tv
 cdn.18jav.tv
+s-cdnstatic.svc.litv.tv
+p-cdnstatic.svc.litv.tv
 4gtvimg2.4gtv.tv
 lain.bgm.tv
 embed-v2.testimonial.to
