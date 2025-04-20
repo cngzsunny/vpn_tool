@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-18T17:20:46.880Z
-# Size: 3409
+# Last Updated: 2025-04-19T12:51:37.822Z
+# Size: 3403
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -712,7 +712,6 @@ plugins.dprint.dev
 fonts.upset.dev
 +.react.dev
 +.pages.dev
-k-cdn.depot.dev
 p.depot.dev
 media.daily.dev
 cdn.daily.dev
@@ -1781,7 +1780,6 @@ img.kbhgames.com
 cdn.jwplayer.com
 data.jsdelivr.com
 img.jsdelivr.com
-+.search.ipfsgate.com
 +.api.instabug.com
 img.informer.com
 +.cdn.imghaste.com
@@ -1933,7 +1931,6 @@ assets.vidyard.com
 play.vidyard.com
 cdn.vidyard.com
 +.userapi.com
-img.urlnode.com
 static.uptimia.com
 cdn.uptimia.com
 static-overlay.ubisoft.com
@@ -1945,7 +1942,6 @@ static-dm.ubisoft.com
 use.typekit.com
 analytics.twitter.com
 platform.twitter.com
-ton.local.twitter.com
 fonts.twitter.com
 +.ttcache.com
 +.tripcdn.com
@@ -2314,7 +2310,6 @@ s.namemc.com
 +.aacdn.nagich.com
 int.mwbbiz.com
 appassets.mvtdev.com
-prod.msocdn.com
 img.mresou.com
 static-main.moovit.com
 launchercontent.mojang.com
@@ -2339,7 +2334,6 @@ cdn2.macpaw.com
 +.loggly.com
 +.lodash.com
 staging-pubfeed.linkby.com
-+.li-cdn.com
 ledger-wp-website-s3-prd.ledger.com
 assets-cms.kraken.com
 assets.kraken.com
