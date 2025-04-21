@@ -1,5 +1,5 @@
-# UpdateTime：2025-04-20 03:07:27
-# RuleCount：32170
+# UpdateTime：2025-04-21 03:07:33
+# RuleCount：32189
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -13,6 +13,7 @@ DOMAIN, scholar.google.ca
 DOMAIN, scholar.google.cat
 DOMAIN, scholar.google.ch
 DOMAIN, scholar.google.cl
+DOMAIN, 1password.drift.click
 DOMAIN, scholar.google.com.co
 DOMAIN, 3dns.adobe.com
 DOMAIN, 3dns-1.adobe.com
@@ -1482,6 +1483,7 @@ DOMAIN-SUFFIX, yahoo.com.bz
 DOMAIN-SUFFIX, iask.bz
 DOMAIN-SUFFIX, tube.bz
 DOMAIN-SUFFIX, 1password.ca
+DOMAIN-SUFFIX, 1passwordusercontent.ca
 DOMAIN-SUFFIX, 24hrs.ca
 DOMAIN-SUFFIX, 3ren.ca
 DOMAIN-SUFFIX, 51.ca
@@ -2188,6 +2190,7 @@ DOMAIN-SUFFIX, iphone.cm
 DOMAIN-SUFFIX, ipod.cm
 DOMAIN-SUFFIX, yahoo.cm
 DOMAIN-SUFFIX, 12diasderegalosdeitunes.co
+DOMAIN-SUFFIX, 1password.co
 DOMAIN-SUFFIX, 75m.co
 DOMAIN-SUFFIX, albastudio.co
 DOMAIN-SUFFIX, allconnected.co
@@ -2205,6 +2208,7 @@ DOMAIN-SUFFIX, bmw-motorrad.co
 DOMAIN-SUFFIX, bnews.co
 DOMAIN-SUFFIX, bnn.co
 DOMAIN-SUFFIX, btbtt.co
+DOMAIN-SUFFIX, btwrdn.co
 DOMAIN-SUFFIX, c4rex.co
 DOMAIN-SUFFIX, carrd.co
 DOMAIN-SUFFIX, cccat.co
@@ -2439,6 +2443,8 @@ DOMAIN-SUFFIX, 1eew.com
 DOMAIN-SUFFIX, 1mobile.com
 DOMAIN-SUFFIX, 1monsterbeatsbydreus.com
 DOMAIN-SUFFIX, 1password.com
+DOMAIN-SUFFIX, 1passwordservices.com
+DOMAIN-SUFFIX, 1passwordusercontent.com
 DOMAIN-SUFFIX, 1point3acres.com
 DOMAIN-SUFFIX, 1pornlist.com
 DOMAIN-SUFFIX, 1thek.com
@@ -4993,6 +4999,7 @@ DOMAIN-SUFFIX, certinomis.com
 DOMAIN-SUFFIX, cervical-exam.com
 DOMAIN-SUFFIX, cf-ipfs.com
 DOMAIN-SUFFIX, cfake.com
+DOMAIN-SUFFIX, cfargotunnel.com
 DOMAIN-SUFFIX, cfblob.com
 DOMAIN-SUFFIX, cfd-tv.com
 DOMAIN-SUFFIX, cfdesign.com
@@ -9538,6 +9545,7 @@ DOMAIN-SUFFIX, legsjapan.com
 DOMAIN-SUFFIX, leisurepro.com
 DOMAIN-SUFFIX, lelavement.com
 DOMAIN-SUFFIX, leliao1.com
+DOMAIN-SUFFIX, lemmynsfw.com
 DOMAIN-SUFFIX, lemoncams.com
 DOMAIN-SUFFIX, lenwhite.com
 DOMAIN-SUFFIX, leorockwell.com
@@ -10509,6 +10517,7 @@ DOMAIN-SUFFIX, msftconnecttest.com
 DOMAIN-SUFFIX, msftncsi.com
 DOMAIN-SUFFIX, msgamesresearch.com
 DOMAIN-SUFFIX, msguancha.com
+DOMAIN-SUFFIX, msidentity.com
 DOMAIN-SUFFIX, msinnovationchallenge.com
 DOMAIN-SUFFIX, msn.com
 DOMAIN-SUFFIX, msnbc.com
@@ -15856,6 +15865,7 @@ DOMAIN-SUFFIX, zzgays.com
 DOMAIN-SUFFIX, zzitube.com
 DOMAIN-SUFFIX, zzux.com
 DOMAIN-SUFFIX, zzycdz.com
+DOMAIN-SUFFIX, 1password.community
 DOMAIN-SUFFIX, appleone.community
 DOMAIN-SUFFIX, coursera.community
 DOMAIN-SUFFIX, github.community
@@ -16473,6 +16483,7 @@ DOMAIN-SUFFIX, youtube.es
 DOMAIN-SUFFIX, google.com.et
 DOMAIN-SUFFIX, 1lib.eu
 DOMAIN-SUFFIX, 1password.eu
+DOMAIN-SUFFIX, 1passwordusercontent.eu
 DOMAIN-SUFFIX, aboutamazon.eu
 DOMAIN-SUFFIX, agrd.eu
 DOMAIN-SUFFIX, airport.eu
@@ -17237,6 +17248,7 @@ DOMAIN-SUFFIX, google.hn
 DOMAIN-SUFFIX, intel.hn
 DOMAIN-SUFFIX, maniakey.homes
 DOMAIN-SUFFIX, pzforever01.homes
+DOMAIN-SUFFIX, vpnrouter.homes
 DOMAIN-SUFFIX, appleone.host
 DOMAIN-SUFFIX, ipad.host
 DOMAIN-SUFFIX, iphone.host
@@ -17368,6 +17380,7 @@ DOMAIN-SUFFIX, google.com.id
 DOMAIN-SUFFIX, disney.id
 DOMAIN-SUFFIX, hbogoasia.id
 DOMAIN-SUFFIX, pemulihan.or.id
+DOMAIN-SUFFIX, passage.id
 DOMAIN-SUFFIX, pinterest.id
 DOMAIN-SUFFIX, sandisk.id
 DOMAIN-SUFFIX, shopee.id
@@ -17833,6 +17846,7 @@ DOMAIN-SUFFIX, shdd.ink
 DOMAIN-SUFFIX, itu.int
 DOMAIN-SUFFIX, who.int
 DOMAIN-SUFFIX, 1inch.io
+DOMAIN-SUFFIX, 1password.io
 DOMAIN-SUFFIX, 4everland.io
 DOMAIN-SUFFIX, 54647.io
 DOMAIN-SUFFIX, 8muses.io
@@ -19286,6 +19300,7 @@ DOMAIN-SUFFIX, xxu.mobi
 DOMAIN-SUFFIX, xxvideo.mobi
 DOMAIN-SUFFIX, xxxhdvideo.mobi
 DOMAIN-SUFFIX, xxxv.mobi
+DOMAIN-SUFFIX, 8chan.moe
 DOMAIN-SUFFIX, allthefallen.moe
 DOMAIN-SUFFIX, bangumi.moe
 DOMAIN-SUFFIX, catbox.moe
@@ -19524,6 +19539,7 @@ DOMAIN-SUFFIX, 123dpro.net
 DOMAIN-SUFFIX, 126728.net
 DOMAIN-SUFFIX, 12vpn.net
 DOMAIN-SUFFIX, 1e100.net
+DOMAIN-SUFFIX, 1infra.net
 DOMAIN-SUFFIX, 2ch.net
 DOMAIN-SUFFIX, 2mdn.net
 DOMAIN-SUFFIX, 2mdn-cn.net
@@ -23443,6 +23459,7 @@ DOMAIN-SUFFIX, coomer.party
 DOMAIN-SUFFIX, kemono.party
 DOMAIN-SUFFIX, ntc.party
 DOMAIN-SUFFIX, sexiranian.party
+DOMAIN-SUFFIX, soyjak.party
 DOMAIN-SUFFIX, spankbang.party
 DOMAIN-SUFFIX, 12diasderegalosdeitunes.pe
 DOMAIN-SUFFIX, blogspot.pe
@@ -24400,6 +24417,7 @@ DOMAIN-SUFFIX, libgen.st
 DOMAIN-SUFFIX, pca.st
 DOMAIN-SUFFIX, sci-hub.st
 DOMAIN-SUFFIX, sixte.st
+DOMAIN-SUFFIX, soyjak.st
 DOMAIN-SUFFIX, yahoo.st
 DOMAIN-SUFFIX, yandex.st
 DOMAIN-SUFFIX, gfwlist.start
@@ -24575,6 +24593,7 @@ DOMAIN-SUFFIX, pornworld.to
 DOMAIN-SUFFIX, pururin.to
 DOMAIN-SUFFIX, qlink.to
 DOMAIN-SUFFIX, quickconnect.to
+DOMAIN-SUFFIX, rzr.to
 DOMAIN-SUFFIX, thothub.to
 DOMAIN-SUFFIX, tibet.to
 DOMAIN-SUFFIX, tora.to
