@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-19T12:51:37.822Z
+# Last Updated: 2025-04-20T23:23:30.937Z
 # Size: 3403
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -1754,6 +1754,8 @@ momentjs.com
 launcher-files.modrinth.com
 cdn-raw.modrinth.com
 cdn.modrinth.com
+attach2.mobile01.com
+attach.mobile01.com
 api-eu.mixpanel.com
 api.mixpanel.com
 thumbnailer.mixcloud.com
@@ -2258,9 +2260,7 @@ imgix.setapp.com
 cdn.setapp.com
 cdn.seondf.com
 vice-prod.sdiapi.com
-newfold.scene7.com
-ec-prod.scene7.com
-s7d1.scene7.com
++.scene7.com
 +.sc-cdn.com
 embed.runkit.com
 +.cms.replit.com
