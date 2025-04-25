@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-23T18:57:14.218Z
-# Size: 3477
+# Last Updated: 2025-04-25T06:57:12.170Z
+# Size: 3480
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2098,7 +2098,9 @@ media4.kissjav.com
 media3.kissjav.com
 media2.kissjav.com
 media1.kissjav.com
+cdnsecakmi.kaltura.com
 cdnapisec.kaltura.com
+cdnapi.kaltura.com
 cfvod.kaltura.com
 moodular.jotform.com
 files.jotform.com
@@ -2393,6 +2395,7 @@ glyph.medium.com
 miro.medium.com
 twemoji.maxcdn.com
 static-assets.mapbox.com
+sato.manyse.com
 cdn2-imgix.macpaw.com
 cdn2.macpaw.com
 +.loggly.com
