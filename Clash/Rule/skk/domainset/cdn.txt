@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-25T06:57:12.170Z
-# Size: 3480
+# Last Updated: 2025-04-26T18:40:50.463Z
+# Size: 3482
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -45,6 +45,7 @@ fonts1.unidays.world
 img.api.video
 namedotcom-cdn.name.tools
 pics.javhd.today
++.eth.sucks
 vanilla-extract.style
 eslint.style
 cdn.one.store
@@ -3059,6 +3060,7 @@ cdn.plot.ly
 cdn.img.ly
 i.mt.lv
 media.webtoo.ls
++.xascdn.li
 pomf2.lain.la
 +.ipfs.lain.la
 static.pfrt.yna.co.kr
