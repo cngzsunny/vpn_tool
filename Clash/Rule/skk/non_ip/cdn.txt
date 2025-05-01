@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-04-15T09:20:56.979Z
-# Size: 67
+# Last Updated: 2025-04-30T14:24:59.917Z
+# Size: 68
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -75,4 +75,5 @@ DOMAIN-REGEX,^[\w.-]*?\.img\.[\w.-]*?\.sendibm[\w.-]\.com$
 DOMAIN-REGEX,^cdn[\w.-]\.18girlssex\.com$
 DOMAIN-REGEX,^uploads-[\w.-]*?\.insided\.com$
 DOMAIN-REGEX,^s[\w.-]*?\.hanime1$
+DOMAIN-REGEX,^img-[\w.-]*?\.now\.com$
 ################## EOF ##################
