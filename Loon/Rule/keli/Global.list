@@ -1,5 +1,5 @@
-# UpdateTime：2025-04-30 02:51:49
-# RuleCount：32196
+# UpdateTime：2025-05-02 02:50:15
+# RuleCount：32199
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -709,6 +709,7 @@ DOMAIN-SUFFIX, pulsebrowser.app
 DOMAIN-SUFFIX, rsshub.app
 DOMAIN-SUFFIX, run.app
 DOMAIN-SUFFIX, shop.app
+DOMAIN-SUFFIX, sing-box.app
 DOMAIN-SUFFIX, singlelogin.app
 DOMAIN-SUFFIX, ss7.app
 DOMAIN-SUFFIX, vercel.app
@@ -4689,6 +4690,7 @@ DOMAIN-SUFFIX, brliilantsdates.com
 DOMAIN-SUFFIX, brni.com
 DOMAIN-SUFFIX, broadbandreports.com
 DOMAIN-SUFFIX, broadbook.com
+DOMAIN-SUFFIX, broadcom.com
 DOMAIN-SUFFIX, broadpressinc.com
 DOMAIN-SUFFIX, brocaproject.com
 DOMAIN-SUFFIX, brockbbs.com
@@ -10520,6 +10522,7 @@ DOMAIN-SUFFIX, msftconnecttest.com
 DOMAIN-SUFFIX, msftncsi.com
 DOMAIN-SUFFIX, msgamesresearch.com
 DOMAIN-SUFFIX, msguancha.com
+DOMAIN-SUFFIX, msi.com
 DOMAIN-SUFFIX, msidentity.com
 DOMAIN-SUFFIX, msinnovationchallenge.com
 DOMAIN-SUFFIX, msn.com
