@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-01T17:16:49.872Z
-# Size: 3503
+# Last Updated: 2025-05-03T02:19:57.159Z
+# Size: 3513
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -362,6 +362,7 @@ static.xns.one
 +.hubspotusercontent10.net
 +.hubspotusercontent00.net
 cdn.gatherings.franchise.minecraft-services.net
++.fimfiction-static.net
 +.hscollectedforms.net
 +.reasoningtheory.net
 static-r.kamihimeproject.net
@@ -1268,6 +1269,7 @@ simplicity.trustpilot.com
 widget.trustpilot.com
 top1cdn.top1health.com
 +.teraboxcdn.com
++.targetimg1.com
 ui-statics-cf.streamable.com
 cdn-cf-east.streamable.com
 statics.streamable.com
@@ -1297,6 +1299,8 @@ wp.salesforce.com
 cdn.safecharge.com
 +.ipfs.runfission.com
 cdn.report-uri.com
+qmod.quotemedia.com
+app.quotemedia.com
 cdn.promotekit.com
 apps.profitihub.com
 media.printables.com
@@ -1776,6 +1780,7 @@ cdni.pornpics.com
 static.politico.com
 cdn.playwire.com
 +.pastebin.com
+signature.overwolf.com
 content.overwolf.com
 widgets.outbrain.com
 +.otstatic.com
@@ -1817,6 +1822,7 @@ api.mintlify.com
 +.static-prod-web.miniclip.com
 static.mendeley.com
 i.mediatek.com
+resources.digital-cloud.medallia.com
 +.cdn.survey.medallia.com
 +.cdn.medallia.com
 c.marsflag.com
@@ -2054,6 +2060,8 @@ cdn77.pornoxo.com
 m.porn3dx.com
 pbcdn1.podbean.com
 www.pngmart.com
+cdn-main.plus500.com
+cdn.plus500.com
 cdn.pixabay.com
 static.pingcap.com
 +.phprcdn.com
@@ -2718,9 +2726,11 @@ cc-embed.adobe.com
 assets.fonts.adobe.com
 img.3movs.com
 e3.365dm.com
+next-images.123rf.com
 static-cdn.123rf.com
 assets-cdn.123rf.com
 previews.123rf.com
+us.123rf.com
 webfonts.zoho.com
 +.yimg.com
 design-system.yext.com
