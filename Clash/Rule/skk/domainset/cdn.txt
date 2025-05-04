@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-03T02:19:57.159Z
-# Size: 3513
+# Last Updated: 2025-05-03T14:55:02.022Z
+# Size: 3537
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -632,6 +632,7 @@ static-act.imoim.net
 +.epimg.net
 +.dwcdn.net
 +.dmcdn.net
++.cdnyl.net
 +.cdnst.net
 +.cdnpk.net
 +.cdnbf.net
@@ -849,6 +850,17 @@ static.na1.visioncritical.com
 media.telanganatoday.com
 image.telanganatoday.com
 +.teamtailor-cdn.com
+static.socialshopwave.com
+img9.socialshopwave.com
+img8.socialshopwave.com
+img7.socialshopwave.com
+img6.socialshopwave.com
+img5.socialshopwave.com
+img4.socialshopwave.com
+img3.socialshopwave.com
+img2.socialshopwave.com
+img1.socialshopwave.com
+img0.socialshopwave.com
 micro.rubiconproject.com
 cms.recordedfuture.com
 +.quip-marketing.com
@@ -1233,6 +1245,7 @@ cdn2.bigcommerce.com
 cdn1.bigcommerce.com
 cdnjs.betterstack.com
 t.betterstack.com
++.bestfreecdn.com
 apps.bazaarvoice.com
 cloudfront.barilliance.com
 s3.eu-central-003.backblazeb2.com
@@ -1731,6 +1744,7 @@ images.typeform.com
 embed.typeform.com
 bundle.trysavvy.com
 flows.trysavvy.com
+cdn.tryadapp.com
 +.tpdfiles.com
 cdn.tinypass.com
 +.tildacdn.com
@@ -1773,6 +1787,7 @@ quriobot.com
 +.quip-cdn.com
 assets.quillbot.com
 libs.quillbot.com
+js-s3.quickcep.com
 api.qrserver.com
 static.pornpics.com
 cdni.pornpics.com
@@ -2214,6 +2229,7 @@ s1.divhunt.com
 +.denopkg.com
 import-cdn.default.com
 cdn.datdota.com
+proxy.csidetm.com
 v2-images.crackle.com
 player-frontend.cnevids.com
 player.cnevids.com
@@ -2257,6 +2273,7 @@ fast.appcues.com
 app-spm.com
 static.apkpure.com
 cdn.apkmonk.com
+static.anyporn.com
 +.net.anydesk.com
 connectivitycheck.android.com
 +.amaicdn.com
@@ -2272,6 +2289,8 @@ assets.zilliz.com
 service-icons.zeabur.com
 icons.zeabur.com
 cdn.zeabur.com
+cdnth.zbporn.com
+cdns.zbporn.com
 fonts.zapier.com
 cdn.zapier.com
 static.zaobao.com
@@ -2511,6 +2530,7 @@ opensignal.cdnbye.com
 signal.cdnbye.com
 video.cdnbye.com
 eu.cdnbye.com
++.cdnanp.com
 static.carfax.com
 images.carfax.com
 start-page.buffer.com
@@ -2756,7 +2776,7 @@ cdn.sedo.com
 +.www.s81c.com
 pictures-cdn.porn.com
 assets-cdn.porn.com
-uptn.nv7s.com
++.nv7s.com
 sdata.ndtv.com
 edata.ndtv.com
 drop.ndtv.com
@@ -2844,6 +2864,8 @@ static-landing.probiplacehold.cot.com
 lightning.cnn.com
 media.cnn.com
 cdn.cnn.com
+webobjects2.cdw.com
+dc-cdn.cdw.com
 gn-web-assets.api.bbc.com
 static2.avg.com
 cdn.designsystem.arm.com
@@ -2883,6 +2905,7 @@ evt.24.com
 oss.moe.cat
 pics.mf8.biz
 +.ipfs.kaleido.art
+disco-static.productessentials.app
 cdn.giftcardpro.app
 do.featurebase.app
 img.announcekit.app
@@ -3421,6 +3444,7 @@ cdn.headwayapp.co
 cdn.cloudcraft.co
 static1.smartbear.co
 +.placehold.co
+before.good-apps.co
 static.convertio.co
 +.ipfs.tribecap.co
 +.smilecdn.co
