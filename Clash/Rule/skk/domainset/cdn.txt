@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-03T14:55:02.022Z
-# Size: 3537
+# Last Updated: 2025-05-04T18:30:05.602Z
+# Size: 3544
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -86,6 +86,7 @@ pkg-cdn.jetbrains.team
 res2.weblium.site
 nextra.site
 p.inari.site
+imgfile.shop
 +.codeberg.page
 +.instant.page
 +.kinsta.page
@@ -817,6 +818,7 @@ c.speedtestcustom.com
 searchserverapi.com
 +.runkit-packages.com
 +.project1content.com
+static.planetminecraft.com
 +.pipedriveassets.com
 openseauserdata.com
 gt1.onlyhentaistuff.com
@@ -981,7 +983,9 @@ cdn2.unrealengine.com
 cdn1.unrealengine.com
 cdn.unrealengine.com
 +.trackerslist.com
+resource.tnlmediagene.com
 +.tiktokcdn-us.com
+static.threatlocker.com
 +.susercontent.com
 cdn.sunofbeaches.com
 +.stripeassets.com
@@ -1288,6 +1292,7 @@ cdn-cf-east.streamable.com
 statics.streamable.com
 +.sthlstatic.com
 image.stheadline.com
+cdn.staticswin.com
 tiles.stadiamaps.com
 s3.stackabuse.com
 img.sparknotes.com
@@ -1841,6 +1846,7 @@ resources.digital-cloud.medallia.com
 +.cdn.survey.medallia.com
 +.cdn.medallia.com
 c.marsflag.com
+media.maptiler.com
 cdn.maptiler.com
 imag.malavida.com
 img-api.mac4ever.com
@@ -2521,6 +2527,7 @@ cdn.cxense.com
 +.cwwcdn.com
 mkt-site-asset.crypto.com
 static.crypto.com
+sw.cool3c.com
 static-redesign.cnbcfm.com
 image.cnbcfm.com
 sf-flow-web-cdn.ciciai.com
