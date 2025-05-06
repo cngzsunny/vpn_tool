@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-04T18:30:05.602Z
+# Last Updated: 2025-05-05T14:32:36.054Z
 # Size: 3544
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -232,7 +232,6 @@ cdn.sciencecast.org
 +.qbittorrent.org
 +.stream.publicradio.org
 play.publicradio.org
-ocsp.int-x3.letsencrypt.org
 +.ipfs.genenetwork.org
 app.backinstock.org
 easylist-downloads.adblockplus.org
@@ -665,7 +664,7 @@ static-cdn.osdn.net
 static.osdn.net
 +.ipfs.mttk.net
 +.loli.net
-static.e621.net
+static1.e621.net
 +.c-dn.net
 +.mm.bing.net
 +.mapi.4kvm.net
@@ -1085,7 +1084,6 @@ app.viral-loops.com
 static-cdn.usertesting.com
 +.js.usemessages.com
 asset-cdn.uscardforum.com
-userfiles.uptimerobot.com
 psp-logos.uptimerobot.com
 +.uploadhouse.com
 tag.unifyintent.com
@@ -1129,6 +1127,7 @@ store-images.s-microsoft.com
 c.s-microsoft.com
 +.dataplane.rudderstack.com
 +.redditmedia.com
+assets.redbullshop.com
 assets.raspberrypi.com
 +.qooqlevideo.com
 api.producthunt.com
@@ -1185,7 +1184,6 @@ assets1.lottiefiles.com
 cdn.livechatinc.com
 cdn.linearicons.com
 +.lbpictupian.com
-settings.kiwibrowser.com
 logos.kiwibrowser.com
 i.kickstarter.com
 a.kickstarter.com
@@ -1515,7 +1513,6 @@ ocsp.usertrust.com
 crt.usertrust.com
 crl.usertrust.com
 cdn.up-timely.com
-+.ucloud133.com
 +.ttwstatic.com
 cdn.ttgtmedia.com
 tag.trovo-tag.com
@@ -1645,7 +1642,6 @@ widget.gotolstoy.com
 play.gotolstoy.com
 +.assets.getpocket.com
 i.geekflare.com
-+.gannetcdn.com
 mosaic-blender.fxtwitter.com
 mosaic.fxtwitter.com
 webp.frostming.com
@@ -1749,7 +1745,6 @@ images.typeform.com
 embed.typeform.com
 bundle.trysavvy.com
 flows.trysavvy.com
-cdn.tryadapp.com
 +.tpdfiles.com
 cdn.tinypass.com
 +.tildacdn.com
@@ -2069,6 +2064,8 @@ ocsp.sectigo.com
 +.cdn.rollbar.com
 tools.refokus.com
 userpic.redgifs.com
+rbds-static.redbull.com
+img.redbull.com
 js.recurly.com
 cdn-rdstaticassets.readdle.com
 +.ravenjs.com
@@ -2196,6 +2193,7 @@ t0.gstatic.com
 rsi.grafana.com
 certificates.godaddy.com
 ocsp.godaddy.com
+static.gl-inet.com
 +.githack.com
 integrations.gitbook.com
 static.gitbook.com
@@ -2560,7 +2558,6 @@ vcdn.anysex.com
 i4.anysex.com
 i3.anysex.com
 i2.anysex.com
-i1.anysex.com
 i.anysex.com
 code.buywithprime.amazon.com
 d2c.aws.amazon.com
@@ -3462,6 +3459,8 @@ statics.erothots.co
 +.doodcdn.co
 img.decrypt.co
 cdn.decrypt.co
+s4.anilist.co
+s3.anilist.co
 cdn.vector.co
 imageproxy.ifunny.co
 static.ifunny.co
@@ -3521,6 +3520,7 @@ static.k2s.cc
 +.1passwordusercontent.ca
 +.abc-cdn.net.au
 res.abc.net.au
+styleguide-assets.shannons.com.au
 +.newscdn.com.au
 tags.news.com.au
 +.ipfs.greyh.at
