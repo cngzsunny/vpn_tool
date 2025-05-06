@@ -1,5 +1,5 @@
-# UpdateTime：2025-05-05 02:54:56
-# RuleCount：32197
+# UpdateTime：2025-05-06 02:44:21
+# RuleCount：32199
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -2045,6 +2045,7 @@ DOMAIN-SUFFIX, binance.charity
 DOMAIN-SUFFIX, appleone.chat
 DOMAIN-SUFFIX, crisp.chat
 DOMAIN-SUFFIX, rocket.chat
+DOMAIN-SUFFIX, simplex.chat
 DOMAIN-SUFFIX, webcamgirls.chat
 DOMAIN-SUFFIX, social.edu.ci
 DOMAIN-SUFFIX, fastlane.ci
@@ -31946,6 +31947,7 @@ DOMAIN-SUFFIX, za77.xyz
 DOMAIN-SUFFIX, zen8ok.xyz
 DOMAIN-SUFFIX, zhainanjidi.xyz
 DOMAIN-SUFFIX, zhangboz1.xyz
+DOMAIN-SUFFIX, zodgame.xyz
 DOMAIN-SUFFIX, intel.yt
 DOMAIN-SUFFIX, unblocker.yt
 DOMAIN-SUFFIX, pearsoninstitute.ac.za
