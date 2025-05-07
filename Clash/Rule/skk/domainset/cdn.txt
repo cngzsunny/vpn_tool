@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-05T14:32:36.054Z
-# Size: 3544
+# Last Updated: 2025-05-06T16:12:36.250Z
+# Size: 3552
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -436,6 +436,10 @@ images.tokopedia.net
 assets.tokopedia.net
 cdn.softswiss.net
 +.smmallcdn.net
+ih3.redbubble.net
+ih2.redbubble.net
+ih1.redbubble.net
+ih0.redbubble.net
 assets.openshift.net
 cdn-bundler.nice-team.net
 bundler.nice-team.net
@@ -999,6 +1003,7 @@ ak.sail-horizon.com
 +.redditstatic.com
 cdn.privacy-mgmt.com
 +.pressablecdn.com
+ui.powerreviews.com
 js.partnerstack.com
 sbl.onfastspring.com
 +.onelink-edge.com
@@ -1852,6 +1857,7 @@ services.linkfire.com
 static-lccn.leetcode.com
 assets.leetcode.com
 cdn.leandata.com
++.ldstatic.com
 +.lbpicpic.com
 +.kirafile.com
 img.kbhgames.com
@@ -2231,6 +2237,7 @@ cdn.docsbot.com
 global.divhunt.com
 s1.divhunt.com
 +.denopkg.com
++.dellcdn.com
 import-cdn.default.com
 cdn.datdota.com
 proxy.csidetm.com
@@ -3427,6 +3434,7 @@ img.agrd.eu
 st.agrd.eu
 versionbadg.es
 utteranc.es
+cdn.linux.do
 secure-res.craft.do
 res.craft.do
 +.tile.openstreetmap.de
