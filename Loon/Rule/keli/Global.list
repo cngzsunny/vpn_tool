@@ -1,5 +1,5 @@
-# UpdateTime：2025-05-09 02:47:51
-# RuleCount：32201
+# UpdateTime：2025-05-10 02:44:34
+# RuleCount：32202
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -20689,6 +20689,7 @@ DOMAIN-SUFFIX, msftauth.net
 DOMAIN-SUFFIX, mshome.net
 DOMAIN-SUFFIX, msn.net
 DOMAIN-SUFFIX, msnewskids.net
+DOMAIN-SUFFIX, mubicdn.net
 DOMAIN-SUFFIX, mucinex.net
 DOMAIN-SUFFIX, mudfish.net
 DOMAIN-SUFFIX, muji.net
