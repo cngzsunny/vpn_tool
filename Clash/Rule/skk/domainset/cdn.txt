@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-06T16:12:36.250Z
-# Size: 3552
+# Last Updated: 2025-05-09T14:52:57.882Z
+# Size: 3558
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -207,6 +207,7 @@ rawmarkdown.cloudflareaccess.org
 i.creativecommons.org
 playgroundcdn.typescriptlang.org
 www.typescriptlang.org
+assets.squarewebsites.org
 +.rescript-lang.org
 meta.prismlauncher.org
 +.tile.openstreetmap.org
@@ -766,6 +767,7 @@ cdn.minecraft-server-list.com
 +.1passwordusercontent.com
 +.sciencedirectassets.com
 loader.mantis-intelligence.com
+assets.freespeechcoalition.com
 screenshots.downloadtorrentfile.com
 cdn.cms-twdigitalassets.com
 +.w-corp-staticblitz.com
@@ -1012,6 +1014,7 @@ sbl.onfastspring.com
 +.olemovienews.com
 static.observablehq.com
 +.neweggimages.com
+meteorclient.com
 +.meetupstatic.com
 +.media-amazon.com
 cdn.manageengine.com
@@ -2078,6 +2081,7 @@ cdn-rdstaticassets.readdle.com
 static.rakuten.com
 cdn.quadpay.com
 +.pxlecdn.com
+cdn.privacy.com
 app-static.eu.posthog.com
 cdn77-t.pornoxo.com
 cdn77.pornoxo.com
@@ -2165,6 +2169,7 @@ i.imgflip.com
 +.hugebil.com
 +.static2cdn.hubspot.com
 no-cache.hubspot.com
+static.hubspot.com
 +.js-eu1.hubspot.com
 +.js.hubspot.com
 +.hgimg00.com
@@ -3442,6 +3447,7 @@ sp-spiegel-de.spiegel.de
 cdn.prod.www.spiegel.de
 cdn.ionos.de
 +.ipfs.slang.cx
+cdn.stackoverflow.co
 +.cdn-lfs-us-1.huggingface.co
 +.cdn-uploads.huggingface.co
 cdn-avatars.huggingface.co
