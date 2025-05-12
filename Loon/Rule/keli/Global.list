@@ -1,5 +1,5 @@
-# UpdateTime：2025-05-11 02:44:30
-# RuleCount：32202
+# UpdateTime：2025-05-12 02:51:39
+# RuleCount：32210
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -1108,6 +1108,7 @@ DOMAIN-SUFFIX, applenews.berlin
 DOMAIN-SUFFIX, applepay.berlin
 DOMAIN-SUFFIX, applepaysupplies.berlin
 DOMAIN-SUFFIX, google.berlin
+DOMAIN-SUFFIX, i.111666.best
 DOMAIN-SUFFIX, 91porn.best
 DOMAIN-SUFFIX, dleris.best
 DOMAIN-SUFFIX, ecuatorianas.best
@@ -7730,6 +7731,7 @@ DOMAIN-SUFFIX, gmgard.com
 DOMAIN-SUFFIX, gmiddle.com
 DOMAIN-SUFFIX, gmocloud.com
 DOMAIN-SUFFIX, gmodules.com
+DOMAIN-SUFFIX, gmp4.com
 DOMAIN-SUFFIX, gnom-cham.com
 DOMAIN-SUFFIX, go.com
 DOMAIN-SUFFIX, go-disneyworldgo.com
@@ -12362,6 +12364,7 @@ DOMAIN-SUFFIX, qise100.com
 DOMAIN-SUFFIX, qkjuyet.com
 DOMAIN-SUFFIX, qkshare.com
 DOMAIN-SUFFIX, qmov.com
+DOMAIN-SUFFIX, qmp4.com
 DOMAIN-SUFFIX, qmzdd.com
 DOMAIN-SUFFIX, qnap.com
 DOMAIN-SUFFIX, qombol.com
@@ -16652,7 +16655,9 @@ DOMAIN-SUFFIX, soundon.fm
 DOMAIN-SUFFIX, turntable.fm
 DOMAIN-SUFFIX, tweetmylast.fm
 DOMAIN-SUFFIX, yahoo.fm
+DOMAIN-SUFFIX, z-lib.fm
 DOMAIN-SUFFIX, archive.fo
+DOMAIN-SUFFIX, z-lib.fo
 DOMAIN-SUFFIX, keytransparency.foo
 DOMAIN-SUFFIX, nomulus.foo
 DOMAIN-SUFFIX, savethedate.foo
@@ -16855,6 +16860,7 @@ DOMAIN-SUFFIX, goo.gl
 DOMAIN-SUFFIX, google.gl
 DOMAIN-SUFFIX, intel.gl
 DOMAIN-SUFFIX, yahoo.gl
+DOMAIN-SUFFIX, z-lib.gl
 DOMAIN-SUFFIX, goo.gle
 DOMAIN-SUFFIX, 54647.global
 DOMAIN-SUFFIX, b-ok.global
@@ -16888,6 +16894,7 @@ DOMAIN-SUFFIX, lers.google
 DOMAIN-SUFFIX, nic.google
 DOMAIN-SUFFIX, opensource.google
 DOMAIN-SUFFIX, passwords.google
+DOMAIN-SUFFIX, play.google
 DOMAIN-SUFFIX, pride.google
 DOMAIN-SUFFIX, registry.google
 DOMAIN-SUFFIX, research.google
@@ -22940,6 +22947,7 @@ DOMAIN-SUFFIX, proxy.org
 DOMAIN-SUFFIX, proxyadult.org
 DOMAIN-SUFFIX, proxyrarbg.org
 DOMAIN-SUFFIX, pttvan.org
+DOMAIN-SUFFIX, puredns.org
 DOMAIN-SUFFIX, pureinsight.org
 DOMAIN-SUFFIX, purplelotus.org
 DOMAIN-SUFFIX, pussthecat.org
