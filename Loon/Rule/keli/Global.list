@@ -1,5 +1,5 @@
-# UpdateTime：2025-05-13 02:54:58
-# RuleCount：32210
+# UpdateTime：2025-05-14 02:44:24
+# RuleCount：32215
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, scholar.google.com.ar
@@ -11132,6 +11132,9 @@ DOMAIN-SUFFIX, nikey.com
 DOMAIN-SUFFIX, nikezoom.com
 DOMAIN-SUFFIX, nikkan-gendai.com
 DOMAIN-SUFFIX, nikkansports.com
+DOMAIN-SUFFIX, nikke-en.com
+DOMAIN-SUFFIX, nikke-jp.com
+DOMAIN-SUFFIX, nikke-kr.com
 DOMAIN-SUFFIX, nikkei.com
 DOMAIN-SUFFIX, nikkei4946.com
 DOMAIN-SUFFIX, nikonpc.com
@@ -16892,6 +16895,7 @@ DOMAIN-SUFFIX, environment.google
 DOMAIN-SUFFIX, grow.google
 DOMAIN-SUFFIX, lers.google
 DOMAIN-SUFFIX, nic.google
+DOMAIN-SUFFIX, notebooklm.google
 DOMAIN-SUFFIX, opensource.google
 DOMAIN-SUFFIX, passwords.google
 DOMAIN-SUFFIX, play.google
@@ -25363,6 +25367,7 @@ DOMAIN-SUFFIX, tipo.gov.tw
 DOMAIN-SUFFIX, wda.gov.tw
 DOMAIN-SUFFIX, greatroc.tw
 DOMAIN-SUFFIX, hbogoasia.tw
+DOMAIN-SUFFIX, nikke.hotcool.tw
 DOMAIN-SUFFIX, hwadzan.tw
 DOMAIN-SUFFIX, idv.tw
 DOMAIN-SUFFIX, im88.tw
