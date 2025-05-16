@@ -2,161 +2,92 @@ name: Sync skk.moe Rule Files
 
 on:
   schedule:
-    - cron: '0 10 * * *'  # 每天北京时间下午6点触发
-  workflow_dispatch:  # 可以手工触发
+    - cron: '0 20 * * *'  # 每天北京时间凌晨4点触发（UTC时间20:00）
+  workflow_dispatch:  # 手动触发
+
+concurrency:
+  group: sync-vpn-tool
+  cancel-in-progress: false
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout your repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download file
+      - name: Prepare directories
         run: |
-          echo "Start downloading skk.moe Rule Files"
-          
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/ai.conf \
-            -o Loon/Rule/skk/non_ip/ai.conf
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/telegram.conf \
-            -o Loon/Rule/skk/non_ip/telegram.conf  
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/apple_cdn.conf \
-            -o Loon/Rule/skk/non_ip/apple_cdn.conf            
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf \
-            -o Loon/Rule/skk/non_ip/microsoft_cdn.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/apple_cn.conf \
-            -o Loon/Rule/skk/non_ip/apple_cn.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/apple_services.conf \
-            -o Loon/Rule/skk/non_ip/apple_services.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/microsoft.conf \
-            -o Loon/Rule/skk/non_ip/microsoft.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/non_ip/domestic.conf \
-            -o Loon/Rule/skk/non_ip/domestic.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/ip/telegram.conf \
-            -o Loon/Rule/skk/ip/telegram.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/ip/domestic.conf \
-            -o Loon/Rule/skk/ip/domestic.conf 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/List/ip/china_ip.conf \
-            -o Loon/Rule/skk/ip/china_ip.conf 
+          mkdir -p Loon/Rule/skk/non_ip
+          mkdir -p Loon/Rule/skk/ip
+          mkdir -p Clash/Rule/skk/domainset
+          mkdir -p Clash/Rule/skk/non_ip
+          mkdir -p Clash/Rule/skk/ip
 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/domainset/cdn.txt \
-            -o Clash/Rule/skk/domainset/cdn.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/cdn.txt \
-            -o Clash/Rule/skk/non_ip/cdn.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/ai.txt \
-            -o Clash/Rule/skk/non_ip/ai.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/telegram.txt \
-            -o Clash/Rule/skk/non_ip/telegram.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/ip/telegram.txt \
-            -o Clash/Rule/skk/ip/telegram.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt \
-            -o Clash/Rule/skk/domainset/apple_cdn.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/apple_services.txt \
-            -o Clash/Rule/skk/non_ip/apple_services.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt \
-            -o Clash/Rule/skk/non_ip/apple_cn.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt \
-            -o Clash/Rule/skk/non_ip/microsoft_cdn.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/microsoft.txt \
-            -o Clash/Rule/skk/non_ip/microsoft.txt 
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/domainset/download.txt \
-            -o Clash/Rule/skk/domainset/download.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/download.txt \
-            -o Clash/Rule/skk/non_ip/download.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/lan.txt \
-            -o Clash/Rule/skk/non_ip/lan.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/ip/lan.txt \
-            -o Clash/Rule/skk/ip/lan.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/domestic.txt \
-            -o Clash/Rule/skk/non_ip/domestic.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/direct.txt \
-            -o Clash/Rule/skk/non_ip/direct.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/non_ip/global.txt \
-            -o Clash/Rule/skk/non_ip/global.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/ip/domestic.txt \
-            -o Clash/Rule/skk/ip/domestic.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/ip/china_ip.txt \
-            -o Clash/Rule/skk/ip/china_ip.txt
-          curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
-            https://ruleset.skk.moe/Clash/ip/china_ip_ipv6.txt \
-            -o Clash/Rule/skk/ip/china_ip_ipv6.txt
+      - name: Download Rule Files
+        run: |
+          set -e
+          CURL_OPTS="--retry 3 --retry-delay 5 --connect-timeout 10 -L"
+          declare -A files=(
+            ["Loon/Rule/skk/non_ip/ai.conf"]="https://ruleset.skk.moe/List/non_ip/ai.conf"
+            ["Loon/Rule/skk/non_ip/telegram.conf"]="https://ruleset.skk.moe/List/non_ip/telegram.conf"
+            ["Loon/Rule/skk/non_ip/apple_cdn.conf"]="https://ruleset.skk.moe/List/non_ip/apple_cdn.conf"
+            ["Loon/Rule/skk/non_ip/microsoft_cdn.conf"]="https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
+            ["Loon/Rule/skk/non_ip/apple_cn.conf"]="https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
+            ["Loon/Rule/skk/non_ip/apple_services.conf"]="https://ruleset.skk.moe/List/non_ip/apple_services.conf"
+            ["Loon/Rule/skk/non_ip/microsoft.conf"]="https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+            ["Loon/Rule/skk/non_ip/domestic.conf"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
+            ["Loon/Rule/skk/ip/telegram.conf"]="https://ruleset.skk.moe/List/ip/telegram.conf"
+            ["Loon/Rule/skk/ip/domestic.conf"]="https://ruleset.skk.moe/List/ip/domestic.conf"
+            ["Loon/Rule/skk/ip/china_ip.conf"]="https://ruleset.skk.moe/List/ip/china_ip.conf"
+            ["Clash/Rule/skk/domainset/cdn.txt"]="https://ruleset.skk.moe/Clash/domainset/cdn.txt"
+            ["Clash/Rule/skk/non_ip/cdn.txt"]="https://ruleset.skk.moe/Clash/non_ip/cdn.txt"
+            ["Clash/Rule/skk/non_ip/ai.txt"]="https://ruleset.skk.moe/Clash/non_ip/ai.txt"
+            ["Clash/Rule/skk/non_ip/telegram.txt"]="https://ruleset.skk.moe/Clash/non_ip/telegram.txt"
+            ["Clash/Rule/skk/ip/telegram.txt"]="https://ruleset.skk.moe/Clash/ip/telegram.txt"
+            ["Clash/Rule/skk/domainset/apple_cdn.txt"]="https://ruleset.skk.moe/Clash/domainset/apple_cdn.txt"
+            ["Clash/Rule/skk/non_ip/apple_services.txt"]="https://ruleset.skk.moe/Clash/non_ip/apple_services.txt"
+            ["Clash/Rule/skk/non_ip/apple_cn.txt"]="https://ruleset.skk.moe/Clash/non_ip/apple_cn.txt"
+            ["Clash/Rule/skk/non_ip/microsoft_cdn.txt"]="https://ruleset.skk.moe/Clash/non_ip/microsoft_cdn.txt"
+            ["Clash/Rule/skk/non_ip/microsoft.txt"]="https://ruleset.skk.moe/Clash/non_ip/microsoft.txt"
+            ["Clash/Rule/skk/domainset/download.txt"]="https://ruleset.skk.moe/Clash/domainset/download.txt"
+            ["Clash/Rule/skk/non_ip/download.txt"]="https://ruleset.skk.moe/Clash/non_ip/download.txt"
+            ["Clash/Rule/skk/non_ip/lan.txt"]="https://ruleset.skk.moe/Clash/non_ip/lan.txt"
+            ["Clash/Rule/skk/ip/lan.txt"]="https://ruleset.skk.moe/Clash/ip/lan.txt"
+            ["Clash/Rule/skk/non_ip/domestic.txt"]="https://ruleset.skk.moe/Clash/non_ip/domestic.txt"
+            ["Clash/Rule/skk/non_ip/direct.txt"]="https://ruleset.skk.moe/Clash/non_ip/direct.txt"
+            ["Clash/Rule/skk/non_ip/global.txt"]="https://ruleset.skk.moe/Clash/non_ip/global.txt"
+            ["Clash/Rule/skk/ip/domestic.txt"]="https://ruleset.skk.moe/Clash/ip/domestic.txt"
+            ["Clash/Rule/skk/ip/china_ip.txt"]="https://ruleset.skk.moe/Clash/ip/china_ip.txt"
+            ["Clash/Rule/skk/ip/china_ip_ipv6.txt"]="https://ruleset.skk.moe/Clash/ip/china_ip_ipv6.txt"
+          )
 
+          for file in "${!files[@]}"; do
+            url="${files[$file]}"
+            echo "Downloading $file from $url"
+            curl $CURL_OPTS "$url" -o "$file"
+          done
 
+          echo "All files downloaded successfully."
 
-          echo "Files download completed."
-
-      - name: Commit and push changes
+      - name: Commit and push changes if any
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'cngzsunny'
           git config --global user.email 'sunny.rong@gmail.com'
 
-          git add Loon/Rule/skk/non_ip/ai.conf
-          git add Loon/Rule/skk/non_ip/telegram.conf
-          git add Loon/Rule/skk/non_ip/apple_cdn.conf
-          git add Loon/Rule/skk/non_ip/microsoft_cdn.conf
-          git add Loon/Rule/skk/non_ip/apple_cn.conf
-          git add Loon/Rule/skk/non_ip/apple_services.conf
-          git add Loon/Rule/skk/non_ip/microsoft.conf
-          git add Loon/Rule/skk/non_ip/domestic.conf
-          git add Loon/Rule/skk/ip/telegram.conf
-          git add Loon/Rule/skk/ip/domestic.conf
-          git add Loon/Rule/skk/ip/china_ip.conf
+          git add Loon/Rule/skk/non_ip/*
+          git add Loon/Rule/skk/ip/*
+          git add Clash/Rule/skk/domainset/*
+          git add Clash/Rule/skk/non_ip/*
+          git add Clash/Rule/skk/ip/*
 
-          git add Clash/Rule/skk/domainset/cdn.txt
-          git add Clash/Rule/skk/non_ip/cdn.txt 
-          git add Clash/Rule/skk/non_ip/ai.txt 
-          git add Clash/Rule/skk/non_ip/telegram.txt 
-          git add Clash/Rule/skk/ip/telegram.txt 
-          git add Clash/Rule/skk/domainset/apple_cdn.txt 
-          git add Clash/Rule/skk/non_ip/apple_services.txt
-          git add Clash/Rule/skk/non_ip/apple_cn.txt
-          git add Clash/Rule/skk/non_ip/microsoft_cdn.txt
-          git add Clash/Rule/skk/non_ip/microsoft.txt
-          git add Clash/Rule/skk/domainset/download.txt
-          git add Clash/Rule/skk/non_ip/download.txt
-          git add Clash/Rule/skk/non_ip/lan.txt
-          git add Clash/Rule/skk/ip/lan.txt
-          git add Clash/Rule/skk/non_ip/domestic.txt
-          git add Clash/Rule/skk/non_ip/direct.txt
-          git add Clash/Rule/skk/non_ip/global.txt
-          git add Clash/Rule/skk/ip/domestic.txt
-          git add Clash/Rule/skk/ip/china_ip.txt
-          git add Clash/Rule/skk/ip/china_ip_ipv6.txt
-
-
-          git commit -m "Sync skk.moe Rule Files" || echo "No changes detected, skipping commit."
-          BRANCH=$(git rev-parse --abbrev-ref HEAD)
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync skk.moe Rule Files"
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
+          fi
