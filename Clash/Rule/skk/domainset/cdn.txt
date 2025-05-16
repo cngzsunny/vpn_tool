@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-13T12:57:53.879Z
-# Size: 3569
+# Last Updated: 2025-05-16T06:49:32.679Z
+# Size: 3570
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -762,7 +762,6 @@ runkit-packages-static.com
 cdn.quickemailverification.com
 +.hackerone-user-content.com
 +.app-analytics-services.com
-+.akamai-content-network.com
 +.ravencoinipfs-gateway.com
 +.observableusercontent.com
 cdn.minecraft-server-list.com
@@ -883,6 +882,9 @@ images.opencollective.com
 static.onlinewebfonts.com
 pic.onlinewebfonts.com
 db.onlinewebfonts.com
+uploads-cdn.omnicalculator.com
+cache.omnicalculator.com
+cdn.omnicalculator.com
 +.oaiusercontent.com
 cdn-forum.networklessons.com
 cdn.networklessons.com
@@ -3446,7 +3448,6 @@ img.agrd.eu
 st.agrd.eu
 versionbadg.es
 utteranc.es
-cdn.linux.do
 secure-res.craft.do
 res.craft.do
 +.tile.openstreetmap.de
