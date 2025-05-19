@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-18T13:40:52.257Z
-# Size: 3571
+# Last Updated: 2025-05-19T11:55:01.367Z
+# Size: 3572
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -490,6 +490,7 @@ cdn.wishpond.net
 +.widencdn.net
 scontent.whatsapp.net
 static.whatsapp.net
+cdn.viafoura.net
 +.turboimg.net
 +.tildacdn.net
 +.smassets.net
