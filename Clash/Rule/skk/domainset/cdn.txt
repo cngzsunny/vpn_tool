@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-19T11:55:01.367Z
-# Size: 3572
+# Last Updated: 2025-05-20T13:32:56.283Z
+# Size: 3575
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -189,6 +189,7 @@ static-cdn.bytegiftia.top
 +.gitcdn.top
 +.balley.top
 +.akidoo.top
++.cktu01.sbs
 +.bundle.run
 +.esm.run
 content.any.run
@@ -673,6 +674,7 @@ static-cdn.osdn.net
 static.osdn.net
 +.ipfs.mttk.net
 +.loli.net
+texture.laby.net
 static1.e621.net
 +.c-dn.net
 +.mm.bing.net
@@ -742,6 +744,7 @@ p.sda1.dev
 cdn.pika.dev
 mastodon-static.miao.dev
 +.jspm.dev
+zod.dev
 cdn.tuk.dev
 static.reo.dev
 pkg.csb.dev
