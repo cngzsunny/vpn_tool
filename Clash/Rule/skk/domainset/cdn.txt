@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-20T13:32:56.283Z
-# Size: 3575
+# Last Updated: 2025-05-21T05:19:03.637Z
+# Size: 3577
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -78,6 +78,7 @@ turbo.build
 +.safebrowsing.apple
 img.itch.zone
 +.ipfs.litnet.work
+static.frame.work
 tn.txxx.tube
 js.txxx.tube
 ipfs.d.tube
@@ -3002,6 +3003,7 @@ app.moegirl.tw
 cf.shopee.tw
 megapx-assets.dcard.tw
 +.pimg.tw
+news-data.pts.org.tw
 cw-image-resizer.cwg.tw
 cdn.ready-market.com.tw
 avatar2.bahamut.com.tw
