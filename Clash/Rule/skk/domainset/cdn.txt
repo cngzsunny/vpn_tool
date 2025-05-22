@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-21T05:19:03.637Z
-# Size: 3577
+# Last Updated: 2025-05-22T20:00:17.690Z
+# Size: 3582
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1989,6 +1989,8 @@ images.profile.autodesk.com
 cdn.ashbyprd.com
 imgrs.apkcombo.com
 assets.apilayer.com
+static.animaapp.com
+c.animaapp.com
 cdn.amcharts.com
 oaos-resources.allstate.com
 +.contenthub.allstate.com
@@ -2082,6 +2084,7 @@ videos2-h.sendvid.com
 thumbs2.sendvid.com
 cdn.segment.com
 ocsp.sectigo.com
+cdn-b.saashub.com
 +.cdn.rollbar.com
 tools.refokus.com
 userpic.redgifs.com
@@ -3356,6 +3359,7 @@ static-mh.content.disney.io
 cdn.branch.io
 netlify.apollo.io
 v2uploads.zopim.io
+assets.stigg.io
 telemetry.split.io
 streaming.split.io
 events.split.io
@@ -3510,6 +3514,7 @@ load.csell.co
 log-collector.17app.co
 webcdn.17app.co
 cdn.17app.co
+y.yarn.co
 +.v2ex.co
 +.pcdn.co
 snippet.maze.co
