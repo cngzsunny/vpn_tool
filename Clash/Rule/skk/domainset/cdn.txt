@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-22T20:00:17.690Z
-# Size: 3582
+# Last Updated: 2025-05-24T06:49:00.650Z
+# Size: 3585
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1231,6 +1231,8 @@ assets.embeddables.com
 cdn.dotaoutpost.com
 source.domaintools.com
 img.domaintools.com
+cdn.dexscreener.com
+dd.dexscreener.com
 static.crunchyroll.com
 imgsrv.crunchyroll.com
 img1.ak.crunchyroll.com
@@ -1705,6 +1707,7 @@ js1.chargebee.com
 js.chargebee.com
 cdn.changelog.com
 doppler-config.cbsivideo.com
+www-res.cablelabs.com
 badge.buildkite.com
 media.breitbart.com
 static.bravoporn.com
