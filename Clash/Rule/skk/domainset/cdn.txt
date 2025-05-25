@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-24T06:49:00.650Z
-# Size: 3585
+# Last Updated: 2025-05-25T13:05:07.048Z
+# Size: 3587
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2461,6 +2461,7 @@ int.mwbbiz.com
 appassets.mvtdev.com
 img.mresou.com
 static-main.moovit.com
+static.moomoo.com
 launchercontent.mojang.com
 +.mngbcn.com
 +.mmtcdn.com
@@ -3431,6 +3432,7 @@ assets.monica.im
 img.majors.im
 badges.gitter.im
 sn-s3-cdn.angry.im
+img.toto.im
 polyfill-fe.toss.im
 static.toss.im
 static-cdn.spot.im

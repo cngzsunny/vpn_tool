@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Apple CDN
-# Last Updated: 2025-05-13T12:57:52.958Z
-# Size: 164
+# Last Updated: 2025-05-25T12:41:24.182Z
+# Size: 165
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -142,6 +142,7 @@ th1s_rule5et_1s_m4d3_by_5ukk4w_ruleset.skk.moe
 +.amp-api.media.apple.com
 +.ipcdn.apple.com
 +.cstat.apple.com
++.certs.apple.com
 +.seed-swallow.siri.apple.com
 +.seed-sequoia.siri.apple.com
 +.probe.siri.apple.com
