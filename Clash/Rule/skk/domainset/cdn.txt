@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-05-30T19:26:48.675Z
-# Size: 3591
+# Last Updated: 2025-06-01T16:04:20.832Z
+# Size: 3596
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1059,7 +1059,11 @@ cdn-eu.dynamicyield.com
 st-eu.dynamicyield.com
 cdn.dynamicyield.com
 st.dynamicyield.com
+v-tiles3.downdetector.com
+v-tiles2.downdetector.com
+v-tiles1.downdetector.com
 cdn2.downdetector.com
+cdn.downdetector.com
 +.dockerstatic.com
 segment.digitalocean.com
 ui-cdn.digitalocean.com
@@ -2257,6 +2261,7 @@ static-ca-cdn.eporner.com
 cdn.embedly.com
 +.els-cdn.com
 +.ebayimg.com
+comm.res.easebar.com
 static.drtuber.com
 static.doujins.com
 cdn.docsbot.com
