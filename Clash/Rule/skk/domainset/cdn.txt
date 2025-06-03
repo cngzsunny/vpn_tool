@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-02T14:01:25.724Z
-# Size: 3598
+# Last Updated: 2025-06-03T18:48:08.497Z
+# Size: 3600
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -126,6 +126,7 @@ cdn.masto.host
 sfiles.cnyes.cool
 cimg.cnyes.cool
 +.ymq.cool
+uos-support-files.svc.ui.com/
 cdn.kinopio.club
 storage.crisp.chat
 image.crisp.chat
@@ -2635,6 +2636,7 @@ static.vanta.com
 +.twimg.com
 media1.tenor.com
 media.tenor.com
+c.tadst.com
 assets.stash.com
 cdn.stash.com
 +.srcdn.com

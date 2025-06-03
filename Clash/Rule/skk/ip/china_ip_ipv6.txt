@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Mainland China IPv6 CIDR
-# Last Updated: 2025-06-02T12:48:25.799Z
-# Size: 1433
+# Last Updated: 2025-06-03T11:52:37.245Z
+# Size: 1432
 # License: CC BY-SA 2.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -453,7 +453,6 @@
 2406:840:e608::/46
 2406:840:e621::/48
 2406:840:e666::/47
-2406:840:e720::/44
 2406:840:e770::/48
 2406:840:e777::/48
 2406:840:e80f::/48
