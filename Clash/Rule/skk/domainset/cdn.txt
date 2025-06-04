@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-03T18:48:08.497Z
+# Last Updated: 2025-06-04T06:49:30.605Z
 # Size: 3600
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -126,7 +126,6 @@ cdn.masto.host
 sfiles.cnyes.cool
 cimg.cnyes.cool
 +.ymq.cool
-uos-support-files.svc.ui.com/
 cdn.kinopio.club
 storage.crisp.chat
 image.crisp.chat
@@ -2931,6 +2930,7 @@ static.ui.com
 assets.ecomm.ui.com
 cdn.ecomm.ui.com
 net-fe-static-assets.network-controller.svc.ui.com
+uos-support-files.svc.ui.com
 account-cdn.svc.ui.com
 images.svc.ui.com
 fonts.svc.ui.com
