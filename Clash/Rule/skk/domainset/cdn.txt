@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-04T06:49:30.605Z
-# Size: 3600
+# Last Updated: 2025-06-06T09:51:08.527Z
+# Size: 3606
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -423,6 +423,7 @@ cdn.trustpilot.net
 cdn.macstories.net
 +.live-video.net
 +.hs-scripts.net
++.gtranslate.net
 +.faceit-cdn.net
 hub-assets.displaycal.net
 images-ext-2.discordapp.net
@@ -1565,6 +1566,7 @@ cdn-service.jp.sumologic.com
 +.proxy1.startpage.com
 +.proxy.startpage.com
 content-prod-live.cert.starbucks.com
+rs-cdn.splashtop.com
 static.spankbang.com
 lecontent.sololearn.com
 assets.sololearn.com
@@ -2010,6 +2012,9 @@ img-2-cdn.airdroid.com
 img-1-cdn.airdroid.com
 css-1-cdn.airdroid.com
 js-1-cdn.airdroid.com
+cdn-seo.airdroid.com
+seo-wp.airdroid.com
+images.airdroid.com
 img6.airdroid.com
 img4.airdroid.com
 img3.airdroid.com
@@ -2979,6 +2984,7 @@ public.linear.app
 e.linear.app
 +.giscus.app
 +.udify.app
++.tauri.app
 +.xlog.app
 cdn.rive.app
 video.bsky.app
