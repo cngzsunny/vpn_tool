@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-06T14:27:27.149Z
-# Size: 3604
+# Last Updated: 2025-06-10T14:53:53.848Z
+# Size: 3608
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1592,6 +1592,7 @@ img.represent.com
 jfe-cdn.qualtrics.com
 js.qualified.com
 vpncdn.protonweb.com
+content.powerapps.com
 cdnstatic.porno-cum.com
 static.polldaddy.com
 assets.polarbyte.com
@@ -1676,6 +1677,7 @@ assetscdn-wchat.eu.freshchat.com
 +.framercdn.com
 +.forbesimg.com
 cdn.fontshare.com
+api.fontshare.com
 +.fncstatic.com
 +.fiverrcdn.com
 static.filehorse.com
@@ -2303,6 +2305,7 @@ static.bytepan.com
 organizer.bizzabo.com
 static.news.bitcoin.com
 api.bintray.com
+affportal.bhphoto.com
 +.bfzypic.com
 +.bftuvip.com
 promotions.betfair.com
@@ -2828,6 +2831,7 @@ cdn.sedo.com
 +.www.s81c.com
 pictures-cdn.porn.com
 assets-cdn.porn.com
+static.nyse.com
 +.nv7s.com
 sdata.ndtv.com
 edata.ndtv.com
