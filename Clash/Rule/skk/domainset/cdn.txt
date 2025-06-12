@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-10T14:53:53.848Z
-# Size: 3608
+# Last Updated: 2025-06-12T15:35:08.020Z
+# Size: 3610
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -590,6 +590,8 @@ components.trynow.net
 +.sftcdn.net
 +.rspcdn.net
 +.poecdn.net
+maptile.osmand.net
+data.osmand.net
 attachments.office.net
 +.nel.measure.office.net
 support.content.office.net
