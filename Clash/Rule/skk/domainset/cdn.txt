@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-12T15:35:08.020Z
-# Size: 3610
+# Last Updated: 2025-06-14T11:45:51.495Z
+# Size: 3616
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -132,6 +132,7 @@ image.crisp.chat
 assets.toot.cafe
 avatars.micro.blog
 cdn.micro.blog
+i.111666.best
 i.loli.best
 image.nmb.best
 +.porn5.asia
@@ -177,6 +178,7 @@ wimg.rule34.xxx
 api.allorigins.win
 +.imglink.win
 www.10086.win
+cdn.violet.vin
 assets.orz.uno
 media.orz.uno
 +.filecunhua.top
@@ -1840,6 +1842,7 @@ thumbs.onlyfans.com
 static.onlyfans.com
 cdn3.onlyfans.com
 cdn2.onlyfans.com
+edge.nodeseek.com
 +.nitrocdn.com
 cdn.accounts.nintendo.com
 assets.nintendo.com
@@ -1920,6 +1923,7 @@ maps.geoapify.com
 +.gammacdn.com
 media.gamestop.com
 assets.frontegg.com
++.frontapp.com
 badges.frapsoft.com
 filestore.fortinet.com
 resizing.flixster.com
@@ -2445,6 +2449,7 @@ sdk.qikify.com
 js.pusher.com
 +.cdn.pubnub.com
 static.probit.com
++.prhcdn.com
 assets.pixlee.com
 +.pinimg.com
 +.phncdn.com
@@ -3172,6 +3177,7 @@ emoji-css.afeld.me
 pic.7mmtv.me
 cdn.123av.me
 rsms.me
+img.jjbb.me
 s4.itho.me
 static.fbot.me
 media.e4le.me
