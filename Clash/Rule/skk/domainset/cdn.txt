@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-14T11:45:51.495Z
-# Size: 3616
+# Last Updated: 2025-06-15T03:54:07.073Z
+# Size: 3619
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -807,6 +807,7 @@ conversiongorilla.com
 +.chargebeestaticv2.com
 b5x-sentry.1passwordservices.com
 telemetry.1passwordservices.com
+cdn.virtuoussoftware.com
 +.superfiliate-cdn.com
 +.steamusercontent.com
 +.spreadshirtmedia.com
@@ -1941,6 +1942,7 @@ static.euronews.com
 assets.euractiv.com
 cdn.equalweb.com
 aff.equalweb.com
+static.elfsight.com
 eightcha.com
 +.dtci-pe-vp-image-resizer.platform.edgedatg.com
 cdn6.edgedatg.com
@@ -2475,6 +2477,7 @@ images.now-tv.com
 i.niupic.com
 +.nineyu.com
 article-image-ix.nikkei.com
+cdn.nfcube.com
 c1.newegg.com
 +.nc-img.com
 nbcnewsdigital-static.nbcuni.com
