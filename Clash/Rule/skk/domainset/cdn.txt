@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-15T03:54:07.073Z
-# Size: 3619
+# Last Updated: 2025-06-16T02:35:40.319Z
+# Size: 3623
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -913,6 +913,7 @@ cdn-live.foreignaffairs.com
 +.datocms-assets.com
 +.customeriomail.com
 +.crunchyrollcdn.com
++.colliderimages.com
 +.b2c-contenthub.com
 cdn.answeroverflow.com
 +.alonestreaming.com
@@ -1536,6 +1537,7 @@ image.westinyou.com
 s3.eu-central-2.wasabisys.com
 +.s3.wasabisys.com
 assets.videowise.com
++.valnetcdn.com
 +.ut-assets.com
 widget.uservoice.com
 ocsp.usertrust.com
@@ -1640,6 +1642,7 @@ images.macrumors.com
 +.lr-ingest.com
 +.lowendbox.com
 scdn.line-apps.com
+cdn.lgrckt-in.com
 +.kinja-img.com
 cdn.joinhoney.com
 +.jisuimage.com
@@ -2310,6 +2313,7 @@ static.bytepan.com
 +.bstatic.com
 +.botsrv2.com
 +.blobcdn.com
+cms.blavity.com
 organizer.bizzabo.com
 static.news.bitcoin.com
 api.bintray.com
