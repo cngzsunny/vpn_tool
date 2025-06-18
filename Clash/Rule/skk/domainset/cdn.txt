@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-16T02:35:40.319Z
-# Size: 3623
+# Last Updated: 2025-06-18T07:47:39.180Z
+# Size: 3627
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -608,6 +608,8 @@ az700632.vo.msecnd.net
 +.mjedge.net
 +.mercdn.net
 images.mattel.net
+tourpic-vector.maps.komoot.net
++.tiles-api.maps.komoot.net
 fiddle.jshell.net
 ik.imgkit.net
 +.imgair.net
@@ -812,6 +814,7 @@ cdn.virtuoussoftware.com
 +.steamusercontent.com
 +.spreadshirtmedia.com
 static2.sharepointonline.com
+cdn.seonintelligence.com
 assets4.mist-train-girls.com
 hubspotonwebflow.com
 +.googleadservices.com
@@ -1150,6 +1153,7 @@ assets.squarespace.com
 +.splunkcloud.com
 +.skypeassets.com
 img.shoplineapp.com
+files.scamadviser.com
 assets.salesmartly.com
 store-images.s-microsoft.com
 c.s-microsoft.com
