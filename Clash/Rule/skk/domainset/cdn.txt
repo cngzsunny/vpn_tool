@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-18T07:47:39.180Z
-# Size: 3627
+# Last Updated: 2025-06-19T13:21:10.392Z
+# Size: 3630
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -321,6 +321,7 @@ vuejs.org
 gdb.rferl.org
 cdn.pagic.org
 +.lencr.org
++.jotai.org
 +.cdn.icann.org
 godoc.org
 static.gnome.org
@@ -938,6 +939,7 @@ assets.static-upwork.com
 +.slidesharecdn.com
 +.simplecastcdn.com
 cdn.shoppinggives.com
+scripts.scriptwrapper.com
 cdn.recovermycart.com
 images.purevpn-tools.com
 assets.prowritingaid.com
@@ -3202,6 +3204,7 @@ i-cdn.embed.ly
 cdn.embed.ly
 cdn.plot.ly
 cdn.img.ly
+static.salidzini.lv
 i.mt.lv
 media.webtoo.ls
 +.xascdn.li
