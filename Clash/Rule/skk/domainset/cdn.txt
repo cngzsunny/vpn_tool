@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-19T13:21:10.392Z
-# Size: 3630
+# Last Updated: 2025-06-20T15:32:24.236Z
+# Size: 3635
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -222,6 +222,7 @@ publicsuffix.org
 proxy.joinmastodon.org
 cdn-media-2.freecodecamp.org
 cdn-media-1.freecodecamp.org
+cdn-media-0.freecodecamp.org
 cdn.freecodecamp.org
 embed.culturalspot.org
 +.cdn-telegram.org
@@ -958,6 +959,7 @@ assets.nationbuilder.com
 asset.mansionglobal.com
 +.mangguo-youku.com
 +.livemediahost.com
+pbs-prod.linustechtips.com
 +.highwinds-cdn.com
 sig.grumpybumpers.com
 app.groovefunnels.com
@@ -990,6 +992,7 @@ static.cloudcachetci.com
 +.cdn-centaurus.com
 +.cbsnewsstatic.com
 files.buildwithfern.com
++.brightspotcdn.com
 +.aweber-static.com
 +.cdn.autoevolution.com
 +.assets-yammer.com
@@ -1259,6 +1262,7 @@ firebase-settings.crashlytics.com
 +.e.crashlytics.com
 ddcdn.comtucdncom.com
 cdn.comparitech.com
+cloudfront.codeproject.com
 +.cloudatacdn.com
 +.cdn-website.com
 events.ld.catamorphic.com
@@ -2589,6 +2593,7 @@ assets.fastly.com
 s3.envato.com
 creative.eizzih.com
 videos2.edclub.com
++.dubcdn.com
 media.dlsite.com
 +.dilcdn.com
 cdn.cxense.com
