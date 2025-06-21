@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-20T15:32:23.263Z
+# Last Updated: 2025-06-21T07:43:06.770Z
 # Size: 68
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -77,3 +77,4 @@ DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
 DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
 DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
 ################## EOF ##################
+

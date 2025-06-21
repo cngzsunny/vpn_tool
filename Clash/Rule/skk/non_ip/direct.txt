@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Direct Rules
-# Last Updated: 2025-05-20T16:54:18.609Z
+# Last Updated: 2025-06-21T07:43:06.849Z
 # Size: 213
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -222,3 +222,4 @@ PROCESS-NAME,BaiduNetdisk_mac
 PROCESS-NAME,Logi Options
 PROCESS-NAME,Logi Options Daemon
 ################## EOF ##################
+

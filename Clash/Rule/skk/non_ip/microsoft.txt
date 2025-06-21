@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Microsoft Domains
-# Last Updated: 2025-05-13T12:57:52.680Z
+# Last Updated: 2025-06-21T07:43:06.782Z
 # Size: 83
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -92,3 +92,4 @@ DOMAIN-KEYWORD,1drv
 DOMAIN-KEYWORD,microsoft
 DOMAIN-KEYWORD,hotmail
 ################## EOF ##################
+

@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-20T15:32:24.236Z
-# Size: 3635
+# Last Updated: 2025-06-21T17:24:34.102Z
+# Size: 3638
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -70,6 +70,7 @@ cdn.bullwhip.cloud
 resources-live.sketch.cloud
 +.gateway.pinata.cloud
 patterns.hiive.cloud
+cdn.tiny.cloud
 fscdn.eppo.cloud
 +.dsc.cloud
 static.bit.cloud
@@ -718,7 +719,6 @@ objects.hit.moe
 +.cloudflare.ltd
 static.coinall.ltd
 cdn.cbd.int
-+.ipfs.ink
 +.cthd.icu
 images-assets.nasa.gov
 smd-cms.nasa.gov
@@ -1067,6 +1067,7 @@ cdn.googlesource.com
 m3u8.girigirilove.com
 +.framerstatic.com
 static.filestackapi.com
+staticm.fastcomments.com
 cdn.fastcomments.com
 +.fakestoreapi.com
 cdn-eu.dynamicyield.com
@@ -1311,6 +1312,7 @@ cdn2.abiresearch.com
 +.zi-scripts.com
 wctour-images.worldchess.com
 +.csp.withgoogle.com
++.watchlycdn.com
 cdn.verifypass.com
 +.vanillicon.com
 cdn.userreport.com
@@ -2427,6 +2429,7 @@ checkout.stripe.com
 js.stripe.com
 heatmap-external-a.strava.com
 web-assets.strava.com
+content-a.strava.com
 +.ss-cdn.com
 +.sndimg.com
 +.sndcdn.com
@@ -3644,3 +3647,4 @@ limitless.cmax.ai
 bot.ivy.ai
 rules.ac
 ################## EOF ##################
+
