@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-21T17:24:34.102Z
-# Size: 3638
+# Last Updated: 2025-06-22T09:13:39.369Z
+# Size: 3650
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -271,6 +271,7 @@ moderate.cleantalk.org
 +.angularjs.org
 images.videolan.org
 static.tronscan.org
+cdn.tronscan.org
 static.spigotmc.org
 proxy.spigotmc.org
 +.rollupjs.org
@@ -938,6 +939,7 @@ js.verygoodvault.com
 cdn.stellarhosted.com
 assets.static-upwork.com
 +.slidesharecdn.com
+cdn.sitesearch360.com
 +.simplecastcdn.com
 cdn.shoppinggives.com
 scripts.scriptwrapper.com
@@ -1159,6 +1161,7 @@ assets.squarespace.com
 +.splunkcloud.com
 +.skypeassets.com
 img.shoplineapp.com
+cdn.servicebell.com
 files.scamadviser.com
 assets.salesmartly.com
 store-images.s-microsoft.com
@@ -1184,6 +1187,7 @@ cdn-app.pathfactory.com
 cdn.pathfactory.com
 cdn.paritydeals.com
 +.parastorage.com
++.dam-cdn.atl.orangelogic.com
 images.newrepublic.com
 assets.newrepublic.com
 cdn.neverbounce.com
@@ -1508,6 +1512,7 @@ cp3.cloudflare.com
 cp2.cloudflare.com
 imagecdn.clips4sale.com
 static.clips4sale.com
+cmd-cdn.cleanmymac.com
 js.chilipiper.com
 static.chessarena.com
 +.static.chaosgroup.com
@@ -1650,6 +1655,7 @@ csp.microsoft.com
 js.memberful.com
 static.mediafire.com
 cdn-images.mailchimp.com
+static.macupdate.com
 images.macrumors.com
 +.lr-ingest.com
 +.lowendbox.com
@@ -1666,6 +1672,7 @@ platform.instagram.com
 static.incapsula.com
 +.imostatic.com
 +.ibytedtos.com
++.js.hs-banner.com
 freeshippingbar.herokuapp.com
 snyk-widget.herokuapp.com
 heroicons.com
@@ -1874,6 +1881,7 @@ static.namebeta.com
 +.msftncsi.com
 cdnl.moviefap.com
 img.moviefap.com
+cdn-public-apis.moonlock.com
 +.sny.monosnap.com
 momentjs.com
 launcher-files.modrinth.com
@@ -2222,11 +2230,14 @@ s.imgflip.com
 i.imgflip.com
 +.ignimgs.com
 +.hugebil.com
+design-assets.hubspot.com
 +.static2cdn.hubspot.com
 no-cache.hubspot.com
 static.hubspot.com
 +.js-eu1.hubspot.com
 +.js.hubspot.com
+perf-na1.hsforms.com
+perf.hsforms.com
 +.hgimg00.com
 static.heavy-r.com
 public.hare200.com
@@ -2524,6 +2535,7 @@ twemoji.maxcdn.com
 static-assets.mapbox.com
 sato.manyse.com
 cdn2-imgix.macpaw.com
+api-lytics.macpaw.com
 cdn2.macpaw.com
 +.loggly.com
 +.lodash.com
