@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-21T07:43:06.770Z
+# Last Updated: 2025-06-23T15:23:00.146Z
 # Size: 68
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -28,53 +28,53 @@ DOMAIN-KEYWORD,-images.disco-api.com
 DOMAIN-KEYWORD,vdownload.hanime1
 DOMAIN-KEYWORD,fonts.hanime1
 DOMAIN-REGEX,^s[\w.-]*?\.hanime1$
-DOMAIN-REGEX,^[\w.-]*?\.skyearth[\w.-]\.xyz$
-DOMAIN-REGEX,^v\.rn[\w.-][\w.-][\w.-]\.xyz$
 DOMAIN-REGEX,^video[\w.-]*?\.cloudokyo\.cloud$
 DOMAIN-REGEX,^image[\w.-]*?\.cloudokyo\.cloud$
-DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
-DOMAIN-REGEX,^sdk\.[\w.-]*?\.braze\.eu$
-DOMAIN-REGEX,^cdn[\w.-]\.mikuclub\.fun$
-DOMAIN-REGEX,^file[\w.-]\.mikuclub\.fun$
+DOMAIN-REGEX,^[\w.-]*?\.skyearth[\w.-]\.xyz$
+DOMAIN-REGEX,^v\.rn[\w.-][\w.-][\w.-]\.xyz$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.vip$
 DOMAIN-REGEX,^s[\w.-][\w.-]\.maxstream\.org$
 DOMAIN-REGEX,^s[\w.-]\.maxstream\.org$
 DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.org$
 DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic-zzz\.one$
-DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic\.me$
-DOMAIN-REGEX,^cdn-msp[\w.-]\.18comic\.vip$
-DOMAIN-REGEX,^static[\w.-][\w.-]\.tgstat\.ru$
-DOMAIN-REGEX,^static[\w.-]\.tgstat\.ru$
-DOMAIN-REGEX,^img-[\w.-]*?\.now\.com$
-DOMAIN-REGEX,^uploads-[\w.-]*?\.insided\.com$
+DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.liaoningmovie\.net$
+DOMAIN-REGEX,^video-thumbnail[\w.-]\.liaoningmovie\.net$
+DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
+DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
+DOMAIN-REGEX,^t[\w.-]\.nhentai\.net$
+DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
+DOMAIN-REGEX,^file[\w.-]\.mikuclub\.fun$
+DOMAIN-REGEX,^cdn[\w.-]\.mikuclub\.fun$
+DOMAIN-REGEX,^browser-intake-[\w.-]*?-datadoghq\.com$
+DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
+DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
+DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
 DOMAIN-REGEX,^cdn[\w.-]\.18girlssex\.com$
+DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
+DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
 DOMAIN-REGEX,^[\w.-]*?\.img\.[\w.-]*?\.sendibm[\w.-]\.com$
-DOMAIN-REGEX,^chunk-[\w.-]*?\.mux\.com$
+DOMAIN-REGEX,^cdn[\w.-]-dl\.pornhost\.com$
+DOMAIN-REGEX,^th-[\w.-]*?\.pornone\.com$
+DOMAIN-REGEX,^s[\w.-][\w.-][\w.-]\.pornone\.com$
 DOMAIN-REGEX,^media[\w.-][\w.-]\.kissjav\.com$
 DOMAIN-REGEX,^media[\w.-]\.kissjav\.com$
+DOMAIN-REGEX,^uploads-[\w.-]*?\.insided\.com$
+DOMAIN-REGEX,^img[\w.-][\w.-]\.porngo\.com$
+DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
 DOMAIN-REGEX,^[\w.-]*?\.fsvod[\w.-]\.com$
-DOMAIN-REGEX,^[\w.-]*?\.kuaikan-cdn[\w.-]\.com$
+DOMAIN-REGEX,^cdns\.[\w.-]*?\.gigya\.com$
 DOMAIN-REGEX,^s3-[\w.-]*?\.figma\.com$
-DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
-DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.fc2\.com$
+DOMAIN-REGEX,^img-[\w.-]*?\.now\.com$
+DOMAIN-REGEX,^chunk-[\w.-]*?\.mux\.com$
 DOMAIN-REGEX,^vip-videoprem[\w.-]*?-thumbnail[\w.-]\.fc2\.com$
 DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.fc2\.com$
 DOMAIN-REGEX,^video-thumbnail2\.fc2\.com$
-DOMAIN-REGEX,^browser-intake-[\w.-]*?-datadoghq\.com$
-DOMAIN-REGEX,^s[\w.-][\w.-][\w.-]\.pornone\.com$
-DOMAIN-REGEX,^th-[\w.-]*?\.pornone\.com$
-DOMAIN-REGEX,^img[\w.-][\w.-]\.porngo\.com$
-DOMAIN-REGEX,^img[\w.-]\.porngo\.com$
-DOMAIN-REGEX,^cdns\.[\w.-]*?\.gigya\.com$
-DOMAIN-REGEX,^assets[\w.-]*?\.freshdesk\.com$
-DOMAIN-REGEX,^cdn[\w.-]-dl\.pornhost\.com$
-DOMAIN-REGEX,^s3\.[\w.-]*?\.wasabisys\.com$
-DOMAIN-REGEX,^ocsp\.[\w.-]*?\.amazontrust\.com$
-DOMAIN-REGEX,^proxy-[\w.-]*?\.dailymotion\.com$
-DOMAIN-REGEX,^video[\w.-]-thumbnail[\w.-]\.liaoningmovie\.net$
-DOMAIN-REGEX,^video-thumbnail[\w.-]\.liaoningmovie\.net$
-DOMAIN-REGEX,^t[\w.-]\.nhentai\.net$
-DOMAIN-REGEX,^i[\w.-]\.nhentai\.net$
-DOMAIN-REGEX,^object-storage-[\w.-]*?\.vexxhost\.net$
-DOMAIN-REGEX,^appcenter-filemanagement-[\w.-]*?\.cloudapp\.net$
+DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.fc2\.com$
+DOMAIN-REGEX,^blog-imgs-[\w.-][\w.-]\.2nt\.com$
+DOMAIN-REGEX,^rr[\w.-]---[\w.-][\w.-]\.ouo\.si$
+DOMAIN-REGEX,^static[\w.-][\w.-]\.tgstat\.ru$
+DOMAIN-REGEX,^static[\w.-]\.tgstat\.ru$
+DOMAIN-REGEX,^cdn-msp[\w.-]\.jmcomic\.me$
+DOMAIN-REGEX,^sdk\.[\w.-]*?\.braze\.eu$
 ################## EOF ##################
 

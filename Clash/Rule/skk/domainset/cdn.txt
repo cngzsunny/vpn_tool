@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-22T09:13:39.369Z
-# Size: 3650
+# Last Updated: 2025-06-23T16:57:32.501Z
+# Size: 3662
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -409,6 +409,7 @@ sourcemaps.squarespace.net
 static-resource.np.community.playstation.net
 akamai-origin.myanimelist.net
 cdn.myanimelist.net
+sdk.loyaltylion.net
 +.f.hubspotfree.net
 +.hsappstatic.net
 +.divio-media.net
@@ -648,6 +649,7 @@ static-act.imoim.net
 +.imgix.net
 +.ftcdn.net
 +.fonts.net
++.fmcdn.net
 +.fbcdn.net
 +.epimg.net
 +.dwcdn.net
@@ -914,6 +916,7 @@ isitmaintained.com
 code.ionicframework.com
 +.intercomassets.com
 img.huffingtonpost.com
+cdn.gethypervisual.com
 static-gcp.freepikcompany.com
 cdn-live.foreignaffairs.com
 +.datocms-assets.com
@@ -974,6 +977,7 @@ cdn.freebiesupply.com
 images.flightradar24.com
 +.envato-static.com
 cdn.earthroulette.com
+s3.duellinksmeta.com
 +.dropboxstatic.com
 +.discourse-cdn.com
 chat.digitalgenius.com
@@ -1101,6 +1105,7 @@ cdn.buymeacoffee.com
 bundlephobia.com
 cdn.botframework.com
 +.bootstrapcdn.com
++.blink-script.com
 axiecdn.axieinfinity.com
 cdn.axieinfinity.com
 assets.atlasobscura.com
@@ -1115,6 +1120,7 @@ images.youracclaim.com
 bookface-static.ycombinator.com
 +.xvideos-cdn.com
 img2.xiangbinjun.com
+storage.windiscover.com
 +.webpkgcache.com
 static.webclicks24.com
 cdn.webclicks24.com
@@ -1169,6 +1175,8 @@ c.s-microsoft.com
 +.dataplane.rudderstack.com
 +.redditmedia.com
 assets.redbullshop.com
+cached.rebuyengine.com
+cdn.rebuyengine.com
 assets.raspberrypi.com
 +.qooqlevideo.com
 api.producthunt.com
@@ -1527,6 +1535,7 @@ static.prd.borderfree.com
 +.boomio-cdn.com
 cdn-www.bluestacks.com
 +.bestjavcdn.com
+widgets.automizely.com
 widget.automizely.com
 sdks.automizely.com
 cdnb.artstation.com
@@ -2656,9 +2665,11 @@ static.ahrefs.com
 +.glass.adidas.com
 +.9cache.com
 static.zuora.com
+hello.zonos.com
 +.ytimg.com
 cdn-yotpo-images-production.yotpo.com
 cdn-widgetsrepository.yotpo.com
+cdn-swell-assets.yotpo.com
 staticw2.yotpo.com
 yep.video.yahoo.com
 +.xhcdn.com
@@ -3287,6 +3298,7 @@ typescript-eslint.io
 +.polyfill-fastly.io
 images.microcms-assets.io
 assets-next.mattersprotocol.io
+cdn.simplelocalize.io
 +.combinatronics.io
 edge.sitecorecloud.io
 +.opentelemetry.io
