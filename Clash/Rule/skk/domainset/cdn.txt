@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-24T14:03:50.782Z
-# Size: 3664
+# Last Updated: 2025-06-30T15:59:41.934Z
+# Size: 3679
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -54,6 +54,7 @@ cdn.hiive.space
 cdn.deta.space
 +.ipfs.kavin.rocks
 files.mastodon.ktachibana.party
+cdn.episode.ninja
 +.ipfs.telos.miami
 townsquare.media
 cms.therecord.media
@@ -198,6 +199,7 @@ content.any.run
 badbits.dwebops.pub
 gfx-data.news-engineering.aws.wapo.pub
 ca.nfs.pub
+static.themebuilder.aws.arc.pub
 cms-assets.webediamovies.pro
 img.foresightnews.pro
 pics.x-n-x-x.pro
@@ -343,6 +345,7 @@ static.ietf.org
 +.ehgt.org
 +.ipfs.busy.org
 +.4cdn.org
+audio.rfa.org
 jaws.pbs.org
 +.cdn.pbs.org
 +.tile.osm.org
@@ -596,6 +599,7 @@ craftassets.unraid.net
 components.trynow.net
 +.sftcdn.net
 +.rspcdn.net
++.redcdn.net
 +.poecdn.net
 maptile.osmand.net
 data.osmand.net
@@ -692,6 +696,7 @@ static1.e621.net
 +.mm.bing.net
 +.mapi.4kvm.net
 +.2mdn.net
++.2img.net
 +.z4a.net
 images.wsj.net
 sts3.wsj.net
@@ -1611,7 +1616,9 @@ media.shopimind.com
 +.sendspace.com
 forest-mt-s3.seekrtech.com
 images.scrolller.com
+interwiki.scpwikicn.com
 sigma9.scpwikicn.com
+bhl.scpwikicn.com
 data.schemaapp.com
 cdn.schemaapp.com
 assets.scaleflex.com
@@ -1767,6 +1774,7 @@ wac-cdn.atlassian.com
 +.aspnetcdn.com
 +.appmifile.com
 s-cdn.anthropic.com
+a-cdn.anthropic.com
 +.ipfs.anonymize.com
 images.anandtech.com
 ip-ranges.amazonaws.com
@@ -1874,6 +1882,8 @@ thumbs.onlyfans.com
 static.onlyfans.com
 cdn3.onlyfans.com
 cdn2.onlyfans.com
+gstatic.olympics.com
+img.olympics.com
 edge.nodeseek.com
 +.nitrocdn.com
 cdn.accounts.nintendo.com
@@ -2133,10 +2143,13 @@ sdk.snapkit.com
 cdn.shopify.com
 dassets.shimano.com
 cdn.sheetjs.com
+i.servimg.com
 videos2-h.sendvid.com
 thumbs2.sendvid.com
 cdn.segment.com
 ocsp.sectigo.com
+interwiki.scpwiki.com
+cdn.scpwiki.com
 image-stgus.samsung.com
 image-us.samsung.com
 images.samsung.com
@@ -2237,6 +2250,7 @@ go.imperva.com
 +.imgikzy.com
 s.imgflip.com
 i.imgflip.com
++.illiweb.com
 +.ignimgs.com
 +.hugebil.com
 design-assets.hubspot.com
@@ -3025,6 +3039,7 @@ cdn.matterhorn.app
 weather.istatmenus.app
 +.on-fleek.app
 cdn.langshop.app
+assets.airbuddy.app
 +.netlify.app
 videos.elephas.app
 +.edgeone.app
