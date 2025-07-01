@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-06-30T15:59:41.934Z
-# Size: 3679
+# Last Updated: 2025-07-01T07:13:43.912Z
+# Size: 3686
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -140,6 +140,7 @@ image.nmb.best
 +.porn5.asia
 phishing.army
 cdn.joincommunity.xyz
+domain.expiring-soon.xyz
 +.mirror-media.xyz
 +.packd.liuxingbaoyu.xyz
 eslint-react.xyz
@@ -180,6 +181,7 @@ wimg.rule34.xxx
 api.allorigins.win
 +.imglink.win
 www.10086.win
++.javcdn.vip
 cdn.violet.vin
 assets.orz.uno
 media.orz.uno
@@ -1895,6 +1897,9 @@ js.navattic.com
 c.navattic.com
 static.narrativ.com
 static.namebeta.com
+sg-thumbnail-drive.mypikpak.com
+res-etl-ssl.mypikpak.com
+static.mypikpak.com
 +.myavlive.com
 +.muscache.com
 +.msftncsi.com
@@ -3256,6 +3261,7 @@ static.salidzini.lv
 i.mt.lv
 media.webtoo.ls
 +.xascdn.li
++.javcdn.li
 pomf2.lain.la
 +.ipfs.lain.la
 static.pfrt.yna.co.kr
@@ -3520,6 +3526,7 @@ registry.api.cnn.io
 static.snaptube.in
 +.cdn.imgeng.in
 object.innei.in
++.cloudfront.net.in
 assets.monica.im
 img.majors.im
 badges.gitter.im
