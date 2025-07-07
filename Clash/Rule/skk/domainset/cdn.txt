@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-07-01T07:13:43.912Z
+# Last Updated: 2025-07-07T09:20:39.632Z
 # Size: 3686
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -969,7 +969,6 @@ assets.nationbuilder.com
 3dna.nationbuilder.com
 +.mcusercontent.com
 asset.mansionglobal.com
-+.mangguo-youku.com
 +.livemediahost.com
 pbs-prod.linustechtips.com
 +.highwinds-cdn.com
@@ -2469,6 +2468,7 @@ js.stripe.com
 heatmap-external-a.strava.com
 web-assets.strava.com
 content-a.strava.com
+cdn-1.strava.com
 +.ss-cdn.com
 +.sndimg.com
 +.sndcdn.com
