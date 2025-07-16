@@ -37,6 +37,7 @@ jobs:
             ["Loon/Rule/skk/non_ip/apple_cn.conf"]="https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
             ["Loon/Rule/skk/non_ip/apple_services.conf"]="https://ruleset.skk.moe/List/non_ip/apple_services.conf"
             ["Loon/Rule/skk/non_ip/microsoft.conf"]="https://ruleset.skk.moe/List/non_ip/microsoft.conf"
+            ["Loon/Rule/skk/non_ip/global.conf"]="https://ruleset.skk.moe/List/non_ip/global.conf"
             ["Loon/Rule/skk/non_ip/domestic.conf"]="https://ruleset.skk.moe/List/non_ip/domestic.conf"
             ["Loon/Rule/skk/ip/telegram.conf"]="https://ruleset.skk.moe/List/ip/telegram.conf"
             ["Loon/Rule/skk/ip/domestic.conf"]="https://ruleset.skk.moe/List/ip/domestic.conf"
