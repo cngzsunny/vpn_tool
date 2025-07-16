@@ -28,8 +28,8 @@ jobs:
           base_agent="Loon/830 CFNetwork/3826.400.120 Darwin/24.3.0"
           declare -A rule_files=(
             ["AI.list"]="https://kelee.one/Tool/Loon/Lsr/AI.lsr"
-            ["GoogleVoice.list"]="https://kelee.one/Tool/Loon/Lsr/GoogleVoice.lsr"
-            ["Global.list"]="https://kelee.one/Tool/Loon/Lsr/Global.lsr"
+            ["GoogleVoice.list"]="https://rule.kelee.one/Loon/GoogleVoice.lsr"
+            ["Global.list"]="https://rule.kelee.one/Loon/Global.lsr"
             ["LAN_SPLITTER"]="https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER"
             ["REGION_SPLITTER"]="https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER"
           )
@@ -37,7 +37,6 @@ jobs:
             url="${rule_files[$file]}"
             output="Loon/Rule/keli/$file"
             echo "Downloading $file ..."
-            echo "$url" url
             curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
           done
 
