@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-07-21T15:51:53.681Z
-# Size: 3697
+# Last Updated: 2025-07-23T11:34:49.265Z
+# Size: 3698
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -431,6 +431,7 @@ cdn.arstechnica.net
 +.ungrounded.net
 businessunitprofile-cdn.trustpilot.net
 consumersite-assets.trustpilot.net
+categoriespages-cdn.trustpilot.net
 consumersiteimages.trustpilot.net
 cdn.trustpilot.net
 +.nelreports.net

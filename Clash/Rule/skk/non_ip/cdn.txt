@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-07-21T08:09:50.380Z
-# Size: 68
+# Last Updated: 2025-07-23T11:34:44.940Z
+# Size: 74
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -21,6 +21,12 @@ DOMAIN-KEYWORD,dsn.algolia.net
 DOMAIN-KEYWORD,-thumbs.pornhost.com
 DOMAIN-KEYWORD,-cdn.eporner.com
 DOMAIN-KEYWORD,cdn.adultempire.com
+DOMAIN-KEYWORD,static.trustpilot.com
+DOMAIN-KEYWORD,scripts.trustpilot.com
+DOMAIN-KEYWORD,images.trustpilot.com
+DOMAIN-KEYWORD,cdn.trustpilot.net
+DOMAIN-KEYWORD,assets.trustpilot.net
+DOMAIN-KEYWORD,images.trustpilot.net
 DOMAIN-KEYWORD,-assets.worldsex.com
 DOMAIN-KEYWORD,-thumbs.worldsex.com
 DOMAIN-KEYWORD,99avcdn
