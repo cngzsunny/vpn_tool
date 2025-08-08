@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Domestic Domains
-# Last Updated: 2025-07-29T16:03:58.915Z
-# Size: 829
+# Last Updated: 2025-08-08T08:47:37.805Z
+# Size: 830
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -771,6 +771,7 @@ DOMAIN-SUFFIX,nubia.cn
 DOMAIN-SUFFIX,meizu.cn
 DOMAIN-SUFFIX,m1905.cn
 DOMAIN-SUFFIX,ksurl.cn
+DOMAIN-SUFFIX,kdocs.cn
 DOMAIN-SUFFIX,jpush.cn
 DOMAIN,www.intel.cn
 DOMAIN-SUFFIX,infoq.cn
@@ -832,10 +833,10 @@ DOMAIN-SUFFIX,t.cn
 DOMAIN-SUFFIX,6.cn
 DOMAIN-SUFFIX,3.cn
 DOMAIN-SUFFIX,chaoxing.cc
-DOMAIN-REGEX,^[\w.-]*?\.ffzy-online[\w.-]\.com$
-DOMAIN-REGEX,^[\w.-]*?\.ffzy-play[\w.-]\.com$
-DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-][\w.-]\.com$
-DOMAIN-REGEX,^[\w.-]*?\.qhimgs[\w.-]\.com$
-DOMAIN-REGEX,^[\w.-]*?\.lz-cdn[\w.-]\.com$
+DOMAIN-WILDCARD,*.ffzy-online?.com
+DOMAIN-WILDCARD,*.ffzy-play?.com
+DOMAIN-WILDCARD,*.lz-cdn??.com
+DOMAIN-WILDCARD,*.qhimgs?.com
+DOMAIN-WILDCARD,*.lz-cdn?.com
 ################## EOF ##################
 

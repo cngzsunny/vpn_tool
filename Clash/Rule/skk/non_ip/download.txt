@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting IPs
-# Last Updated: 2025-07-21T08:09:50.382Z
+# Last Updated: 2025-08-08T04:16:47.812Z
 # Size: 8
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -9,12 +9,12 @@
 # This file contains ruleset for software updating & large file hosting.
 #########################################
 DOMAIN,7h1s_rul35et_i5_mad3_by_5ukk4w-ruleset.skk.moe
-DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.tech$
-DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.freebsd\.org$
-DOMAIN-REGEX,^ftp\.[\w.-][\w.-]\.debian\.org$
-DOMAIN-REGEX,^[\w.-]*?\.s3\.[\w.-]*?\.backblazeb2\.com$
-DOMAIN-REGEX,^download[\w.-]*?\.mediafire\.com$
-DOMAIN-REGEX,^cdn-[\w.-]*?\.organicmaps\.app$
-DOMAIN-REGEX,^cdn-[\w.-]*?\.comaps\.app$
+DOMAIN-WILDCARD,cdn-*.comaps.tech
+DOMAIN-WILDCARD,ftp.??.freebsd.org
+DOMAIN-WILDCARD,ftp.??.debian.org
+DOMAIN-WILDCARD,*.s3.*.backblazeb2.com
+DOMAIN-WILDCARD,download*.mediafire.com
+DOMAIN-WILDCARD,cdn-*.organicmaps.app
+DOMAIN-WILDCARD,cdn-*.comaps.app
 ################## EOF ##################
 
