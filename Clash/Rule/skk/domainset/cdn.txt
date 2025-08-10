@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-09T16:54:19.490Z
-# Size: 3770
+# Last Updated: 2025-08-10T18:28:05.575Z
+# Size: 3777
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -166,6 +166,7 @@ image.jnislniv.xyz
 +.pornimg.xyz
 +.jstatic.xyz
 +.henread.xyz
+eomd1.fembeqq.xyz
 +.dogehls.xyz
 img.catwvod.xyz
 +.98avcdn.xyz
@@ -541,6 +542,8 @@ s.midishow.net
 +.kakaocdn.net
 +.jsdelivr.net
 img.javstore.net
+img.highporn.net
+cdn.highporn.net
 +.forgecdn.net
 connect.facebook.net
 static.esimplus.net
@@ -1611,6 +1614,7 @@ hhhhhhome86227170.wordpress.com
 s0.wordpress.com
 +.wixstatic.com
 image.westinyou.com
++.webinfcdn.com
 s3.eu-central-2.wasabisys.com
 +.s3.wasabisys.com
 assets.videowise.com
@@ -1824,6 +1828,7 @@ wac-cdn.atlassian.com
 +.assettype.com
 +.aspnetcdn.com
 +.appmifile.com
++.anyhentai.com
 s-cdn.anthropic.com
 a-cdn.anthropic.com
 +.ipfs.anonymize.com
@@ -1965,7 +1970,6 @@ attach.mobile01.com
 api-eu.mixpanel.com
 api.mixpanel.com
 thumbnailer.mixcloud.com
-api.mintlify.com
 +.static-prod-web.miniclip.com
 static.mendeley.com
 i.mediatek.com
@@ -2860,6 +2864,7 @@ media0.giphy.com
 media.giphy.com
 i.giphy.com
 cdns.gigya.com
+cdns.us.gigya.com
 +.ggpht.com
 cdn-1.ggjav.com
 media.gettr.com
@@ -2979,6 +2984,7 @@ drop.ndtv.com
 cdn.ndtv.com
 public-img.mewe.com
 cdn.mewe.com
+apim.m3pd.com
 img.lvv2.com
 cdn.loom.com
 static.kobo.com
@@ -3617,6 +3623,7 @@ s3.c.im
 +.alexdav.id
 +.ipfs.trusti.id
 cdn.unwire.hk
+newsstatic.rthk.hk
 image.hkhl.hk
 img.openshop.com.hk
 cdn.sc.gl
