@@ -29,13 +29,13 @@ DOMAIN-SUFFIX, openstorage.ad.cmvideo.cn, REJECT
 ^https?:\/\/ggx.+\.miguvideo\.com\/request\/sdk.+[^?]*$ reject-dict
 ^https?:\/\/ggic\d+.miguvideo\.com\/ad\/ reject-dict
 
-^https?+:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ - reject-200
-^https?+:\/\/ggic\d?\.cmvideo\.cn\/ad\/ - reject-200
-^https?+:\/\/ggx\.cmvideo\.cn\/request\/ - reject-200
-^https?+:\/\/.+?\/cdn-adn\/ - reject-200
+^https?+:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ reject-200
+^https?+:\/\/ggic\d?\.cmvideo\.cn\/ad\/ reject-200
+^https?+:\/\/ggx\.cmvideo\.cn\/request\/ reject-200
+^https?+:\/\/.+?\/cdn-adn\/ reject-200
 
-^https://.*miguvideo\.com/request/sdk url reject-200
-^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor url reject-200
+^https://.*miguvideo\.com/request/sdk reject-200
+^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor reject-200
 
 [Script]
 http-response ^https?:\/\/display-sc\.miguvideo\.com\/display\/v3\/static\/PERSONAL_CENTER$ script-path=https://raw.githubusercontent.com/cngzsunny/vpn_tool/refs/heads/main/Loon/Script/miguvideo_ads.js, requires-body=true, timeout=60, tag=咪咕视频个人中心去广告
