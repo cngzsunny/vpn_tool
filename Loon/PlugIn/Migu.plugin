@@ -1,0 +1,34 @@
+#!name = 咪咕视频去广告
+#!desc = 参考其他人规则，自用的去广告插件
+#!openUrl = 
+#!author = cngzsunny
+#!icon = 
+#!date = 2025-08-11 17:00
+
+[Rule]
+
+
+[Rewrite]
+^https?:\/\/ggc\.miguvideo\.com\/v1\/iflyad\/deliverysystem\/direct\/ reject-img
+^https?:\/\/public-deliver9\.miguvideo\.com\/deliver\/site\/batchMatch\/mergeSpot\/miguvideo\/ reject-dict
+^https?:\/\/recommend-dy\.miguvideo\.com\/recommend-dynamic\/dataSource\/v1\/recommend\/merge reject-dict
+^https?:\/\/app-sc\.miguvideo\.com\/app-management\/v1\/staticcache\/settings\/miguvideo\/SHARE_PIC reject-dict
+^https?:\/\/common-sc\.miguvideo\.com\/videoActivity\/activityList\/ reject-dict
+#^https?:\/\/display-sc\.miguvideo\.com\/display\/v3\/static\/PERSONAL_CENTER\/ reject-dict
+^https?:\/\/ggx.+\.miguvideo\.com\/request\/sdk.+[^?]*$ reject-dict
+^https?:\/\/ggic\d+.miguvideo\.com\/ad\/ reject-dict
+
+^https?+:\/\/gg\w+?\.cmvideo\.cn\/v\d\/iflyad\/ - reject-200
+^https?+:\/\/ggic\d?\.cmvideo\.cn\/ad\/ - reject-200
+^https?+:\/\/ggx\.cmvideo\.cn\/request\/ - reject-200
+^https?+:\/\/.+?\/cdn-adn\/ - reject-200
+
+^https://.*miguvideo\.com/request/sdk url reject-200
+^https://common-sc\.miguvideo\.com/task/v7/task-list/cmvideo/visitor url reject-200
+
+[Script]
+http-response ^https?:\/\/display-sc\.miguvideo\.com\/display\/v3\/static\/PERSONAL_CENTER$ script-path=https://raw.githubusercontent.com/fmz200/wool_scripts/refs/heads/main/Scripts/miguvideo/miguvideo_ads.js, requires-body=true, timeout=60, tag=咪咕视频个人中心去广告
+
+
+[Mitm]
+hostname = ggc.miguvideo.com, public-deliver9.miguvideo.com, display*-sc.miguvideo.com, recommend-dy.miguvideo.com, app-sc.miguvideo.com, common-sc.miguvideo.com, ggx*.miguvideo.com, ggic*.miguvideo.com
