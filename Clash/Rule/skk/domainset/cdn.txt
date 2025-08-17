@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-16T06:04:09.441Z
-# Size: 3828
+# Last Updated: 2025-08-17T12:18:18.489Z
+# Size: 3834
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1222,6 +1222,7 @@ static1.squarespace.com
 s3media.squarespace.com
 assets.squarespace.com
 +.splunkcloud.com
+assets.speedvitals.com
 +.skypeassets.com
 img.shoplineapp.com
 cdn.servicebell.com
@@ -3257,6 +3258,11 @@ imgcn.bgmbk.tv
 cdn.18jav.tv
 s-cdnstatic.svc.litv.tv
 p-cdnstatic.svc.litv.tv
+jsmodule.svc.litv.tv
+bulletin.svc.litv.tv
+static.svc.litv.tv
+player.svc.litv.tv
+fino.svc.litv.tv
 4gtvimg2.4gtv.tv
 lain.bgm.tv
 embed-v2.testimonial.to
