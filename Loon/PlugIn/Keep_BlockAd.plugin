@@ -1,7 +1,7 @@
-#!name=Keep去广告
+#!name=Keep去广告 mod by cngzsunny
 #!desc=移除开屏广告、搜索推荐和弹窗广告，移除关注推荐、文章相关推荐和信息流中的课程推广。关闭可莉版本的精简底栏和首页标签屏蔽功能
 #!openUrl=https://apps.apple.com/app/id952694580
-#!author=修改自可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+#!author=cngzsunny修改自可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
 #!tag=去广告
 #!system=
 #!system_version=
