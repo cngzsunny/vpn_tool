@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-23T13:15:10.392Z
-# Size: 3841
+# Last Updated: 2025-08-25T16:01:02.063Z
+# Size: 3844
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -263,6 +263,9 @@ play.publicradio.org
 tiles.openfreemap.org
 media.hentaifreak.org
 +.ipfs.genenetwork.org
+ximage.c-spanvideo.org
+static.c-spanvideo.org
+m3u8-0.c-spanvideo.org
 app.backinstock.org
 easylist-downloads.adblockplus.org
 tiles.versatiles.org
