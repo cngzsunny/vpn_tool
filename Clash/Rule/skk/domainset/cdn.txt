@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-26T17:05:22.010Z
-# Size: 3807
+# Last Updated: 2025-08-28T11:24:00.849Z
+# Size: 3820
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -196,6 +196,8 @@ wimg.rule34.xxx
 api.allorigins.win
 +.imglink.win
 www.10086.win
++.cloudforfun.vip
++.cloudlin.vip
 +.javcdn.vip
 tanju.vip
 cdn.violet.vin
@@ -215,6 +217,7 @@ css.4jpg.top
 +.bundle.run
 +.esm.run
 content.any.run
+i.mij.rip
 badbits.dwebops.pub
 gfx-data.news-engineering.aws.wapo.pub
 ca.nfs.pub
@@ -275,6 +278,7 @@ assets.mayoclinic.org
 seccdn.libravatar.org
 cdn.libravatar.org
 cdn.gamemonkey.org
++.codeforces.org
 +.bytebucket.org
 cdn.autoketing.org
 +.ampproject.org
@@ -307,6 +311,7 @@ proxy.spigotmc.org
 open-vsx.org
 demotiles.maplibre.org
 +.lichess1.org
+design.keyoxide.org
 api.indexnow.org
 assets.exercism.org
 david-dm.org
@@ -1565,6 +1570,7 @@ cdn.contentful.com
 cdn.eu.contentful.com
 frames-commandbar-prod.commandbar.com
 cdn.commandbar.com
+st.codeforces.com
 static-assets.codecademy.com
 assets.cmcmarkets.com
 cdn.cmcmarkets.com
@@ -1852,6 +1858,7 @@ images.anandtech.com
 ip-ranges.amazonaws.com
 +.assets.as2.amazonaws.com
 +.abcnewsfe.com
++.52netflix.com
 app.1password.com
 i.1password.com
 c.1password.com
@@ -2245,6 +2252,7 @@ static.rakuten.com
 cdn.quadpay.com
 +.pxlecdn.com
 image.prntscr.com
+st.prntscr.com
 cdn.privacy.com
 app-static.eu.posthog.com
 cdn77-t.pornoxo.com
@@ -2652,6 +2660,7 @@ api-lytics.macpaw.com
 cdn2.macpaw.com
 +.loggly.com
 +.lodash.com
++.locimg.com
 staging-pubfeed.linkby.com
 ledger-wp-website-s3-prd.ledger.com
 assets-cms.kraken.com
@@ -2870,6 +2879,8 @@ talk.hyvor.com
 video-meta.humix.com
 assets.humix.com
 +.h-cdn.com
++.gszyi.com
++.gsuus.com
 static.gopro.com
 media4.giphy.com
 media3.giphy.com
@@ -3231,6 +3242,7 @@ imgcn3.bgmbk.tv
 imgcn2.bgmbk.tv
 imgcn.bgmbk.tv
 cdn.18jav.tv
+static.yfsp.tv
 s-cdnstatic.svc.litv.tv
 p-cdnstatic.svc.litv.tv
 jsmodule.svc.litv.tv
@@ -3258,6 +3270,7 @@ img.coomer.su
 +.jpg5.su
 0x0.st
 udata.namespace.so
+cdn.seline.so
 image-forwarder.notaku.so
 bucket1.notaku.so
 static.cohere.so
