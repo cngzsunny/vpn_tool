@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-29T16:17:31.024Z
-# Size: 3823
+# Last Updated: 2025-08-31T19:19:28.027Z
+# Size: 3824
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1193,6 +1193,7 @@ app.viral-loops.com
 static-cdn.usertesting.com
 +.js.usemessages.com
 asset-cdn.uscardforum.com
+www-cdn.uscardforum.com
 psp-logos.uptimerobot.com
 +.uploadhouse.com
 tag.unifyintent.com
