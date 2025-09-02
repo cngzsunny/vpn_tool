@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-08-31T19:19:28.027Z
-# Size: 3824
+# Last Updated: 2025-09-02T10:58:21.240Z
+# Size: 3829
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -566,7 +566,7 @@ pub.creaders.net
 assets.bitstamp.net
 cdn.beacondb.net
 damassets.autodesk.net
-jira-frontend-bifrost.prod-east.frontend.public.atl-paas.net
++.prod-east.frontend.public.atl-paas.net
 +.prod.public.atl-paas.net
 steamusercontent-a.akamaihd.net
 steamuserimages-a.akamaihd.net
@@ -1253,6 +1253,7 @@ api.producthunt.com
 s3.producthunt.com
 cdn.pricespider.com
 +.pplusstatic.com
+public-assets.postmarkapp.com
 newsletter.postmarkapp.com
 rebound.postmarkapp.com
 +.porndudecdn.com
@@ -2425,6 +2426,7 @@ static.doujins.com
 cdn.docsbot.com
 global.divhunt.com
 s1.divhunt.com
+cdn.devdojo.com
 +.denopkg.com
 +.dellcdn.com
 import-cdn.default.com
@@ -2656,6 +2658,7 @@ glyph.medium.com
 miro.medium.com
 twemoji.maxcdn.com
 static-assets.mapbox.com
++.tiles.mapbox.com
 sato.manyse.com
 cdn2-imgix.macpaw.com
 api-lytics.macpaw.com
@@ -2786,6 +2789,7 @@ hello.zonos.com
 cdn-yotpo-images-production.yotpo.com
 cdn-widgetsrepository.yotpo.com
 cdn-swell-assets.yotpo.com
+cdn-loyalty.yotpo.com
 staticw2.yotpo.com
 yep.video.yahoo.com
 +.xhcdn.com
@@ -3721,6 +3725,7 @@ static1.smartbear.co
 before.good-apps.co
 static.convertio.co
 +.ipfs.tribecap.co
++.supabase.co
 +.smilecdn.co
 +.ipfs.sloppyta.co
 assets.jolipage.co
