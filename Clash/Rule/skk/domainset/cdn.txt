@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-02T10:58:21.240Z
-# Size: 3829
+# Last Updated: 2025-09-02T17:05:23.250Z
+# Size: 3831
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1848,8 +1848,10 @@ upos-sz-mirroralibstar1.bilivideo.com
 secure.beer7live.com
 cdn.babylonjs.com
 +.awsstatic.com
+atl-global.atlassian.com
 media-cdn.atlassian.com
 wac-cdn.atlassian.com
+api.media.atlassian.com
 +.assettype.com
 +.aspnetcdn.com
 +.appmifile.com
