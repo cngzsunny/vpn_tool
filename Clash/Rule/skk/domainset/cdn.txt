@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-04T12:39:01.348Z
-# Size: 3840
+# Last Updated: 2025-09-05T11:49:29.824Z
+# Size: 3841
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1946,6 +1946,7 @@ apps-static.route4me.com
 cdn.roboflow.com
 app.roboflow.com
 api.roboflow.com
+staticsource1.redotpay.com
 redircdn.com
 +.radix-ui.com
 quriobot.com
