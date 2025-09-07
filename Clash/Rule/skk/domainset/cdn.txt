@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-06T16:03:57.442Z
-# Size: 3841
+# Last Updated: 2025-09-07T17:11:49.556Z
+# Size: 3846
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -145,6 +145,7 @@ cdn.kinopio.club
 storage.crisp.chat
 image.crisp.chat
 assets.toot.cafe
+img.apk.cafe
 avatars.micro.blog
 cdn.micro.blog
 i.111666.best
@@ -580,6 +581,7 @@ eaassets-a.akamaihd.net
 spoprod-a.akamaihd.net
 lumiere-a.akamaihd.net
 img.adspower.net
+cdn.yamibuy.net
 cdn.writeas.net
 unlimited-cdn.waifu2x.net
 social-cdn.vivaldi.net
@@ -1094,6 +1096,7 @@ media.steampowered.com
 cdn.staticdelivr.com
 +.ipfs.soul-network.com
 image.shutterstock.com
+sourcemap.webfe.shopeemobile.com
 static.serverhunter.com
 +.scribdassets.com
 ak.sail-horizon.com
@@ -2181,6 +2184,7 @@ web-assets.zendesk.com
 img.youtube.com
 cdne-pics.youjizz.com
 +.yelpcdn.com
+cdn.yamibuy.com
 +.xingcdn.com
 preview.xgroovy.com
 static.xgroovy.com
@@ -3578,6 +3582,7 @@ static.status.io
 image.status.io
 media.smooch.io
 cdn.smooch.io
+files.webfe.shopee.io
 wire.shodan.io
 +.ingest.sentry.io
 +.ingest.us.sentry.io
