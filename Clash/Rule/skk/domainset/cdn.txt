@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-07T17:11:49.556Z
-# Size: 3846
+# Last Updated: 2025-09-08T19:34:19.963Z
+# Size: 3851
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -56,6 +56,7 @@ cdn5.telegram.space
 cdn4.telegram.space
 cdn1.telegram.space
 +.pstorage.space
++.tutu1.space
 cdn.hiive.space
 cdn.deta.space
 +.ipfs.kavin.rocks
@@ -1839,6 +1840,8 @@ static.coingecko.com
 assets.coingecko.com
 +.cnbetacdn.com
 resources.chessbase.com
+banners.chessbase.com
+share.chessbase.com
 webstatic.chargebee.com
 js1.chargebee.com
 js.chargebee.com
@@ -3175,6 +3178,7 @@ videos.elephas.app
 +.edgeone.app
 bundle.dyn-rev.app
 +.vercel.app
+assets.slater.app
 pic.macked.app
 webassets.linear.app
 uploads.linear.app
@@ -3368,6 +3372,7 @@ cdn01.jotfor.ms
 cdn.jotfor.ms
 s3.acg.mn
 s3.m.0x.mk
+cdn.fasterthanli.me
 +.randomuser.me
 +.disconnect.me
 api.crashguard.me
