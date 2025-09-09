@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-08T19:34:19.963Z
-# Size: 3851
+# Last Updated: 2025-09-09T12:05:12.064Z
+# Size: 3858
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -980,6 +980,8 @@ code.ionicframework.com
 icons.internetbrands.com
 +.intercomassets.com
 img.huffingtonpost.com
+images2.giant-bicycles.com
+static.giant-bicycles.com
 cdn.gethypervisual.com
 static-gcp.freepikcompany.com
 cdn-live.foreignaffairs.com
@@ -2350,6 +2352,7 @@ img2.javdove.com
 assets.ipstack.com
 i.insider.com
 static.iris.informa.com
+static.inflect.com
 go.imperva.com
 +.imgyzzy.com
 +.imgikzy.com
@@ -2428,6 +2431,8 @@ assets.flodesk.com
 detectportal.firefox.com
 cdn.accounts.firefox.com
 +.ffzy888.com
+web-sdk-cdn.eyefitu.com
+web-sdk.eyefitu.com
 +.exp-tas.com
 +.espncdn.com
 cdn.equinix.com
@@ -2796,6 +2801,7 @@ code.buywithprime.amazon.com
 d2c.aws.amazon.com
 time.akamai.com
 static.ahrefs.com
+cdn1.affirm.com
 +.assets.adidas.com
 +.glass.adidas.com
 +.9cache.com
@@ -3203,6 +3209,7 @@ s.pacn.ws
 cdn.donmai.us
 us01ccistatic.zoom.us
 eu01ccistatic.zoom.us
+file.zoom.us
 st3.zoom.us
 st2.zoom.us
 st1.zoom.us
