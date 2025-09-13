@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-12T11:57:21.844Z
-# Size: 3892
+# Last Updated: 2025-09-13T19:44:39.405Z
+# Size: 3893
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -2575,6 +2575,7 @@ telemetry.vercel.com
 assets.vercel.com
 image.ship.vercel.com
 go.vercel.com
++.vancdn.com
 img.utdstc.com
 +.devrum.uptime.com
 api.unisvg.com
