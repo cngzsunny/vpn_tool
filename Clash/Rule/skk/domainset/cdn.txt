@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-13T19:44:39.405Z
-# Size: 3893
+# Last Updated: 2025-09-14T18:18:19.458Z
+# Size: 3897
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1113,7 +1113,6 @@ media.steampowered.com
 cdn.staticdelivr.com
 +.ipfs.soul-network.com
 image.shutterstock.com
-sourcemap.webfe.shopeemobile.com
 static.serverhunter.com
 +.scribdassets.com
 ak.sail-horizon.com
@@ -1951,6 +1950,7 @@ cdn4.sysgears.com
 cdn3.sysgears.com
 cdn2.sysgears.com
 cdn1.sysgears.com
+cdn.syftdata.com
 +.sway-cdn.com
 frontend-assets.supabase.com
 cdn.substack.com
@@ -1973,11 +1973,14 @@ public.saasexch.com
 +.rrcdnbf3.com
 apps-static.route4me.com
 +.roseimgs.com
+cdnassets.roboflow.com
+static.roboflow.com
 cdn.roboflow.com
 app.roboflow.com
 api.roboflow.com
 staticsource1.redotpay.com
 redircdn.com
+cacerts.rapidssl.com
 +.radix-ui.com
 quriobot.com
 +.quip-cdn.com
@@ -2377,6 +2380,7 @@ blob.jortage.com
 img4.javmost.com
 img3.javmost.com
 img2.javmost.com
+cdn.javmiku.com
 img2.javdove.com
 assets.ipstack.com
 i.insider.com
@@ -2734,7 +2738,6 @@ code.jquery.com
 cdn.jitbit.com
 +.jbkcdn.com
 +.javtxt.com
-cdn.javsts.com
 +.imgtbl.com
 +.imgbox.com
 static.inferno.iheart.com
@@ -3627,7 +3630,7 @@ static.status.io
 image.status.io
 media.smooch.io
 cdn.smooch.io
-files.webfe.shopee.io
++.webfe.shopee.io
 wire.shodan.io
 +.ingest.sentry.io
 +.ingest.us.sentry.io
@@ -3681,6 +3684,7 @@ media.mstdn.io
 +.strapi.logto.io
 cdn-edge.karte.io
 statics.goorm.io
+sdk.gleap.io
 cdn.filen.io
 +.ipfs.decoo.io
 assets2.canny.io
