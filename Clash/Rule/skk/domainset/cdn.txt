@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - CDN Domains
-# Last Updated: 2025-09-15T19:53:52.301Z
-# Size: 3898
+# Last Updated: 2025-09-16T18:53:12.990Z
+# Size: 3907
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -1078,6 +1078,7 @@ static.cloudcachetci.com
 +.cbsnewsstatic.com
 files.buildwithfern.com
 +.brightspotcdn.com
++.brightcovecdn.com
 +.aweber-static.com
 +.cdn.autoevolution.com
 +.assets-yammer.com
@@ -1527,6 +1528,8 @@ cdn2.iconfinder.com
 cdn1.iconfinder.com
 cdn0.iconfinder.com
 cdn.iconfinder.com
+images.icon-icons.com
+cdn.icon-icons.com
 cdn.hypershort.com
 cors-proxy.htmldriven.com
 +.hs-scripts.com
@@ -1632,6 +1635,7 @@ public-pages.cbinsights.com
 rtcg-access.bytevcloud.com
 static.buydomains.com
 cdn.britannica.com
+player.interactivity.brightcove.com
 app.brightback.com
 static.prd.borderfree.com
 +.boomio-cdn.com
@@ -2581,6 +2585,7 @@ assets.vercel.com
 image.ship.vercel.com
 go.vercel.com
 +.vancdn.com
+stc.utdstc.com
 img.utdstc.com
 +.devrum.uptime.com
 api.unisvg.com
@@ -3080,6 +3085,7 @@ cdn.mewe.com
 apim.m3pd.com
 img.lvv2.com
 cdn.loom.com
+app-cdn.logo.com
 static.kobo.com
 cdn.kobo.com
 info.knak.com
@@ -3394,6 +3400,9 @@ files.yande.re
 +.pixiv.re
 asset.booth.pm
 +.fakeimg.pl
+cdn5.telesco.pe
+cdn4.telesco.pe
+cdn1.telesco.pe
 cdn.geekzone.co.nz
 secure.fanboy.co.nz
 +.static.mega.co.nz
