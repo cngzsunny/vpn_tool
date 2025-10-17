@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Domestic Domains
-# Last Updated: 2025-10-10T18:09:31.671Z
+# Last Updated: 2025-10-17T13:08:04.524Z
 # Size: 833
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
@@ -840,6 +840,6 @@ DOMAIN-SUFFIX,t.cn
 DOMAIN-SUFFIX,6.cn
 DOMAIN-SUFFIX,3.cn
 DOMAIN-SUFFIX,chaoxing.cc
-DOMAIN-WILDCARD,*.qhimgs
+DOMAIN-WILDCARD,*.qhimgs?.com
 ################## EOF ##################
 
