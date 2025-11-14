@@ -1,0 +1,68 @@
+name: Sync Apple Rules Files
+
+on:
+  schedule:
+    - cron: '0 20 * * *'  # 每天北京时间凌晨4点触发（UTC时间20:00）
+  workflow_dispatch:  # 手动触发
+
+concurrency:
+  group: sync-vpn-tool
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare directories
+        run: |
+          mkdir -p Loon/Rule/Apple
+          mkdir -p Clash/Rule/Apple
+
+      - name: Download Rule Files
+        run: |
+          set -e
+          CURL_OPTS="--retry 3 --retry-delay 5 --connect-timeout 10 -L"
+          declare -A files=(
+            ["Loon/Rule/Apple/no-cn-cdn-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list"
+            ["Loon/Rule/Apple/api-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/api-domain.list"
+            ["Loon/Rule/Apple/api-ip.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/api-ip.list"
+            ["Loon/Rule/Apple/cdn-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+            ["Loon/Rule/Apple/domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/domain.list"
+
+            ["Clash/Rule/Apple/no-cn-cdn-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/no-cn-cdn-domain.list"
+            ["Clash/Rule/Apple/api-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/api-domain.list"
+            ["Clash/Rule/Apple/api-ip.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/api-ip.list"
+            ["Clash/Rule/Apple/cdn-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
+            ["Clash/Rule/Apple/domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/domain.list"
+ 
+          )
+
+          for file in "${!files[@]}"; do
+            url="${files[$file]}"
+            echo "Downloading $file from $url"
+            curl $CURL_OPTS "$url" -o "$file"
+          done
+
+          echo "All files downloaded successfully."
+
+      - name: Commit and push changes if any
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --global user.name 'cngzsunny'
+          git config --global user.email 'sunny.rong@gmail.com'
+
+          git add Loon/Rule/Apple/*
+          git add Clash/Rule/Apple/*
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Sync Apple Rules Files"
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
+          fi
