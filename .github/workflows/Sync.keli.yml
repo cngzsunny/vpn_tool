@@ -1,4 +1,4 @@
-name: Sync keli Rule and PlugIn Files
+name: Sync keli Rule and PlugIn Files with debug
 
 on:
   schedule:
@@ -19,10 +19,9 @@ jobs:
 
       - name: Prepare directories
         run: |
-          set -x
           mkdir -p Loon/Rule/keli
 
-      - name: Download keli Rule files
+      - name: Download keli Rule files with debug
         run: |
           set -x
           base_agent="Loon/912 CFNetwork/3860.300.31 Darwin/25.2.0"
@@ -37,27 +36,23 @@ jobs:
             url="${rule_files[$file]}"
             output="Loon/Rule/keli/$file"
 
-            # 显示即将执行的 curl 命令（调试）
-            echo "RUN: curl -A \"$base_agent\" -L --retry 3 --retry-delay 5 --connect-timeout 10 \"$url\" -o \"$output\""
+            echo "----"
+            echo "Downloading Rule: $file"
+            echo "URL: $url"
+            echo "Output: $output"
 
+            # 先获取 HTTP 状态码和部分头信息
+            http_code=$(curl -s -o /dev/null -w "%{http_code}" -A "$base_agent" -L --connect-timeout 10 "$url")
+            echo "HTTP Status Code: $http_code"
+
+            # 获取响应头（前 20 行）用于分析 Cloudflare challenge
+            echo "Response headers (partial):"
+            curl -s -D - -o /dev/null -A "$base_agent" -L --connect-timeout 10 "$url" | head -n 20
+
+            # 获取前 500 字符的 body，用于分析是否是 Cloudflare challenge 页面
+            echo "Response body snippet (first 500 chars):"
+            curl -s -A "$base_agent" -L --connect-timeout 10 "$url" | head -c 500
+
+            # 真正下载文件
             curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
           done
-
-
-      - name: Commit and push changes if any
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -x
-          git config --global user.name 'cngzsunny'
-          git config --global user.email 'sunny.rong@gmail.com'
-
-          git add Loon/Rule/keli/*
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-          else
-            git commit -m "Sync keli Rule Files"
-            BRANCH=$(git rev-parse --abbrev-ref HEAD)
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
-          fi
