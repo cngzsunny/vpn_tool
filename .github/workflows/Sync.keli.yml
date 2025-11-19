@@ -24,72 +24,71 @@ jobs:
         with:
           node-version: '20'
 
-      # 3. 安装 Playwright
-      - name: Install Playwright
+      # 3. 安装 Playwright 并下载浏览器
+      - name: Install Playwright and browsers
         run: |
           npm init -y
           npm install playwright
+          npx playwright install --with-deps
 
-      # 4. 准备目录
+      # 4. 创建目录
       - name: Prepare directories
         run: |
           mkdir -p Loon/Rule/keli
 
-      # 5. 下载文件（使用 Playwright 突破 Cloudflare）
-      - name: Download keli Rule files with Playwright
+      # 5. 下载规则文件（带调试信息）
+      - name: Download keli Rule files with debug
         run: |
-          cat > download.js <<'EOF'
-          const { chromium } = require('playwright');
-          const fs = require('fs');
-          const path = require('path');
+          set -x
+          base_agent="Loon/912 CFNetwork/3860.300.31 Darwin/25.2.0"
+          declare -A rule_files=(
+            ["AI.list"]="https://kelee.one/Tool/Loon/Lsr/AI.lsr"
+            ["GoogleVoice.list"]="https://rule.kelee.one/Loon/GoogleVoice.lsr"
+            ["Global.list"]="https://rule.kelee.one/Loon/Global.lsr"
+            ["LAN_SPLITTER"]="https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER"
+            ["REGION_SPLITTER"]="https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER"
+          )
 
-          const rule_files = {
-            "AI.list": "https://kelee.one/Tool/Loon/Lsr/AI.lsr",
-            "GoogleVoice.list": "https://rule.kelee.one/Loon/GoogleVoice.lsr",
-            "Global.list": "https://rule.kelee.one/Loon/Global.lsr",
-            "LAN_SPLITTER": "https://kelee.one/Tool/Loon/Lsr/LAN_SPLITTER",
-            "REGION_SPLITTER": "https://kelee.one/Tool/Loon/Lsr/REGION_SPLITTER"
-          };
+          for file in "${!rule_files[@]}"; do
+            url="${rule_files[$file]}"
+            output="Loon/Rule/keli/$file"
 
-          (async () => {
-            const browser = await chromium.launch({ headless: true });
-            const page = await browser.newPage();
+            echo "----"
+            echo "Downloading Rule: $file"
+            echo "URL: $url"
+            echo "Output: $output"
 
-            // 设置 UA
-            await page.setUserAgent("Loon/912 CFNetwork/3860.300.31 Darwin/25.2.0");
+            # 检查 HTTP 状态码
+            http_code=$(curl -s -o /dev/null -w "%{http_code}" -A "$base_agent" -L --connect-timeout 10 "$url")
+            echo "HTTP Status Code: $http_code"
 
-            for (const [name, url] of Object.entries(rule_files)) {
-              console.log("----");
-              console.log("Downloading Rule:", name, "from", url);
-              try {
-                await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30000 });
-                const content = await page.evaluate(() => document.body.innerText);
-                fs.writeFileSync(path.join('Loon/Rule/keli', name), content);
-                console.log(`Saved ${name} (${content.length} bytes)`);
-              } catch (err) {
-                console.error(`Failed to download ${name}:`, err.message);
-              }
-            }
+            # 获取响应头前 20 行
+            echo "Response headers (partial):"
+            curl -s -D - -o /dev/null -A "$base_agent" -L --connect-timeout 10 "$url" | head -n 20
 
-            await browser.close();
-          })();
-          EOF
+            # 获取 body 前 500 字符，分析 Cloudflare challenge
+            echo "Response body snippet (first 500 chars):"
+            curl -s -A "$base_agent" -L --connect-timeout 10 "$url" | head -c 500
 
-          # 执行下载
-          node download.js
+            # 真正下载文件
+            curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
+          done
 
-      # 6. Commit 和 push 变更
+      # 6. 提交并推送变更
       - name: Commit and push changes if any
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          set -x
           git config --global user.name 'cngzsunny'
           git config --global user.email 'sunny.rong@gmail.com'
+
           git add Loon/Rule/keli/*
-          if ! git diff --cached --quiet; then
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
             git commit -m "Sync keli Rule Files"
             BRANCH=$(git rev-parse --abbrev-ref HEAD)
-            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} $BRANCH
-          else
-            echo "No changes to commit."
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
           fi
