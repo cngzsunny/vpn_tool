@@ -21,8 +21,6 @@ jobs:
         run: |
           set -x
           mkdir -p Loon/Rule/keli
-          mkdir -p Loon/PlugIn/keli
-          mkdir -p Loon/Script/keli
 
       - name: Download keli Rule files
         run: |
@@ -38,108 +36,13 @@ jobs:
           for file in "${!rule_files[@]}"; do
             url="${rule_files[$file]}"
             output="Loon/Rule/keli/$file"
-            echo "----"
-            echo "Downloading Rule: $file"
-            echo "URL: $url"
-            echo "Output: $output"
 
             # 显示即将执行的 curl 命令（调试）
-            echo "RUN: curl -v -A \"$base_agent\" -L --retry 3 --retry-delay 5 --connect-timeout 10 \"$url\" -o \"$output\""
+            echo "RUN: curl -A \"$base_agent\" -L --retry 3 --retry-delay 5 --connect-timeout 10 \"$url\" -o \"$output\""
 
-            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
+            curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
           done
 
-      - name: Download keli PlugIn files
-        run: |
-          set -x
-          base_agent="Loon/912 CFNetwork/3860.300.31 Darwin/25.2.0"
-          plugin_files=(
-            "Block_HTTPDNS.lpx"
-            "BlockAdvertisers.lpx"
-            "Remove_ads_by_keli.lpx"
-            "RedPaper_remove_ads.lpx"
-            "XiaChuFang_remove_ads.lpx"
-            "BiliComic_remove_ads.lpx"
-            "NeteaseCloudMusic_remove_ads.lpx"
-            "Cainiao_remove_ads.lpx"
-            "ColorfulClouds_remove_ads.lpx"
-            "DiDi_remove_ads.lpx"
-            "Keep_remove_ads.lpx"
-            "PinDuoDuo_remove_ads.lpx"
-            "Taobao_remove_ads.lpx"
-            "FleaMarket_remove_ads.lpx"
-            "Weibo_remove_ads.lpx"
-            "Weibo_intl_remove_ads.lpx"
-            "12306_remove_ads.lpx"
-            "Amap_remove_ads.lpx"
-            "Himalaya_remove_ads.lpx"
-            "Zhihu_remove_ads.lpx"
-            "QiDian_remove_ads.lpx"
-            "SF-Express_remove_ads.lpx"
-            "Weixin_Official_Accounts_remove_ads.lpx"
-            "Weixin_external_links_unlock.lpx"
-            "YoudaoTrans_remove_ads.lpx"
-            "YouTube_remove_ads.lpx"
-            "YouTubeSubtitlesTranslation.lpx"
-            "Google.lpx"
-            "Node_detection_tool.lpx"
-            "TestFlightRegionUnlock.lpx"
-            "Sub-Store.lpx"
-            "Script-Hub.lpx"
-          )
-          base_url="https://kelee.one/Tool/Loon/Lpx"
-          for plugin in "${plugin_files[@]}"; do
-            echo "----"
-            echo "Downloading PlugIn: $plugin"
-            echo "URL: $base_url/$plugin"
-
-            echo "RUN: curl -v -A \"$base_agent\" -L --retry 3 --retry-delay 5 --connect-timeout 10 \"$base_url/$plugin\" -o \"Loon/PlugIn/keli/$plugin\""
-
-            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$base_url/$plugin" -o "Loon/PlugIn/keli/$plugin"
-          done
-
-      - name: Download keli Script files
-        run: |
-          set -x
-          base_agent="Loon/912 CFNetwork/3860.300.31 Darwin/25.2.0"
-          declare -A script_files=(
-            ["RedPaper/RedPaper_remove_ads.js"]="https://kelee.one/Resource/Script/RedPaper/RedPaper_remove_ads.js"
-            ["BiliComic/BiliComic_remove_ads.js"]="https://kelee.one/Resource/Script/BiliComic/BiliComic_remove_ads.js"
-            ["NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js"]="https://kelee.one/Resource/Script/NeteaseCloudMusic/NeteaseCloudMusic_remove_ads.js"
-            ["Cainiao/Cainiao_remove_ads.js"]="https://kelee.one/Resource/Script/Cainiao/Cainiao_remove_ads.js"
-            ["ColorfulClouds/ColorfulClouds_remove_ads.js"]="https://kelee.one/Resource/Script/ColorfulClouds/ColorfulClouds_remove_ads.js"
-            ["PinDuoDuo/PinDuoDuo_remove_ads.js"]="https://kelee.one/Resource/Script/PinDuoDuo_remove_ads.js"
-            ["Taobao/Taobao_remove_ads.js"]="https://kelee.one/Resource/Script/Taobao/Taobao_remove_ads.js"
-            ["FleaMarket/FleaMarket_remove_ads.js"]="https://kelee.one/Resource/Script/FleaMarket/FleaMarket_remove_ads.js"
-            ["Weibo/Weibo_remove_ads.js"]="https://kelee.one/Resource/Script/Weibo/Weibo_remove_ads.js"
-            ["12306/12306_remove_splashscreen_ads.js"]="https://kelee.one/Resource/Script/12306/12306_remove_splashscreen_ads.js"
-            ["12306/12306_remove_ads.js"]="https://kelee.one/Resource/Script/12306/12306_remove_ads.js"
-            ["Amap/Amap_remove_ads.js"]="https://kelee.one/Resource/Script/Amap/Amap_remove_ads.js"
-            ["Zhihu/Zhihu_remove_ads.js"]="https://kelee.one/Resource/Script/Zhihu/Zhihu_remove_ads.js"
-            ["QiDian/QiDian_remove_ads.js"]="https://kelee.one/Resource/Script/QiDian/QiDian_remove_ads.js"
-            ["Weixin/Weixin_external_links_unlock.js"]="https://kelee.one/Resource/Script/Weixin/Weixin_external_links_unlock.js"
-            ["YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js"]="https://kelee.one/Resource/Script/YouTube/YouTube_remove_ads/YouTube_remove_ads_response.js"
-            ["YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js"]="https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_request.js"
-            ["YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js"]="https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_response.js"
-            ["YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js"]="https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Subtitles_Translate_response.js"
-            ["YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js"]="https://kelee.one/Resource/Script/YouTube/YouTube_Subtitles_Translate/YouTube_Composite_Subtitles_response.js"
-            ["Node_detection_tool/NodeUnlockDetection.js"]="https://kelee.one/Resource/Script/Node_detection_tool/NodeUnlockDetection.js"
-          )
-
-          for path in "${!script_files[@]}"; do
-            url="${script_files[$path]}"
-            output="Loon/Script/keli/$path"
-            mkdir -p "$(dirname "$output")"
-
-            echo "----"
-            echo "Downloading Script: $path"
-            echo "URL: $url"
-            echo "Output: $output"
-
-            echo "RUN: curl -v -A \"$base_agent\" -L --retry 3 --retry-delay 5 --connect-timeout 10 \"$url\" -o \"$output\""
-
-            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
-          done
 
       - name: Commit and push changes if any
         env:
@@ -149,14 +52,12 @@ jobs:
           git config --global user.name 'cngzsunny'
           git config --global user.email 'sunny.rong@gmail.com'
 
-          git add Loon/PlugIn/keli/*
           git add Loon/Rule/keli/*
-          git add Loon/Script/keli/*
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Sync skk.moe Rule Files"
+            git commit -m "Sync keli Rule Files"
             BRANCH=$(git rev-parse --abbrev-ref HEAD)
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
           fi
