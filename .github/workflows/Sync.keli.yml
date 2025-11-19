@@ -2,8 +2,8 @@ name: Sync keli Rule and PlugIn Files
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # 每天 UTC 20:00，北京时间凌晨4点
-  workflow_dispatch:    # 手动触发
+    - cron: '0 20 * * *'
+  workflow_dispatch:
 
 concurrency:
   group: sync-vpn-tool
@@ -36,8 +36,11 @@ jobs:
           for file in "${!rule_files[@]}"; do
             url="${rule_files[$file]}"
             output="Loon/Rule/keli/$file"
-            echo "Downloading $file ..."
-            curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
+            echo "----"
+            echo "Downloading Rule: $file"
+            echo "URL: $url"
+            echo "Output: $output"
+            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
           done
 
       - name: Download keli PlugIn files
@@ -79,8 +82,10 @@ jobs:
           )
           base_url="https://kelee.one/Tool/Loon/Lpx"
           for plugin in "${plugin_files[@]}"; do
-            echo "Downloading $plugin ..."
-            curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$base_url/$plugin" -o "Loon/PlugIn/keli/$plugin"
+            echo "----"
+            echo "Downloading PlugIn: $plugin"
+            echo "URL: $base_url/$plugin"
+            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$base_url/$plugin" -o "Loon/PlugIn/keli/$plugin"
           done
 
       - name: Download keli Script files
@@ -114,10 +119,12 @@ jobs:
             url="${script_files[$path]}"
             output="Loon/Script/keli/$path"
             mkdir -p "$(dirname "$output")"
-            echo "Downloading $path ..."
-            curl -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
+            echo "----"
+            echo "Downloading Script: $path"
+            echo "URL: $url"
+            echo "Output: $output"
+            curl -v -A "$base_agent" -L --retry 3 --retry-delay 5 --connect-timeout 10 "$url" -o "$output"
           done
-
 
       - name: Commit and push changes if any
         env:
