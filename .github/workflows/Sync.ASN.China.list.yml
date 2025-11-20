@@ -3,60 +3,47 @@ name: Sync ASN.China.list File
 on:
   schedule:
     - cron: '0 20 * * *'  # 每天北京时间凌晨4点触发（UTC时间20:00）
-  workflow_dispatch:  # 可以手动触发
+  workflow_dispatch:
 
 concurrency:
-  group: sync-vpn-tool
+  group: sync-asn-china
   cancel-in-progress: false
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      REPO: cngzsunny/vpn_tool
-      BRANCH: main
 
     steps:
-      - name: Checkout your repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ env.BRANCH }}
+          fetch-depth: 0   # 非常重要！必须完整克隆才能正确比较差异
 
-      - name: Download ASN.China.list file
+      - name: Download latest ASN.China.list
         run: |
-          echo "Start downloading ASN.China.list..."
+          echo "Downloading ASN.China.list ..."
           curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://raw.githubusercontent.com/missuo/ASN-China/refs/heads/main/ASN.China.list \
             -o Common/ASN.China.list
-          echo "File download completed."
 
       - name: Setup Git user
         run: |
           git config user.name 'cngzsunny'
           git config user.email 'sunny.rong@gmail.com'
 
-      - name: Commit and push changes with retry
+      - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          function push_with_retry() {
-            for i in {1..3}; do
-              git fetch origin
-              git reset --hard origin/${BRANCH}
+          git add Common/ASN.China.list
 
-              # 这里文件已经被下载替换
-              git add Common/ASN.China.list
-              git commit -m "Sync ASN.China.list" || echo "No changes detected, skipping commit."
+          if git diff --cached --quiet; then
+            echo "No changes detected. Nothing to commit."
+            exit 0
+          fi
 
-              if git push https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git ${BRANCH}; then
-                echo "Push succeeded"
-                return 0
-              else
-                echo "Push failed, retry $i ..."
-                sleep 5
-              fi
-            done
-            echo "Push failed after 3 attempts"
-            exit 1
-          }
+          echo "Changes detected, committing..."
+          git commit -m "Sync ASN.China.list"
 
-          push_with_retry
+          echo "Pushing..."
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git HEAD:main
