@@ -2,8 +2,8 @@ name: Sync GeoLite2-ASN.mmdb File
 
 on:
   schedule:
-    - cron: '0 20 * * *'  # 每天北京时间凌晨4点触发（UTC时间20:00）
-  workflow_dispatch:  # 可以手动触发
+    - cron: '0 20 * * *'  # 每天北京时间凌晨4点（UTC+8）
+  workflow_dispatch:
 
 concurrency:
   group: sync-vpn-tool
@@ -13,48 +13,56 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       REPO: cngzsunny/vpn_tool
       BRANCH: main
 
     steps:
-      - name: Checkout your repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: ${{ env.BRANCH }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Download GeoLite2-ASN.mmdb file
+      - name: Setup Git user
+        uses: fregante/setup-git-user@v2
+
+      - name: Download GeoLite2-ASN.mmdb
         run: |
-          echo "Start downloading GeoLite2-ASN.mmdb..."
+          set -e
+
+          echo "Downloading GeoLite2-ASN.mmdb..."
           curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLite2-ASN.mmdb \
             -o Common/GeoLite2-ASN.mmdb
-          echo "File download completed."
 
-      - name: Setup Git user
-        run: |
-          git config user.name 'cngzsunny'
-          git config user.email 'sunny.rong@gmail.com'
+          echo "File downloaded successfully."
 
-      - name: Commit and push changes with retry
+      - name: Commit & Push with retry
         run: |
-          function push_with_retry() {
+          set -e
+
+          push_with_retry() {
             for i in {1..3}; do
               git fetch origin
               git reset --hard origin/${BRANCH}
 
               git add Common/GeoLite2-ASN.mmdb
-              git commit -m "Sync GeoLite2-ASN.mmdb" || echo "No changes detected, skipping commit."
+              git commit -m "Sync GeoLite2-ASN.mmdb" || {
+                echo "No changes detected, skipping commit."
+                exit 0
+              }
 
-              if git push https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git ${BRANCH}; then
-                echo "Push succeeded"
+              echo "Pushing attempt $i ..."
+              if git push origin ${BRANCH}; then
+                echo "Push succeeded."
                 return 0
-              else
-                echo "Push failed, retry $i ..."
-                sleep 5
               fi
+
+              echo "Push failed. Retrying in 5 seconds..."
+              sleep 5
             done
-            echo "Push failed after 3 attempts"
+
+            echo "Push failed after 3 attempts."
             exit 1
           }
 

@@ -3,59 +3,49 @@ name: Sync Country.mmdb File
 on:
   schedule:
     - cron: '0 20 * * *'  # 每天北京时间凌晨4点触发（UTC时间20:00）
-  workflow_dispatch:  # 可以手动触发
+  workflow_dispatch:
 
 concurrency:
-  group: sync-vpn-tool
+  group: sync-country-mmdb
   cancel-in-progress: false
 
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      REPO: cngzsunny/vpn_tool
-      BRANCH: main
 
     steps:
-      - name: Checkout your repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ env.BRANCH }}
+          fetch-depth: 0   # 必须完整检出才能做 diff
 
-      - name: Download Country.mmdb file
+      - name: Download latest Country.mmdb
         run: |
-          echo "Start downloading Country.mmdb..."
+          echo "Downloading Country.mmdb ..."
           curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/Country.mmdb \
             -o Common/Country.mmdb
-          echo "File download completed."
+          echo "Country.mmdb updated locally."
 
-      - name: Setup Git user
+      - name: Setup Git
         run: |
-          git config user.name 'cngzsunny'
-          git config user.email 'sunny.rong@gmail.com'
+          git config user.name "cngzsunny"
+          git config user.email "sunny.rong@gmail.com"
 
-      - name: Commit and push changes with retry
+      - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          function push_with_retry() {
-            for i in {1..3}; do
-              git fetch origin
-              git reset --hard origin/${BRANCH}
+          git add Common/Country.mmdb
 
-              git add Common/Country.mmdb
-              git commit -m "Sync Country.mmdb" || echo "No changes detected, skipping commit."
+          # 判断是否有变化
+          if git diff --cached --quiet; then
+            echo "No changes detected. Nothing to commit."
+            exit 0
+          fi
 
-              if git push https://x-access-token:${GITHUB_TOKEN}@github.com/${REPO}.git ${BRANCH}; then
-                echo "Push succeeded"
-                return 0
-              else
-                echo "Push failed, retry $i ..."
-                sleep 5
-              fi
-            done
-            echo "Push failed after 3 attempts"
-            exit 1
-          }
+          echo "Changes detected. Committing..."
+          git commit -m "Sync Country.mmdb"
 
-          push_with_retry
+          echo "Pushing..."
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git HEAD:main
