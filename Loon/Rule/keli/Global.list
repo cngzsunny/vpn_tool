@@ -1,5 +1,5 @@
-# UpdateTime：2025-11-18 03:11:03
-# RuleCount：33012
+# UpdateTime：2025-11-20 03:11:02
+# RuleCount：33014
 DOMAIN, practivate.adobe
 DOMAIN, scholar.google.ae
 DOMAIN, yangzhi.app
@@ -16565,6 +16565,7 @@ DOMAIN-SUFFIX, rea.design
 DOMAIN-SUFFIX, spotify.design
 DOMAIN-SUFFIX, vk.design
 DOMAIN-SUFFIX, 2022.dev
+DOMAIN-SUFFIX, ai.dev
 DOMAIN-SUFFIX, amazon.dev
 DOMAIN-SUFFIX, amp.dev
 DOMAIN-SUFFIX, autodesk.dev
@@ -24557,6 +24558,7 @@ DOMAIN-SUFFIX, oreilly.review
 DOMAIN-SUFFIX, itunes.rio
 DOMAIN-SUFFIX, itunesradio.rio
 DOMAIN-SUFFIX, acg.rip
+DOMAIN-SUFFIX, mjj.rip
 DOMAIN-SUFFIX, airwick.ro
 DOMAIN-SUFFIX, alienware.ro
 DOMAIN-SUFFIX, apple.ro
