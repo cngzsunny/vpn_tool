@@ -29,8 +29,8 @@ jobs:
       - name: Download GeoLite2-ASN.mmdb
         run: |
           set -e
-
           echo "Downloading GeoLite2-ASN.mmdb..."
+
           curl -L --retry 3 --retry-delay 5 --connect-timeout 10 \
             https://raw.githubusercontent.com/P3TERX/GeoLite.mmdb/download/GeoLite2-ASN.mmdb \
             -o Common/GeoLite2-ASN.mmdb
@@ -43,16 +43,23 @@ jobs:
 
           push_with_retry() {
             for i in {1..3}; do
+              echo "Syncing with remote branch..."
               git fetch origin
-              git reset --hard origin/${BRANCH}
-
-              git add Common/GeoLite2-ASN.mmdb
-              git commit -m "Sync GeoLite2-ASN.mmdb" || {
-                echo "No changes detected, skipping commit."
-                exit 0
+              git merge --ff-only origin/${BRANCH} || {
+                echo "Fast-forward merge failed. Aborting."
+                exit 1
               }
 
-              echo "Pushing attempt $i ..."
+              git add Common/GeoLite2-ASN.mmdb
+
+              if git commit -m "Sync GeoLite2-ASN.mmdb"; then
+                echo "Changes committed."
+              else
+                echo "No changes detected. Exiting."
+                exit 0
+              fi
+
+              echo "Pushing attempt $i..."
               if git push origin ${BRANCH}; then
                 echo "Push succeeded."
                 return 0
