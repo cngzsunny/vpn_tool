@@ -1,5 +1,5 @@
-# 2025-11-04 21:28:23
-# ChatGPT
+# 2025-11-20 13:43:03
+# OpenAI
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
 AND, ((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
 DOMAIN, chatgpt.livekit.cloud
@@ -21,7 +21,6 @@ DOMAIN, api.githubcopilot.com
 DOMAIN, copilot-proxy.githubusercontent.com
 DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
-DOMAIN, www.bing.com
 
 # Gemini
 DOMAIN, ai.google.dev
@@ -33,13 +32,22 @@ DOMAIN, bard.google.com
 DOMAIN, deepmind.com
 DOMAIN, deepmind.google
 DOMAIN, geller-pa.googleapis.com
+DOMAIN, gemini.google
 DOMAIN, gemini.google.com
 DOMAIN, generativeai.google
 DOMAIN, generativelanguage.googleapis.com
 DOMAIN, makersuite.google.com
 DOMAIN, proactivebackend-pa.googleapis.com
+DOMAIN, robinfrontend-pa.googleapis.com
+DOMAIN, webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN, notebooklm.google
+DOMAIN, notebooklm.google.com
+DOMAIN, jules.google
+DOMAIN, jules.google.com
+DOMAIN, labs.google
+DOMAIN, aisandbox-pa.googleapis.com
 
-# Claude
+# Anthropic
 DOMAIN-SUFFIX, anthropic.com
 DOMAIN-SUFFIX, claude.ai
 DOMAIN-SUFFIX, claudeusercontent.com
@@ -56,6 +64,7 @@ DOMAIN, imagine.meta.com
 DOMAIN-SUFFIX, meta.ai
 
 # Perplexity
+DOMAIN, pplx-res.cloudinary.com
 DOMAIN-SUFFIX, pplx.ai
 DOMAIN-SUFFIX, perplexity.ai
 DOMAIN-SUFFIX, perplexity.com
@@ -76,3 +85,37 @@ DOMAIN-SUFFIX, trae.ai
 
 # OpenRouter
 DOMAIN-SUFFIX, openrouter.ai
+
+# TokenFlux
+DOMAIN-SUFFIX, tokenflux.ai
+
+# Groq
+DOMAIN-SUFFIX, groq.com
+
+# Together
+DOMAIN-SUFFIX, together.ai
+
+# Fireworks
+DOMAIN-SUFFIX, fireworks.ai
+
+# Hyperbolic
+DOMAIN, api.hyperbolic.xyz
+DOMAIN-SUFFIX, hyperbolic.ai
+
+# Mistral
+DOMAIN-SUFFIX, mistral.ai
+
+# Jina
+DOMAIN-SUFFIX, jina.ai
+
+# GPUStack
+# DOMAIN-SUFFIX, gpustack.ai
+
+# VoyageAI
+DOMAIN-SUFFIX, voyageai.com
+
+# Vertex AI
+DOMAIN, aiplatform.googleapis.com
+
+# Poe
+DOMAIN-SUFFIX, poe.com
