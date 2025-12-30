@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Direct Rules
-# Last Updated: 2025-12-29T17:10:51.136Z
-# Size: 216
+# Last Updated: 2025-12-30T17:12:56.908Z
+# Size: 217
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -64,6 +64,7 @@ DOMAIN-SUFFIX,cabdirect.org
 DOMAIN-SUFFIX,hd-space.org
 DOMAIN-SUFFIX,eastgame.org
 DOMAIN-SUFFIX,uhdbits.org
+DOMAIN-SUFFIX,science.org
 DOMAIN-SUFFIX,hdroute.org
 DOMAIN-SUFFIX,hdchina.org
 DOMAIN-SUFFIX,hd4fans.org
