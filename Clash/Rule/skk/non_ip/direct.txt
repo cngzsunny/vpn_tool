@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Direct Rules
-# Last Updated: 2026-01-03T17:09:20.491Z
+# Last Updated: 2026-01-04T17:09:22.232Z
 # Size: 217
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
