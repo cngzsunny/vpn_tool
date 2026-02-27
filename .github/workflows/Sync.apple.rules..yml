@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 拉取完整历史，避免 rebase 出错
 
       - name: Prepare directories
         run: |
@@ -38,7 +40,6 @@ jobs:
             ["Clash/Rule/Apple/api-ip.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/api-ip.list"
             ["Clash/Rule/Apple/cdn-domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/cdn-domain.list"
             ["Clash/Rule/Apple/domain.list"]="https://github.com/Elysian-Realme/FuGfConfig/raw/refs/heads/main/ConfigFile/Loon/Apple/domain.list"
- 
           )
 
           for file in "${!files[@]}"; do
@@ -64,5 +65,6 @@ jobs:
           else
             git commit -m "Sync Apple Rules Files"
             BRANCH=$(git rev-parse --abbrev-ref HEAD)
+            git pull --rebase https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/cngzsunny/vpn_tool.git $BRANCH
           fi
