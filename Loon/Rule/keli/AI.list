@@ -1,4 +1,4 @@
-# 2025-11-20 13:43:03
+# 2026-02-22 03:25:53
 # OpenAI
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
 AND, ((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
@@ -9,8 +9,10 @@ DOMAIN, openaiapi-site.azureedge.net
 DOMAIN, openaicomproductionae4b.blob.core.windows.net
 DOMAIN, production-openaicom-storage.azureedge.net
 DOMAIN, turn.livekit.cloud
+DOMAIN, openaicom.imgix.net
 DOMAIN-SUFFIX, chat.com
 DOMAIN-SUFFIX, chatgpt.com
+DOMAIN-SUFFIX, crixet.com
 DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, oaiusercontent.com
 DOMAIN-SUFFIX, openai.com
@@ -21,6 +23,12 @@ DOMAIN, api.githubcopilot.com
 DOMAIN, copilot-proxy.githubusercontent.com
 DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
+
+# Github Copilot
+DOMAIN, api.githubcopilot.com
+
+# Github Models
+DOMAIN, models.inference.ai.azure.com
 
 # Gemini
 DOMAIN, ai.google.dev
@@ -46,6 +54,13 @@ DOMAIN, jules.google
 DOMAIN, jules.google.com
 DOMAIN, labs.google
 DOMAIN, aisandbox-pa.googleapis.com
+
+# Google Antigravity
+DOMAIN-SUFFIX, antigravity.google
+DOMAIN-SUFFIX, antigravity-unleash.goog
+DOMAIN, daily-cloudcode-pa.sandbox.googleapis.com
+DOMAIN, daily-cloudcode-pa.googleapis.com
+AND, ((DOMAIN-KEYWORD, antigravity-auto-updater-), (DOMAIN-SUFFIX, run.app))
 
 # Anthropic
 DOMAIN-SUFFIX, anthropic.com
@@ -105,7 +120,7 @@ DOMAIN-SUFFIX, hyperbolic.ai
 # Mistral
 DOMAIN-SUFFIX, mistral.ai
 
-# Jina
+# Jina AI
 DOMAIN-SUFFIX, jina.ai
 
 # GPUStack
@@ -119,3 +134,15 @@ DOMAIN, aiplatform.googleapis.com
 
 # Poe
 DOMAIN-SUFFIX, poe.com
+
+# Cerebras AI
+DOMAIN-SUFFIX, cerebras.ai
+
+# Vercel AI
+DOMAIN, ai-gateway.vercel.sh
+
+# Hugging Face AI
+DOMAIN, router.huggingface.co
+
+# Nvidia
+DOMAIN, integrate.api.nvidia.com
