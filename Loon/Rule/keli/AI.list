@@ -1,4 +1,4 @@
-# 2026-02-22 03:25:53
+# 2026-04-15 22:19:14
 # OpenAI
 AND, ((DOMAIN-KEYWORD, chatgpt-async-webps-prod-), (DOMAIN-SUFFIX, webpubsub.azure.com))
 AND, ((DOMAIN-KEYWORD, openaicom-api-), (DOMAIN-SUFFIX, azurefd.net))
@@ -146,3 +146,15 @@ DOMAIN, router.huggingface.co
 
 # Nvidia
 DOMAIN, integrate.api.nvidia.com
+
+# Kiro
+DOMAIN-SUFFIX, kiro.dev
+
+# CerebrasAI
+DOMAIN-SUFFIX, cerebras.ai
+
+# MiniMax国际版
+DOMAIN-SUFFIX, minimax.io
+
+# 智谱国际版
+DOMAIN-SUFFIX, z.ai
