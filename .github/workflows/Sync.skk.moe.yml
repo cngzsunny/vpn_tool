@@ -32,7 +32,7 @@ jobs:
           declare -A files=(
             ["Loon/Rule/skk/non_ip/ai.conf"]="https://ruleset.skk.moe/List/non_ip/ai.conf"
             ["Loon/Rule/skk/non_ip/telegram.conf"]="https://ruleset.skk.moe/List/non_ip/telegram.conf"
-            ["Loon/Rule/skk/non_ip/apple_cdn.conf"]="https://ruleset.skk.moe/List/non_ip/apple_cdn.conf"
+            ["Loon/Rule/skk/non_ip/apple_cdn.conf"]="https://ruleset.skk.moe/List/domainset/apple_cdn.conf"
             ["Loon/Rule/skk/non_ip/microsoft_cdn.conf"]="https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf"
             ["Loon/Rule/skk/non_ip/apple_cn.conf"]="https://ruleset.skk.moe/List/non_ip/apple_cn.conf"
             ["Loon/Rule/skk/non_ip/apple_services.conf"]="https://ruleset.skk.moe/List/non_ip/apple_services.conf"
