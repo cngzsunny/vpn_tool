@@ -1,7 +1,7 @@
 #########################################
 # Sukka's Ruleset - Large Files Hosting Domains
-# Last Updated: 2026-06-29T11:00:23.924Z
-# Size: 1959
+# Last Updated: 2026-06-30T19:05:40.505Z
+# Size: 1960
 # License: AGPL 3.0
 # Homepage: https://ruleset.skk.moe
 # GitHub: https://github.com/SukkaW/Surge
@@ -222,6 +222,7 @@ repo.maven.apache.org
 static.adtidy.org
 mirror.siwoo.org
 registry.npmjs.org
+artifacts.nixos.org
 d2.myani.org
 d.myani.org
 repo1.maven.org
