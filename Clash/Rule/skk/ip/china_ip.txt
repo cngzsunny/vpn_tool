@@ -1,6 +1,6 @@
 #########################################
 # Sukka's Ruleset - Mainland China IPv4 CIDR
-# Last Updated: 2026-10-18T09:39:24.117Z
+# Last Updated: 2026-10-19T21:30:53.022Z
 # Size: 3885
 # License: CC BY-SA 2.0
 # Homepage: https://ruleset.skk.moe
@@ -9,7 +9,7 @@
 # This file contains data from:
 #   - https://chnroutes2.cdn.skk.moe/chnroutes.txt
 #
-# $content-hash-v1$:I9h7gkxtIFfunMHhH6YDgXKZeMpInD7FEsEO88bxlaI$
+# $content-hash-v1$:dU5J3DdROwCbI7pFN8eNtuDvhcExZwTEsmzyhRCXNAk$
 #########################################
 1.1.8.0/24
 1.2.4.0/24
@@ -1947,8 +1947,6 @@
 118.80.0.0/15
 118.84.0.0/15
 118.88.32.0/19
-118.88.64.0/18
-118.88.128.0/17
 118.89.0.0/16
 118.102.16.0/20
 118.103.164.0/22
@@ -3413,7 +3411,9 @@
 211.97.176.0/20
 211.97.192.0/18
 211.98.0.0/16
-211.99.8.0/21
+211.99.8.0/22
+211.99.12.0/24
+211.99.14.0/23
 211.99.16.0/23
 211.99.25.0/24
 211.99.26.0/24
